@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import tempfile
 from urllib.parse import quote, urlparse
 from urllib.request import urlopen
 
