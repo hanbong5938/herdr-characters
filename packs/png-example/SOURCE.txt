@@ -1,0 +1,9 @@
+method: procedural
+generator: tools/generate-character.py
+source-root: tools/generate-character.py
+artifacts: transparent RGBA PNG frames and entry.json
+canvas: 384x512
+clip-policy: four authored phases and four authored semantic reactions; every frame has explicit head/body regions
+rights: original repository-authored artwork, MIT
+provider: none
+model: none

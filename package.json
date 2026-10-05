@@ -1,0 +1,12 @@
+{
+  "name": "herdr-characters",
+  "version": "0.0.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog": "python3 scripts/build-catalog.py",
+    "build": "python3 scripts/build-gallery.py",
+    "fetch": "python3 scripts/fetch-downloads.py",
+    "preview": "python3 -m http.server 4187 --bind 127.0.0.1 --directory dist/gallery"
+  }
+}

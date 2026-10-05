@@ -1,0 +1,42 @@
+name: Submit a character
+description: Request review of a character pack. Submissions are not published automatically.
+title: "[Character] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit an optional Herdr character pack for review. The app's bundled default is not part of this catalog.
+        Provide a pull request adding your pack, or a download link to a .herdrchar archive. Do not upload executable plugins.
+  - type: input
+    id: name
+    attributes:
+      label: Character name
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Pack pull request or download URL
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and preview
+    validations:
+      required: true
+  - type: textarea
+    id: terms
+    attributes:
+      label: Creator, license, attribution, and source terms
+      description: Include the relevant records in the pack itself as well.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Native pack validation result
+      description: Include the output of herdr-desktop-pet pack validate --path PATH.
+    validations:
+      required: true

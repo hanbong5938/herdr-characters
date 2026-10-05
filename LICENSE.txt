@@ -1,0 +1,35 @@
+OMPet original character art and generator license
+====================================================
+
+Copyright (c) 2026 OMPet contributors
+
+The source file tools/generate-character.py and the original vector/raster
+contributions it generates in sources/legacy-png/ are provided under the MIT
+License below. Coding Cat's v4 artwork and metadata retain their own notice
+in packs/png-example/LICENSE.txt.
+
+The original Coding Cat artwork covered by this notice was created for this project and does not
+incorporate third-party images, models, fonts, or other asset files. This
+notice makes no claim of ownership over any third-party work that may be
+added to the project in the future; such work remains subject to its own
+license and attribution requirements.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

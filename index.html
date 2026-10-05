@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Download Coding Cat, the MIT-licensed procedural PNG character pack for Herdr Desktop Pet.">
+  <title>Coding Cat · Herdr characters</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#gallery">Skip to characters</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Herdr characters home"><span class="brand-mark" aria-hidden="true">✳</span><span>herdr<span class="brand-dot">.</span>characters</span></a>
+    <div class="header-actions">
+      <div class="segmented language" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ko" aria-pressed="false">KO</button>
+      </div>
+      <button class="theme-button" id="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme"><span aria-hidden="true" id="theme-icon">◐</span></button>
+    </div>
+  </header>
+
+  <main id="gallery">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="eyebrow">THE PUBLIC CHARACTER LIBRARY</p>
+        <h1 id="hero-title" data-i18n="heroTitle">Meet Coding Cat<span class="accent">.</span></h1>
+        <p class="hero-copy" data-i18n="heroCopy">Discover Coding Cat, an original MIT-licensed procedural PNG character pack for Herdr Desktop Pet.</p>
+        <div class="hero-links">
+          <a class="button button-primary" id="submit-link" href="#" target="_blank" rel="noopener noreferrer" hidden><span data-i18n="submit">Submit on GitHub</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" id="repository-link" href="#" target="_blank" rel="noopener noreferrer" hidden><span data-i18n="browseSource">Browse repository</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="hero-spark">✳</span><span class="hero-caption">YOUR DESKTOP, YOUR COMPANY</span></div>
+    </section>
+
+    <section class="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="collectionLabel">EXPLORE THE COLLECTION</p><h2 id="collection-title" data-i18n="collectionTitle">Meet the characters</h2></div><p class="section-note" data-i18n="collectionNote">Made to live alongside your work.</p></div>
+      <div class="toolbar">
+        <label class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only" data-i18n="searchLabel">Search characters</span><input id="search" type="search" autocomplete="off" placeholder="Search names, tags, descriptions…"></label>
+        <div class="filter-row"><div class="segmented filters" role="group" aria-label="Renderer filter"><button type="button" data-filter="all" aria-pressed="true" data-i18n="all">All</button><button type="button" data-filter="rig" aria-pressed="false">Rig</button><button type="button" data-filter="png" aria-pressed="false">PNG</button></div><label class="sort-label"><span class="sr-only" data-i18n="sortLabel">Sort characters</span><select id="sort"><option value="recent" data-i18n="recent">Newest first</option><option value="alphabetic" data-i18n="alphabetic">A to Z</option></select></label></div>
+      </div>
+      <p class="results-label" id="results-label" aria-live="polite"></p>
+      <div id="status" class="status" role="status" aria-live="polite" data-i18n="loading">Loading characters…</div>
+      <div id="cards" class="card-grid" aria-label="Character collection"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span class="footer-brand">herdr<span class="brand-dot">.</span>characters</span><span data-i18n="footer">Coding Cat · an MIT-licensed PNG character pack for Herdr Desktop Pet.</span></footer>
+
+  <dialog id="details" class="details-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button type="button" id="close-details" class="dialog-close" aria-label="Close details">×</button><div id="detail-body"></div></div></dialog>
+</body>
+</html>

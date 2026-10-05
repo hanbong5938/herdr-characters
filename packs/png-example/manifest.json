@@ -1,0 +1,128 @@
+{
+  "format": "herdr.character",
+  "version": 4,
+  "render_mode": "png",
+  "id": "coding-cat",
+  "name": "Coding Cat",
+  "width": 384,
+  "height": 512,
+  "author": {
+    "name": "Herdr contributors"
+  },
+  "source": {
+    "method": "procedural",
+    "description": "Original transparent Coding Cat raster artwork from the repository's deterministic drawing utility, with authored four-phase and four-reaction clips and explicit frame interaction regions.",
+    "urls": [
+      "tools/generate-character.py"
+    ]
+  },
+  "licenses": [
+    {
+      "expression": "MIT",
+      "path": "LICENSE.txt"
+    }
+  ],
+  "attributions": [
+    "ATTRIBUTION.txt"
+  ],
+  "entry": "entry.json",
+  "runtime": {
+    "name": "herdr-native-png",
+    "version": 1,
+    "capabilities": [
+      "frame-clips",
+      "frame-regions"
+    ]
+  },
+  "payloads": [
+    {
+      "path": "ATTRIBUTION.txt",
+      "size": 406,
+      "sha256": "1e03993dddb9d3b80d3008c82fced29f5cd0335d8b4b7f6d52b851175eddd809",
+      "kind": "attribution"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 1647,
+      "sha256": "62e4fbac80d5941b3abf96cce7467492c0cda70c960907099d44be424f9317bc",
+      "kind": "license"
+    },
+    {
+      "path": "SOURCE.txt",
+      "size": 361,
+      "sha256": "f289098dddb5c89e93434e92a396fab9d2f505575e79bea9b5cedf3fd492deae",
+      "kind": "source"
+    },
+    {
+      "path": "entry.json",
+      "size": 2650,
+      "sha256": "52735ed01a8a61f582d9ae179e489bcb3ca2f3d9144ae143319f0dd886114765",
+      "kind": "entry"
+    },
+    {
+      "path": "phase-idle.png",
+      "size": 19306,
+      "sha256": "7565b9599e786c81e1851bd3beea3ff36d65d22359efd491cf64d2ae941f5914",
+      "kind": "png"
+    },
+    {
+      "path": "phase-running.png",
+      "size": 20864,
+      "sha256": "d8fda338d8e7c1bd0a2c44ddb7475117b8fdc1f825353d51f20c6a15973c3943",
+      "kind": "png"
+    },
+    {
+      "path": "phase-unknown.png",
+      "size": 20911,
+      "sha256": "5c5950679ced50f04809d5101704448ba6e7ec2003b2d684e064269c431d9e61",
+      "kind": "png"
+    },
+    {
+      "path": "phase-waiting.png",
+      "size": 19933,
+      "sha256": "f747bf6ebecbc7dbedabb87889d564895539005a453878f8eb8de476740949b4",
+      "kind": "png"
+    },
+    {
+      "path": "reaction-body-tap.png",
+      "size": 21215,
+      "sha256": "935a9c8d9f4aecefc8f34c474dc4b17c2fb5a097e1be8cdcef623734bc09a90a",
+      "kind": "png"
+    },
+    {
+      "path": "reaction-completion-observed.png",
+      "size": 19486,
+      "sha256": "edddd641fe01a9b43e15dbf3b023d80ca873e1de0ae72da1d5aa546cd702bc57",
+      "kind": "png"
+    },
+    {
+      "path": "reaction-head-tap.png",
+      "size": 21254,
+      "sha256": "713f71fa62bc9157954392938a20eb63026af8a0b405b62ef5a33bae74bbf4f3",
+      "kind": "png"
+    },
+    {
+      "path": "reaction-pet.png",
+      "size": 20355,
+      "sha256": "9c0bcf7453f3de27303095c6ae1bebb7e52dc84c557404d010cc5340d8124d35",
+      "kind": "png"
+    }
+  ],
+  "persona": "A bright coding cat that keeps an eye on the work and celebrates small wins.",
+  "dialogue": {
+    "en": {
+      "phases": {
+        "idle": "I'm ready.",
+        "running": "I'm working through it.",
+        "waiting": "I'm waiting for the next step.",
+        "unknown": "I'm checking the signal."
+      },
+      "reactions": {
+        "head_tap": "Hello there!",
+        "body_tap": "Let's keep going.",
+        "pet": "That feels nice.",
+        "completion_observed": "We did it!"
+      }
+    }
+  }
+}

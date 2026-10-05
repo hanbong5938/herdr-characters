@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
+  "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
+  "releaseTag": "packs-v0.0.2",
+  "characters": [
+    {
+      "id": "coding-cat",
+      "name": "Coding Cat",
+      "description": {
+        "en": "Original MIT-licensed procedural Coding Cat: transparent 384×512 PNG frames with four phase clips and four reaction clips for Herdr Desktop Pet.",
+        "ko": "MIT 라이선스로 제공하는 오리지널 절차적 코딩 캣: Herdr Desktop Pet용 384×512 투명 PNG 프레임과 상태별 클립 네 개, 반응 클립 네 개."
+      },
+      "author": "Herdr contributors",
+      "tags": [
+        "png",
+        "cat",
+        "procedural"
+      ],
+      "variants": [
+        {
+          "id": "coding-cat",
+          "name": {
+            "en": "Original",
+            "ko": "오리지널"
+          },
+          "version": "0.0.2",
+          "formatVersion": 4,
+          "renderMode": "png",
+          "publishedAt": "2026-10-06",
+          "download": {
+            "path": "downloads/coding-cat-v0.0.2.herdrchar",
+            "bytes": 173269,
+            "sha256": "be1653e7de46ac111f55701216e6d8a633a345239ac5be026af2f5ac9a3c55be"
+          },
+          "preview": {
+            "idle": "previews/coding-cat-idle.png",
+            "running": [
+              "previews/coding-cat-running-0.png",
+              "previews/coding-cat-running-1.png",
+              "previews/coding-cat-running-2.png",
+              "previews/coding-cat-running-3.png"
+            ]
+          },
+          "license": {
+            "label": "MIT",
+            "path": "packs/png-example/LICENSE.txt"
+          },
+          "sourceTerms": null
+        }
+      ]
+    }
+  ]
+}

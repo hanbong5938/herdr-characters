@@ -1,0 +1,6 @@
+Coding Cat is an original Herdr contributors character. Its transparent RGBA
+frames use the repository's original coding-cat drawing utility at
+tools/generate-character.py. Four phase clips and four semantic reaction clips
+are authored in entry.json, with explicit head and body regions for every
+unique frame. This attribution records provenance only; no human trial or
+third-party authorship is claimed.

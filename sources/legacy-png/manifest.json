@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "OMPet",
+  "width": 384,
+  "height": 512,
+  "poses": {
+    "idle": "idle.png",
+    "running": "running.png",
+    "waiting": "waiting.png",
+    "unknown": "unknown.png"
+  }
+}

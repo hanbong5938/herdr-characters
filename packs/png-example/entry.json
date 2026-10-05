@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "phases": {
+    "idle": {
+      "fps": 4,
+      "frames": [
+        "phase-idle.png"
+      ]
+    },
+    "running": {
+      "fps": 8,
+      "frames": [
+        "phase-running.png"
+      ]
+    },
+    "waiting": {
+      "fps": 3,
+      "frames": [
+        "phase-waiting.png"
+      ]
+    },
+    "unknown": {
+      "fps": 5,
+      "frames": [
+        "phase-unknown.png"
+      ]
+    }
+  },
+  "reactions": {
+    "head_tap": {
+      "frames": [
+        "reaction-head-tap.png"
+      ]
+    },
+    "body_tap": {
+      "frames": [
+        "reaction-body-tap.png"
+      ]
+    },
+    "pet": {
+      "frames": [
+        "reaction-pet.png"
+      ]
+    },
+    "completion_observed": {
+      "frames": [
+        "reaction-completion-observed.png"
+      ]
+    }
+  },
+  "regions": {
+    "phase-idle.png": {
+      "head": {
+        "x0": 78,
+        "y0": 42,
+        "x1": 300,
+        "y1": 245
+      },
+      "body": {
+        "x0": 54,
+        "y0": 224,
+        "x1": 330,
+        "y1": 474
+      }
+    },
+    "phase-running.png": {
+      "head": {
+        "x0": 82,
+        "y0": 34,
+        "x1": 306,
+        "y1": 244
+      },
+      "body": {
+        "x0": 48,
+        "y0": 216,
+        "x1": 338,
+        "y1": 474
+      }
+    },
+    "phase-waiting.png": {
+      "head": {
+        "x0": 78,
+        "y0": 42,
+        "x1": 354,
+        "y1": 250
+      },
+      "body": {
+        "x0": 54,
+        "y0": 224,
+        "x1": 330,
+        "y1": 474
+      }
+    },
+    "phase-unknown.png": {
+      "head": {
+        "x0": 78,
+        "y0": 48,
+        "x1": 350,
+        "y1": 252
+      },
+      "body": {
+        "x0": 54,
+        "y0": 230,
+        "x1": 330,
+        "y1": 480
+      }
+    },
+    "reaction-head-tap.png": {
+      "head": {
+        "x0": 78,
+        "y0": 48,
+        "x1": 350,
+        "y1": 252
+      },
+      "body": {
+        "x0": 54,
+        "y0": 230,
+        "x1": 330,
+        "y1": 480
+      }
+    },
+    "reaction-body-tap.png": {
+      "head": {
+        "x0": 82,
+        "y0": 34,
+        "x1": 306,
+        "y1": 244
+      },
+      "body": {
+        "x0": 48,
+        "y0": 216,
+        "x1": 338,
+        "y1": 474
+      }
+    },
+    "reaction-pet.png": {
+      "head": {
+        "x0": 78,
+        "y0": 42,
+        "x1": 354,
+        "y1": 250
+      },
+      "body": {
+        "x0": 54,
+        "y0": 224,
+        "x1": 330,
+        "y1": 474
+      }
+    },
+    "reaction-completion-observed.png": {
+      "head": {
+        "x0": 78,
+        "y0": 42,
+        "x1": 300,
+        "y1": 245
+      },
+      "body": {
+        "x0": 54,
+        "y0": 224,
+        "x1": 330,
+        "y1": 474
+      }
+    }
+  }
+}
