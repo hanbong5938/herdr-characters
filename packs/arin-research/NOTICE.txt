@@ -1,0 +1,7 @@
+아린 — herdr v5 ten-model pack staged from run "arin-herdr-qwen-20261007-VhaNpX".
+Authority illustration SHA256 91d756caec48cd0aaf3fa826a966267333a0ebd0e71185eb0e82f1ddbae8a988 is the exact "waiting" pose and the outfit/body/style authority. Identity reference SHA256 570f3ee2e8f334e540acf9a20a50332918d990f8de7f5d0d9e4aa97f48b9aef4 supplied face identity only.
+Every other pose is a complete illustration generated for this run by local image editing; each pose has its own matte, See-through layer decomposition, own expression edit, source-layered PSD and native rig conversion. No reference-pack pose pixels and no post-export alpha crop are used.
+Recorded model files: isnet-anime.onnx, qwen3vl_8b_bf16.safetensors, qwen_image_2.1_bf16.safetensors, qwen_image_2.1_vae_bf16.safetensors.
+source-record.json records the exact file chain and hashes. This notice makes no claim about native review, publication or licenses beyond the files named in manifest.json.
+
+All ten PSDs and all eight motion slots per pose are source-bound own Arin artwork and acting, not copied reference-pack pose pixels or template motion clips. The historical authoring reference remains outside this pack. Private noncommercial research/evaluation only; no public redistribution, commercial use, bundled-default replacement or new model-material license is granted. Actual desktop travel and input acceptance are separate from source provenance.

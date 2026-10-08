@@ -1,0 +1,269 @@
+{
+  "format": "herdr.character",
+  "version": 5,
+  "render_mode": "rig",
+  "id": "arin-research",
+  "name": "아린",
+  "width": 1024,
+  "height": 1024,
+  "author": {
+    "name": "Arin private research authoring"
+  },
+  "licenses": [
+    {
+      "expression": "Arin artwork: user-asserted editing rights; private noncommercial research/evaluation only",
+      "path": "LICENSE.txt"
+    },
+    {
+      "expression": "Qwen RESEARCH LICENSE AGREEMENT",
+      "path": "QWEN_RESEARCH_LICENSE.txt"
+    }
+  ],
+  "attributions": [
+    "ATTRIBUTION.txt",
+    "NOTICE.txt"
+  ],
+  "entry": "rig-entry.json",
+  "runtime": {
+    "name": "herdr-native-rig",
+    "version": 2,
+    "capabilities": [
+      "mesh-deformation",
+      "eye-stencil",
+      "independent-models"
+    ]
+  },
+  "source": {
+    "method": "image-generated",
+    "description": "아린: identity-corrected run authority illustration as the waiting pose plus complete pose illustrations generated in this run from the authority and its head crop; per-pose matte, See-through decomposition, own expression sheet features, native rig and motion. source-record.json records the exact chain.",
+    "urls": [
+      "source-record.json"
+    ],
+    "provider": "private local ComfyUI Qwen-Image-2.1 BF16",
+    "model": "isnet-anime.onnx, qwen3vl_8b_bf16.safetensors, qwen_image_2.1_bf16.safetensors, qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "payloads": [
+    {
+      "path": "ATTRIBUTION.txt",
+      "size": 1430,
+      "sha256": "9a76244442b1ee10c5f395182cf1b294de63f46b821f232f4c7865b45f45264d",
+      "kind": "attribution"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 1584,
+      "sha256": "4f6f034d84a7814c42349231054f274f6d731bcd77359dfd593635a08a6cb91d",
+      "kind": "license"
+    },
+    {
+      "path": "NOTICE.txt",
+      "size": 1430,
+      "sha256": "9a76244442b1ee10c5f395182cf1b294de63f46b821f232f4c7865b45f45264d",
+      "kind": "attribution"
+    },
+    {
+      "path": "QWEN_RESEARCH_LICENSE.txt",
+      "size": 7831,
+      "sha256": "8dc973f024ff95966bea25866efa443fd16776dcb1001e681e3d467ea572b28d",
+      "kind": "license"
+    },
+    {
+      "path": "bored-motion.json",
+      "size": 31561,
+      "sha256": "e0e51adf77d8980f40a071bf3d22fbbc231f73a4300d7e06f75365717b81f5d3",
+      "kind": "motion"
+    },
+    {
+      "path": "bored-overrides.json",
+      "size": 12316,
+      "sha256": "def720b4ba36071e0487e42d9f38a5e26019089e09148fbc428de401ccd6357b",
+      "kind": "overrides"
+    },
+    {
+      "path": "bored.psd",
+      "size": 2531446,
+      "sha256": "e67f4d62a77d23b3613140d1b787a1acd50d5e1af6ccaf3c4381026d6d239f90",
+      "kind": "psd"
+    },
+    {
+      "path": "cancelled-motion.json",
+      "size": 24462,
+      "sha256": "9bc8a1b0b0d409142d9d5801416ace87c137398d9efb4c88efdbd92d25f17fe0",
+      "kind": "motion"
+    },
+    {
+      "path": "cancelled-overrides.json",
+      "size": 12204,
+      "sha256": "92ea51cfa4f6c99f4383b9665a7d546dcb06f2c9e5548405d6a2abc2f1ccaf19",
+      "kind": "overrides"
+    },
+    {
+      "path": "cancelled.psd",
+      "size": 2677164,
+      "sha256": "98ab324f800d4e3401a064f88af25fa95f33a992c65eaa498f21c543858ae39e",
+      "kind": "psd"
+    },
+    {
+      "path": "disconnected-motion.json",
+      "size": 25251,
+      "sha256": "2e858cdb759c517e5814f9fa1d0d1d952a9abc233794cb387878128a8d6b8770",
+      "kind": "motion"
+    },
+    {
+      "path": "disconnected-overrides.json",
+      "size": 12240,
+      "sha256": "163b967bface68879ba1cf387c50b7d8ce444f4f7b3c84f2019729560daf619c",
+      "kind": "overrides"
+    },
+    {
+      "path": "disconnected.psd",
+      "size": 2488390,
+      "sha256": "a6dd5ee51ea52fd4183f2a45a40241d840a08f35f7c9280560956df686de0021",
+      "kind": "psd"
+    },
+    {
+      "path": "failed-motion.json",
+      "size": 25368,
+      "sha256": "63cffa71151fa22c32d8971533687e5b955e3ea5004253d9f97590b2657da0d4",
+      "kind": "motion"
+    },
+    {
+      "path": "failed-overrides.json",
+      "size": 12105,
+      "sha256": "caa5fc4f4bb62b74103e0041b1e14f8d2e07bc014fee093154bae0fcb87a1df6",
+      "kind": "overrides"
+    },
+    {
+      "path": "failed.psd",
+      "size": 2444578,
+      "sha256": "9b1eb8e4bcf7a8cfdfecd0970ad2ec77af819cbe98fd0abbe6928fda11f06679",
+      "kind": "psd"
+    },
+    {
+      "path": "happy-motion.json",
+      "size": 24081,
+      "sha256": "1d1733d54e533ddc2684bb59215831cee092c78fb25aff6eb9cc5e74155b320b",
+      "kind": "motion"
+    },
+    {
+      "path": "happy-overrides.json",
+      "size": 12235,
+      "sha256": "5050d045275296abc017140d87dba761d834f2c12093261a485a333c64881454",
+      "kind": "overrides"
+    },
+    {
+      "path": "happy.psd",
+      "size": 2890366,
+      "sha256": "ce12316792b595b4f3b7dbda132d2b3110c613dc71a6d662dcf4f1c4fa620a15",
+      "kind": "psd"
+    },
+    {
+      "path": "head-pet-motion.json",
+      "size": 20415,
+      "sha256": "617277bb4282f51952db28eba2de1546efccdad81ec5c0c66f09802383bc542f",
+      "kind": "motion"
+    },
+    {
+      "path": "head-pet-overrides.json",
+      "size": 12884,
+      "sha256": "418b0f1fbc544418c2fa5ece6c34904235e75675efda65411d905b6e3c1c935d",
+      "kind": "overrides"
+    },
+    {
+      "path": "head-pet.psd",
+      "size": 3599407,
+      "sha256": "6618d03c32a6a4553b67e52f951a3c6052cd8e38c303b7da92c418e5f6438745",
+      "kind": "psd"
+    },
+    {
+      "path": "head-tap-motion.json",
+      "size": 15200,
+      "sha256": "d5e2bf4e79bc4c25eef8933e0922e93d2ffd05ee563d14938beba0f57e29d744",
+      "kind": "motion"
+    },
+    {
+      "path": "head-tap-overrides.json",
+      "size": 12914,
+      "sha256": "524a9404eb11d9ed52c6593fd509024ca87ffbef367a9369df7f7929fbdf4cae",
+      "kind": "overrides"
+    },
+    {
+      "path": "head-tap.psd",
+      "size": 3766202,
+      "sha256": "d9262bb7f9efcc2bad26208f6adbd642d21df42252f9d3c7ce32887a0d430921",
+      "kind": "psd"
+    },
+    {
+      "path": "owner-approval.json",
+      "size": 1186,
+      "sha256": "4a382ab4700f62a57fa007bbe11943bd1a9e616720abdd140bb2b7b8846f0c3b",
+      "kind": "source"
+    },
+    {
+      "path": "rig-entry.json",
+      "size": 1857,
+      "sha256": "765045b542fb63c45e8c30da95b8537d7313b0b8e78efa830e3e7d86879cce19",
+      "kind": "entry"
+    },
+    {
+      "path": "source-record.json",
+      "size": 1216882,
+      "sha256": "beade9b7071c4427f7e7c8fb7a7e264cab360d70eb97dd290d3bc723556a5021",
+      "kind": "source"
+    },
+    {
+      "path": "torso-tap-motion.json",
+      "size": 24181,
+      "sha256": "be0401980fd99e5c68325a3c5d41c0028c75c1b0bdb4f9a91edb0eab9ded7a73",
+      "kind": "motion"
+    },
+    {
+      "path": "torso-tap-overrides.json",
+      "size": 12179,
+      "sha256": "62c7f03357b02cfc3b71745561f81eaa87d99d1eb9cbec118f5c1fba6734d158",
+      "kind": "overrides"
+    },
+    {
+      "path": "torso-tap.psd",
+      "size": 2930555,
+      "sha256": "fff5fed70eaaf5bd6d42e9fd3822c59d719deeda3450e87e8edc8d0902c3b549",
+      "kind": "psd"
+    },
+    {
+      "path": "waiting-motion.json",
+      "size": 22010,
+      "sha256": "2d4ec5203c5aef764aabcf8bf3619b092f5177daed83e2ce1c698e8fdc1f2979",
+      "kind": "motion"
+    },
+    {
+      "path": "waiting-overrides.json",
+      "size": 12273,
+      "sha256": "d34bb593ed8afc982f6eb3ff82de70d703b36c5b1ee061fb3bacbf14851432a5",
+      "kind": "overrides"
+    },
+    {
+      "path": "waiting.psd",
+      "size": 3152517,
+      "sha256": "64928a7acd79702c978e2691940f43a9f1f31c95a6d6a397d4725089b17ab0a9",
+      "kind": "psd"
+    },
+    {
+      "path": "writing-motion.json",
+      "size": 24471,
+      "sha256": "20210297972383d170c0d530addc6dbca5d8da860edb35227f3d66cd70b2e64c",
+      "kind": "motion"
+    },
+    {
+      "path": "writing-overrides.json",
+      "size": 12142,
+      "sha256": "d1e54d4e7623725d69a2690188ca51f324db4d0c814a5bf509e4701cb52490e0",
+      "kind": "overrides"
+    },
+    {
+      "path": "writing.psd",
+      "size": 2909319,
+      "sha256": "141df7ca726ebfe3f3ef607bc93e075af4fb31d169d71949fdb7f002dbbcc853",
+      "kind": "psd"
+    }
+  ]
+}

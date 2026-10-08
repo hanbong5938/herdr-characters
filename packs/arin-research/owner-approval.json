@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "character": "아린",
+  "date": "2026-10-07",
+  "approvalBasis": "User assertion of rights to edit the selected original portrait; not an independently verified copyright or release clearance",
+  "userSelections": {
+    "authority": "링크 초상화 디자인",
+    "rights": "편집 권한 있음 · 비공개 연구/평가"
+  },
+  "scope": "Private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion",
+  "originalImageSha256": "570f3ee2e8f334e540acf9a20a50332918d990f8de7f5d0d9e4aa97f48b9aef4",
+  "source": "source-record.json",
+  "publicRedistributionApproved": false,
+  "commercialUseApproved": false,
+  "bundledDefaultReplacementApproved": false,
+  "modelLicenseGrantedByUser": false,
+  "ownArtStatus": "Ten distinct own Arin poses and source-bound own motion clips replace the historical authoring template. This changes artifact provenance only, not the recorded rights scope."
+}
