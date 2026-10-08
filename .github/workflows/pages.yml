@@ -25,6 +25,8 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.x'
+      - name: Install gallery dependencies
+        run: python3 -m pip install -r requirements-gallery.txt
       - name: Fetch pinned release downloads
         run: python3 scripts/fetch-downloads.py
       - name: Build gallery

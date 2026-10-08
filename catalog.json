@@ -74,6 +74,64 @@
         "path": "packs/arin-research/LICENSE.txt"
       },
       "sourceTerms": "packs/arin-research/NOTICE.txt"
+    },
+    {
+      "id": "rubelia-school-uniform",
+      "type": "research",
+      "name": "루벨리아(교복)",
+      "description": {
+        "en": "Source files and artwork preview for 루벨리아(교복); no downloadable gallery pack is offered here.",
+        "ko": "루벨리아(교복) 소스 파일과 아트워크 미리보기입니다. 이 갤러리에서 다운로드 가능한 팩은 제공하지 않습니다."
+      },
+      "author": "hanbong5938; Herdr contributors",
+      "tags": [
+        "rubelia-school-uniform",
+        "rubelia",
+        "school",
+        "uniform",
+        "루벨리아(교복)",
+        "source",
+        "research",
+        "소스",
+        "연구"
+      ],
+      "publishedAt": "2026-10-08",
+      "profile": "previews/rubelia-school-uniform-source.png",
+      "sourceUrl": "https://github.com/hanbong5938/herdr-characters/tree/main/packs/rubelia-school-uniform",
+      "license": {
+        "label": "Rubelia source artwork terms; no new school-uniform redistribution approval",
+        "path": "packs/rubelia-school-uniform/LICENSE.txt"
+      },
+      "sourceTerms": "packs/rubelia-school-uniform/NOTICE.txt"
+    },
+    {
+      "id": "rubelia-white-bikini",
+      "type": "research",
+      "name": "루벨리아(수영복)",
+      "description": {
+        "en": "Source files and artwork preview for 루벨리아(수영복); no downloadable gallery pack is offered here.",
+        "ko": "루벨리아(수영복) 소스 파일과 아트워크 미리보기입니다. 이 갤러리에서 다운로드 가능한 팩은 제공하지 않습니다."
+      },
+      "author": "hanbong5938; Herdr contributors",
+      "tags": [
+        "rubelia-white-bikini",
+        "rubelia",
+        "white",
+        "bikini",
+        "루벨리아(수영복)",
+        "source",
+        "research",
+        "소스",
+        "연구"
+      ],
+      "publishedAt": "2026-10-08",
+      "profile": "previews/rubelia-white-bikini-source.png",
+      "sourceUrl": "https://github.com/hanbong5938/herdr-characters/tree/main/packs/rubelia-white-bikini",
+      "license": {
+        "label": "Rubelia artwork: owner-authorized Herdr Desktop Pet distribution",
+        "path": "packs/rubelia-white-bikini/LICENSE.txt"
+      },
+      "sourceTerms": "packs/rubelia-white-bikini/NOTICE.txt"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 [한국어](readme.ko.md)
 
-This public character library offers **Coding Cat as its only downloadable pack** and lists Arin as a searchable, viewable research/profile entry in the catalog and web gallery, with no Arin packaged release. Coding Cat is an original, MIT-licensed procedural PNG character pack for Herdr Desktop Pet. Coding Cat uses character format v4, transparent 384×512 PNG frames, four phase clips (idle, running, waiting, unknown), and four reaction clips (head tap, body tap, pet, completion observed). The pack and its source notices are in [`packs/png-example`](packs/png-example); the deterministic drawing utility is [`tools/generate-character.py`](tools/generate-character.py). The repository-level [MIT license](LICENSE.txt) covers the original source utilities and example files.
+This public character library lists all four current pack records: **Coding Cat is the only downloadable gallery pack**; Arin, Rubelia (School Uniform), and Rubelia (Swimsuit) are searchable source/research-only entries without gallery downloads. Coding Cat is an original, MIT-licensed procedural PNG character pack for Herdr Desktop Pet. Coding Cat uses character format v4, transparent 384×512 PNG frames, four phase clips (idle, running, waiting, unknown), and four reaction clips (head tap, body tap, pet, completion observed). The pack and its source notices are in [`packs/png-example`](packs/png-example); the deterministic drawing utility is [`tools/generate-character.py`](tools/generate-character.py). The repository-level [MIT license](LICENSE.txt) covers the original source utilities and example pack, not the separately licensed research artwork.
 
 ## Character previews
 
@@ -10,6 +10,8 @@ This public character library offers **Coding Cat as its only downloadable pack*
   <tr>
     <td align="center" width="180"><a href="previews/coding-cat-profile.png"><img src="previews/coding-cat-profile.png" alt="Coding Cat profile preview" width="160"></a><br><strong>Coding Cat</strong><br>Optional download<br>MIT</td>
     <td align="center" width="180"><a href="previews/arin-research-profile.png"><img src="previews/arin-research-profile.png" alt="Arin research profile preview" width="160"></a><br><strong>Arin</strong><br>Web gallery research profile<br>No pack release</td>
+    <td align="center" width="180"><a href="packs/rubelia-school-uniform">Rubelia (School Uniform)</a><br>Gallery source-only preview<br>No gallery download</td>
+    <td align="center" width="180"><a href="packs/rubelia-white-bikini">Rubelia (Swimsuit)</a><br>Gallery source-only preview<br>No gallery download</td>
   </tr>
 </table>
 
@@ -17,21 +19,22 @@ Coding Cat is the optional downloadable [MIT-licensed pack](packs/png-example/SO
 
 ## Browse the web gallery
 
-The [gallery source](index.html) displays two independent characters: Coding Cat, the only downloadable MIT-licensed PNG pack, and Arin, a research-only profile with repository sources under separate terms. The original four-pose [`sources/legacy-png`](sources/legacy-png) fixture is source material for Coding Cat, not a third character or a separate installable pack. Search matches names (including Korean names), tags, descriptions and pack variant names; combine it with All, Rig, PNG or Research filters. Rig currently has no matching pack; PNG shows Coding Cat and Research shows Arin. Sort by latest publication date (pack's latest variant or research publication, with names breaking ties) or by original character name using the selected language's collation; character names are not translated. Arin has no download or installation action.
+The [gallery source](index.html) builds its catalog and aligned hero cards from every `packs/*/manifest.json`: currently Coding Cat, Arin, Rubelia (School Uniform), and Rubelia (Swimsuit). A new source pack appears on the next build or `main` push without manual registration in [`catalog.source.json`](catalog.source.json); that file supplies authored profile/publication overrides and the existing pinned Coding Cat release metadata, not the pack inventory. The original four-pose [`sources/legacy-png`](sources/legacy-png) fixture is source material for Coding Cat, not another character or installable pack. Search matches names (including Korean names), tags, descriptions and pack variant names; combine it with All, Rig, PNG or Research filters. PNG shows Coding Cat; Research shows Arin and both Rubelia source entries. Sort by publication date where recorded (unknown dates remain unknown) or by original character name using the selected language's collation. Research/source-only cards link to repository sources and terms, not gallery downloads; the Rig filter does not imply these sources are downloadable packs.
 
-For a local preview from this repository root, use the committed catalog and previews to fetch the already published Coding Cat archive and stage the static site, then serve it:
+For a local preview from this repository root, install the gallery image dependency, fetch the already published Coding Cat archive, build the manifest-derived static site and serve it:
 
 ```sh
+python3 -m pip install -r requirements-gallery.txt
 python3 scripts/fetch-downloads.py
 python3 scripts/build-gallery.py
 npm run preview
 ```
 
-Open `http://127.0.0.1:4187/`. These Python-standard-library scripts need no native executable: the fetch verifies the published archive against `catalog.json`, and the build writes `dist/gallery`. The separate native authoring commands below regenerate the catalog, package and previews; the Pages CI workflow does **not** run them. The gallery supports narrow mobile screens and retains the current error and Retry message when switching languages after a catalog load failure.
+Open `http://127.0.0.1:4187/`. Fetch uses the Python standard library and verifies only the pinned published Coding Cat archive against `catalog.json`; the gallery build uses Pillow to make source previews and writes `dist/gallery`. Neither command needs a native executable. The separate native authoring commands below regenerate the catalog, package and previews; Pages CI does **not** run them. The gallery supports narrow mobile screens and retains the current error and Retry message when switching languages after a catalog load failure.
 
 ## Publish with GitHub Pages
 
-The public gallery is available at **[https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)**. GitHub Pages uses **Settings → Pages → Build and deployment → Source: GitHub Actions** and the `github-pages` environment for `main`. A push to `main` or a manual **Actions → Deploy gallery to GitHub Pages → Run workflow** fetches and verifies the published Coding Cat archive, builds `dist/gallery`, and deploys only that static directory. It does not fetch or publish Arin source artwork as a pack. Check the workflow's `page_url` for the deployment address.
+The public gallery is available at **[https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)**. GitHub Pages uses **Settings → Pages → Build and deployment → Source: GitHub Actions** and the `github-pages` environment for `main`. A push to `main` or a manual **Actions → Deploy gallery to GitHub Pages → Run workflow** installs the pinned gallery dependency, fetches and verifies the published Coding Cat archive, discovers all current pack manifests, builds `dist/gallery`, and deploys only that static directory. Source-only previews and repository links do not publish installable archives or change source permissions. Check the workflow's `page_url` for the deployment address.
 
 ## Rubelia wardrobe sources
 
@@ -42,7 +45,7 @@ The canonical school-uniform and swimsuit source packs moved from the private ar
 | 루벨리아(교복) | Rubelia (School Uniform) | [`packs/rubelia-school-uniform`](packs/rubelia-school-uniform) |
 | 루벨리아(수영복) | Rubelia (Swimsuit) | [`packs/rubelia-white-bikini`](packs/rubelia-white-bikini) |
 
-The user selected inclusion of both packs as public repository sources. Each `owner-approval.json` records that user assertion, not independently verified clearance or a new model license. Source and Qwen terms remain in each pack's `NOTICE.txt`, `LICENSE.txt` and `QWEN_RESEARCH_LICENSE.txt`. This migration performed no commit, push or official packaged release and did not add the packs to the public download catalog.
+The user selected inclusion of both packs as public repository sources. Each `owner-approval.json` records that user assertion, not independently verified clearance or a new model license. Source and Qwen terms remain in each pack's `NOTICE.txt`, `LICENSE.txt` and `QWEN_RESEARCH_LICENSE.txt`. The earlier migration performed no commit, push or official packaged release and did not add Rubelia downloads; the current gallery lists both as source-only entries, not downloadable gallery packs.
 
 The private local gallery references these same canonical sources and uses the Korean/English display names above. Installed manifest names remain single Korean strings; automatic name switching with the app language is not supported.
 
@@ -74,14 +77,15 @@ The first command recreates the original legacy four-pose raster fixture; the se
 
 ## Build the catalog and gallery
 
-To package and validate the Coding Cat example and render its gallery previews, supply the Herdr native executable and a local Herdr Desktop Pet source checkout containing `tools/character-pack.py`:
+To package and validate the Coding Cat example and render its native gallery previews, supply the Herdr native executable and a local Herdr Desktop Pet source checkout containing `tools/character-pack.py`. Install Pillow for the source preview generation:
 
 ```sh
+python3 -m pip install -r requirements-gallery.txt
 python3 scripts/build-catalog.py --native /absolute/path/to/herdr-desktop-pet --app-source /absolute/path/to/herdr-pet
 python3 scripts/build-gallery.py
 ```
 
-`build-catalog.py` reads [`catalog.source.json`](catalog.source.json) and preserves each entry's `type`: `pack` entries have variants with native previews, verified archive byte counts and SHA-256 hashes; `research` entries have a profile image, source URL, license and source-terms paths, but no variants or download. It generates `catalog.json`, `downloads/coding-cat-v0.0.2.herdrchar`, `downloads/SHA256SUMS`, and five native Coding Cat preview images, while preserving the standalone profile PNGs on regeneration. `build-gallery.py` stages the searchable static site in `dist/gallery`, including Arin's research profile, license and `NOTICE.txt` terms, and checks the Coding Cat archive against the generated catalog. To retrieve the **already published Coding Cat** release assets anonymously instead of locally packaging them, first obtain the matching generated `catalog.json`, then run `python3 scripts/fetch-downloads.py` before `python3 scripts/build-gallery.py`. The fetch script retrieves pack archives only and rejects archives whose byte length or SHA-256 differs from the catalog; it does not fetch an Arin archive. Gallery preview images must already exist locally when building a gallery from fetched archives.
+Both builders discover `packs/*/manifest.json` and regenerate source-only catalog entries and previews automatically; [`catalog.source.json`](catalog.source.json) holds authored/publication overrides and pinned release data rather than a mandatory list of source packs. `build-catalog.py` regenerates `catalog.json`, the Coding Cat archive and checksums, and native Coding Cat previews. `build-gallery.py` regenerates the staged catalog in `dist/gallery`, including all four current records; only Coding Cat has a pinned gallery download and is fetched by `python3 scripts/fetch-downloads.py`. Source-only records have no variants or gallery download. Their transparent previews use the declared PNG idle image or Pillow's merged PSD composite from the authored source, not a native animation render or compatibility proof. No automatic installable Rubelia or Arin release is created.
 
 Standalone repository profile images include [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png), made from Coding Cat's existing default idle image, and [`previews/arin-research-profile.png`](previews/arin-research-profile.png), cropped from Arin's native waiting render (see [`packs/arin-research/source-record.json`](packs/arin-research/source-record.json)). The owner's dated, asserted public README profile-display and repository-source publication approvals are recorded in [`packs/arin-research/owner-approval.json`](packs/arin-research/owner-approval.json); they are not independently verified legal clearance and do not authorize an official packaged release, commercial use, model-material rights, or native app-catalog/Characters-menu registration. The current requested web-gallery research registration does not add native app-menu listing or installation support. Catalog regeneration preserves these profile PNGs and keeps Arin's research entry in the generated catalog and gallery.
 
