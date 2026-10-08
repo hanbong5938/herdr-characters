@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Download Coding Cat, the MIT-licensed procedural PNG character pack for Herdr Desktop Pet.">
-  <title>Coding Cat · Herdr characters</title>
+  <meta name="description" content="Explore Coding Cat, a downloadable MIT-licensed PNG pack, and Arin's public research profile and source. No official Arin installable pack has been released.">
+  <title>Coding Cat &amp; Arin research · Herdr characters</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
 </head>
@@ -26,29 +26,56 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-content">
         <p class="eyebrow" data-i18n="eyebrow">THE PUBLIC CHARACTER LIBRARY</p>
-        <h1 id="hero-title" data-i18n="heroTitle">Meet Coding Cat<span class="accent">.</span></h1>
-        <p class="hero-copy" data-i18n="heroCopy">Discover Coding Cat, an original MIT-licensed procedural PNG character pack for Herdr Desktop Pet.</p>
+        <h1 id="hero-title" data-i18n="heroTitle">A little company<br>for your desktop<span class="accent">.</span></h1>
+        <p class="hero-copy" data-i18n="heroCopy">Explore Coding Cat, a downloadable MIT-licensed PNG pack, and Arin, a public research profile and source with no official installable pack release.</p>
         <div class="hero-links">
           <a class="button button-primary" id="submit-link" href="#" target="_blank" rel="noopener noreferrer" hidden><span data-i18n="submit">Submit on GitHub</span><span aria-hidden="true">↗</span></a>
           <a class="text-link" id="repository-link" href="#" target="_blank" rel="noopener noreferrer" hidden><span data-i18n="browseSource">Browse repository</span><span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="hero-spark">✳</span><span class="hero-caption">YOUR DESKTOP, YOUR COMPANY</span></div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-collage">
+          <div class="hero-card hero-card-pack">
+            <div class="hero-card-preview">
+              <img class="hero-card-img" src="./previews/coding-cat-idle.png" alt="" width="384" height="512">
+            </div>
+            <div class="hero-card-meta">
+              <div class="hero-card-head">
+                <span class="hero-card-name">Coding Cat</span>
+                <span class="hero-pill hero-pill-pack">PNG</span>
+              </div>
+              <p class="hero-card-desc">MIT</p>
+            </div>
+          </div>
+          <div class="hero-card hero-card-research">
+            <div class="hero-card-preview">
+              <img class="hero-card-img" src="./previews/arin-research-profile.png" alt="" width="480" height="480">
+            </div>
+            <div class="hero-card-meta">
+              <div class="hero-card-head">
+                <span class="hero-card-name">Arin</span>
+                <span class="hero-pill hero-pill-research" data-i18n="research">Research</span>
+              </div>
+              <p class="hero-card-desc hero-card-notice" data-i18n="researchPreview">Profile preview · No official pack release</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="collection" aria-labelledby="collection-title">
       <div class="section-heading"><div><p class="eyebrow" data-i18n="collectionLabel">EXPLORE THE COLLECTION</p><h2 id="collection-title" data-i18n="collectionTitle">Meet the characters</h2></div><p class="section-note" data-i18n="collectionNote">Made to live alongside your work.</p></div>
       <div class="toolbar">
         <label class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only" data-i18n="searchLabel">Search characters</span><input id="search" type="search" autocomplete="off" placeholder="Search names, tags, descriptions…"></label>
-        <div class="filter-row"><div class="segmented filters" role="group" aria-label="Renderer filter"><button type="button" data-filter="all" aria-pressed="true" data-i18n="all">All</button><button type="button" data-filter="rig" aria-pressed="false">Rig</button><button type="button" data-filter="png" aria-pressed="false">PNG</button></div><label class="sort-label"><span class="sr-only" data-i18n="sortLabel">Sort characters</span><select id="sort"><option value="recent" data-i18n="recent">Newest first</option><option value="alphabetic" data-i18n="alphabetic">A to Z</option></select></label></div>
+        <div class="filter-row"><div class="segmented filters" role="group" aria-label="Character type filter"><button type="button" data-filter="all" aria-pressed="true" data-i18n="all">All</button><button type="button" data-filter="rig" aria-pressed="false">Rig</button><button type="button" data-filter="png" aria-pressed="false">PNG</button><button type="button" data-filter="research" aria-pressed="false" data-i18n="research">Research</button></div><label class="sort-label"><span class="sr-only" data-i18n="sortLabel">Sort characters</span><select id="sort"><option value="recent" data-i18n="recent">Newest first</option><option value="alphabetic" data-i18n="alphabetic">A to Z</option></select></label></div>
       </div>
       <p class="results-label" id="results-label" aria-live="polite"></p>
-      <div id="status" class="status" role="status" aria-live="polite" data-i18n="loading">Loading characters…</div>
+      <div id="status" class="status" role="status" aria-live="polite">Loading characters…</div>
       <div id="cards" class="card-grid" aria-label="Character collection"></div>
     </section>
   </main>
 
-  <footer class="site-footer"><span class="footer-brand">herdr<span class="brand-dot">.</span>characters</span><span data-i18n="footer">Coding Cat · an MIT-licensed PNG character pack for Herdr Desktop Pet.</span></footer>
+  <footer class="site-footer"><span class="footer-brand">herdr<span class="brand-dot">.</span>characters</span><span data-i18n="footer">Coding Cat PNG pack and Arin research profile and source; no official Arin pack release.</span></footer>
 
   <dialog id="details" class="details-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button type="button" id="close-details" class="dialog-close" aria-label="Close details">×</button><div id="detail-body"></div></div></dialog>
 </body>

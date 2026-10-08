@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "character": "아린",
   "date": "2026-10-07",
-  "approvalBasis": "2026-10-07 user assertion of rights to edit the selected original portrait for private research/evaluation; 2026-10-08 owner-asserted approval to display the derived profile image publicly in repository READMEs; 2026-10-08 explicit user request to commit and push both repositories after asserting authority. These assertions are not independently verified copyright or third-party release clearance.",
+  "approvalBasis": "2026-10-07 user assertion of rights to edit the selected original portrait for private research/evaluation; 2026-10-08 owner-asserted approval to display the derived profile image publicly in repository READMEs; 2026-10-08 explicit user request to commit and push both repositories after asserting authority; 2026-10-08 user request to register the Arin research/profile entry in the catalog and web gallery. These assertions and requests are not independently verified copyright or third-party release clearance.",
   "userSelections": {
     "authority": "링크 초상화 디자인",
     "rights": "편집 권한 있음 · 비공개 연구/평가"
   },
-  "scope": "2026-10-07: private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion. 2026-10-08: owner-approved public README display of previews/arin-research-profile.png and its app-repository copy, and public repository-source publication of the existing Arin research files, including PSD sources, through the requested commits and pushes. Source publication is not authorization for an official packaged release, catalog entry, downloadable or installable pack, commercial use, bundled-default replacement or a model-material license.",
+  "scope": "2026-10-07: private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion. 2026-10-08: owner-approved public README display of previews/arin-research-profile.png and its app-repository copy, public repository-source publication of the existing Arin research files including PSD sources through the requested commits and pushes, and public catalog/web gallery listing of Arin as a research profile linking to its published repository source and use terms. These do not authorize an official packaged release, downloadable or installable pack, commercial use, bundled-default replacement or a model-material license.",
   "originalImageSha256": "570f3ee2e8f334e540acf9a20a50332918d990f8de7f5d0d9e4aa97f48b9aef4",
   "source": "source-record.json",
   "publicProfileDisplayApproval": {
@@ -23,6 +23,12 @@
     "date": "2026-10-08",
     "basis": "User previously asserted authority: 아냐 승인했어 내가 권한있어; then explicitly requested: 양쪽 레포 둘다 커밋 push 하자",
     "scope": "Public repository-source publication of the existing Arin research files, including ten-pose PSD sources, and profile publication in both repositories; not an official packaged release, catalog/download/installability authorization or general redistribution license",
+    "independentlyVerified": false
+  },
+  "galleryRegistrationRequest": {
+    "date": "2026-10-08",
+    "userStatement": "왜 없지? 등록하라 했는데",
+    "scope": "Register Arin as a public research/profile entry in the character catalog and web gallery, displaying previews/arin-research-profile.png and linking to published repository research sources and terms; not an official packaged release, downloadable or installable pack, commercial use, bundled-default replacement, general redistribution license or grant of third-party or model-material rights",
     "independentlyVerified": false
   },
   "commercialUseApproved": false,

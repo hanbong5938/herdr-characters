@@ -6,6 +6,7 @@
   "characters": [
     {
       "id": "coding-cat",
+      "type": "pack",
       "name": "Coding Cat",
       "description": {
         "en": "Original MIT-licensed procedural Coding Cat: transparent 384×512 PNG frames with four phase clips and four reaction clips for Herdr Desktop Pet.",
@@ -22,6 +23,25 @@
           "licenseLabel": "MIT"
         }
       ]
+    },
+    {
+      "id": "arin-research",
+      "type": "research",
+      "name": "Arin",
+      "description": {
+        "en": "Public Arin research sources and profile image for viewing; no official downloadable or installable pack release is available.",
+        "ko": "아린 공개 연구 소스와 프로필 이미지를 소개합니다. 공식 다운로드 또는 설치 가능한 팩 릴리스는 없습니다."
+      },
+      "author": "Arin private research authoring",
+      "tags": ["arin", "아린", "research", "연구"],
+      "publishedAt": "2026-10-08",
+      "profile": "previews/arin-research-profile.png",
+      "sourceUrl": "https://github.com/hanbong5938/herdr-characters/tree/main/packs/arin-research",
+      "license": {
+        "label": "Research-use terms",
+        "path": "packs/arin-research/LICENSE.txt"
+      },
+      "sourceTerms": "packs/arin-research/NOTICE.txt"
     }
   ]
 }

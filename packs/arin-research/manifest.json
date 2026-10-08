@@ -11,7 +11,7 @@
   },
   "licenses": [
     {
-      "expression": "Arin artwork: user-asserted editing rights; private noncommercial research/evaluation only",
+      "expression": "Arin artwork: user-asserted noncommercial research/evaluation rights; public repository source, profile and research gallery listing only, not an installable pack release",
       "path": "LICENSE.txt"
     },
     {
@@ -51,14 +51,14 @@
     },
     {
       "path": "LICENSE.txt",
-      "size": 1584,
-      "sha256": "4f6f034d84a7814c42349231054f274f6d731bcd77359dfd593635a08a6cb91d",
+      "size": 2648,
+      "sha256": "c081479ad215c9e4bdcaf4206050f6924d2d039dcfc697ca3de9f9b56076c4c3",
       "kind": "license"
     },
     {
       "path": "NOTICE.txt",
-      "size": 1976,
-      "sha256": "90d5a7c1c272db3f94357fbae78445d2ac02249be854997778771958a44ac7f2",
+      "size": 3216,
+      "sha256": "088380a106e6ef8a3d3fd6a12f53685c2aadb370de7d3ca23dd111eedc75935b",
       "kind": "attribution"
     },
     {
@@ -195,8 +195,8 @@
     },
     {
       "path": "owner-approval.json",
-      "size": 1186,
-      "sha256": "4a382ab4700f62a57fa007bbe11943bd1a9e616720abdd140bb2b7b8846f0c3b",
+      "size": 3762,
+      "sha256": "e479cd740b3bca8a242e88be3592bbd61c788dc3bb5e44c53ee1ba7626334665",
       "kind": "source"
     },
     {
