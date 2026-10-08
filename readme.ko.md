@@ -39,3 +39,5 @@ python3 scripts/build-gallery.py
 ```
 
 `build-catalog.py`는 [`catalog.source.json`](catalog.source.json)을 읽어 `catalog.json`, `downloads/coding-cat-v0.0.2.herdrchar`, `downloads/SHA256SUMS`, 네이티브 미리보기 이미지 다섯 장을 생성합니다. `build-gallery.py`는 아카이브를 생성된 카탈로그와 대조한 뒤 정적 사이트를 `dist/gallery`에 준비합니다. 로컬에서 패키징하지 않고 **이미 게시된** 공개 릴리스 파일을 익명으로 받으려면 해당 릴리스에 맞게 생성된 `catalog.json`을 확보하고 `python3 scripts/fetch-downloads.py`, `python3 scripts/build-gallery.py` 순으로 실행하세요. fetch 스크립트는 바이트 수 또는 SHA-256이 카탈로그와 다른 아카이브를 거부합니다. 다운로드한 아카이브로 갤러리를 빌드할 때는 미리보기 이미지가 로컬에 이미 있어야 합니다.
+
+저장소의 독립 프로필 이미지에는 코딩 고양이의 기존 기본 idle 이미지로 만든 [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png)와 유지되는 [`previews/arin-research-profile.png`](previews/arin-research-profile.png)가 있습니다. 카탈로그를 다시 생성해도 이 프로필 PNG는 보존되며 카탈로그나 갤러리에는 추가되지 않습니다. 저장소에 프로필 이미지가 있다고 해서 앱의 캐릭터 메뉴에서 선택할 수 있다는 뜻은 아닙니다. Arin은 공개된 팩이 아닙니다.

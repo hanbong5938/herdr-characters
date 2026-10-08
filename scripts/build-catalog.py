@@ -76,6 +76,12 @@ def main():
             catalog["characters"].append(item)
         checksums = "".join(f"{variant['download']['sha256']}  {Path(variant['download']['path']).name}\n" for item in catalog["characters"] for variant in item["variants"])
         (stage / "downloads/SHA256SUMS").write_text(checksums)
+        # Standalone profile assets are maintained separately from native gallery previews.
+        existing_previews = ROOT / "previews"
+        if existing_previews.is_dir():
+            for profile_png in existing_previews.glob("*-profile.png"):
+                if profile_png.is_file():
+                    shutil.copy2(profile_png, stage / "previews" / profile_png.name)
         # Publish only after every selected pack has passed native validation/rendering.
         for directory in ("downloads", "previews"):
             destination = ROOT / directory
