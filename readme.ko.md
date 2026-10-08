@@ -15,6 +15,20 @@
 
 코딩 캣은 다운로드할 수 있는 선택형 [MIT 라이선스 팩](packs/png-example/SOURCE.txt)입니다. 아린의 [소유자 승인 기록](packs/arin-research/owner-approval.json)은 프로필 공개 표시와 PSD를 포함한 [저장소의 연구용 소스](packs/arin-research) 공개를 허용합니다. 아린의 공식 아카이브·카탈로그 다운로드·설치형 릴리스는 없으며, 아린 작품에는 별도의 [연구용 이용 조건](packs/arin-research/LICENSE.txt)이 적용됩니다.
 
+## 루벨리아 복장 소스
+
+교복·수영복의 현재 원본 팩은 비공개 보관소에서 이 공통 저장소로 이동했습니다. 원화·10포즈 PSD·리깅·모션은 그대로이며, 이름과 저장소 소스 공개 범위만 갱신했습니다.
+
+| 한국어 이름 | 영어 표시 | 원본 팩 |
+| --- | --- | --- |
+| 루벨리아(교복) | Rubelia (School Uniform) | [`packs/rubelia-school-uniform`](packs/rubelia-school-uniform) |
+| 루벨리아(수영복) | Rubelia (Swimsuit) | [`packs/rubelia-white-bikini`](packs/rubelia-white-bikini) |
+
+사용자는 두 팩을 공개 저장소 소스로 포함하는 범위를 선택했습니다. 각 팩의 `owner-approval.json`에 이 사용자 진술을 기록하며, 독립적인 권리 검증이나 새 모델 라이선스를 뜻하지 않습니다. 원본·Qwen 이용 조건은 각 팩의 `NOTICE.txt`, `LICENSE.txt`, `QWEN_RESEARCH_LICENSE.txt`를 따릅니다. 이번 이동으로 commit·push·공식 패키지 릴리스를 수행하지 않았으며, 공개 다운로드 카탈로그에는 추가하지 않았습니다.
+
+비공개 로컬 갤러리는 같은 원본을 참조해 위 한·영 이름을 표시합니다. 앱에 설치되는 manifest 이름은 한국어 단일 문자열이며 앱 언어에 따른 자동 이름 전환은 지원하지 않습니다.
+
+
 ## 다운로드 및 가져오기
 
 공개 `packs-v0.0.2` 릴리스에서 [`coding-cat-v0.0.2.herdrchar`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.2/coding-cat-v0.0.2.herdrchar)와 [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.2/SHA256SUMS)를 다운로드하세요. 다운로드한 파일이 있는 폴더에서 `shasum -a 256 -c SHA256SUMS`로 아카이브를 검증할 수 있습니다. 생성된 [`catalog.json`](catalog.json)에도 정확한 바이트 수와 SHA-256 해시가 기록됩니다. 이 문서에 임의의 해시값을 사용하지 않습니다.

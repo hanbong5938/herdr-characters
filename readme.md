@@ -15,6 +15,20 @@ This public character library offers **Coding Cat as its only downloadable pack*
 
 Coding Cat is the optional downloadable [MIT-licensed pack](packs/png-example/SOURCE.txt). Arin's [owner approval](packs/arin-research/owner-approval.json) covers public profile display and publication of [repository research sources](packs/arin-research), including PSDs; no official Arin archive, catalog download or installable release is available. Arin artwork remains subject to its separate [research-use terms](packs/arin-research/LICENSE.txt).
 
+## Rubelia wardrobe sources
+
+The canonical school-uniform and swimsuit source packs moved from the private archive into this shared repository. Artwork, ten-pose PSDs, rigs and motion are unchanged; only names and repository-source approval metadata were updated.
+
+| Korean pack name | English display | Canonical source |
+| --- | --- | --- |
+| 루벨리아(교복) | Rubelia (School Uniform) | [`packs/rubelia-school-uniform`](packs/rubelia-school-uniform) |
+| 루벨리아(수영복) | Rubelia (Swimsuit) | [`packs/rubelia-white-bikini`](packs/rubelia-white-bikini) |
+
+The user selected inclusion of both packs as public repository sources. Each `owner-approval.json` records that user assertion, not independently verified clearance or a new model license. Source and Qwen terms remain in each pack's `NOTICE.txt`, `LICENSE.txt` and `QWEN_RESEARCH_LICENSE.txt`. This migration performed no commit, push or official packaged release and did not add the packs to the public download catalog.
+
+The private local gallery references these same canonical sources and uses the Korean/English display names above. Installed manifest names remain single Korean strings; automatic name switching with the app language is not supported.
+
+
 ## Download and import
 
 Download [`coding-cat-v0.0.2.herdrchar`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.2/coding-cat-v0.0.2.herdrchar) and [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.2/SHA256SUMS) from the public `packs-v0.0.2` release. Verify the downloaded archive against `SHA256SUMS` with `shasum -a 256 -c SHA256SUMS` from the download directory; the generated [`catalog.json`](catalog.json) also records the archive's exact byte count and SHA-256 digest. Do not substitute a hash from this page.
