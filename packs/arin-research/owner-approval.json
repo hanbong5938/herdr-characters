@@ -2,15 +2,29 @@
   "schemaVersion": 1,
   "character": "아린",
   "date": "2026-10-07",
-  "approvalBasis": "User assertion of rights to edit the selected original portrait; not an independently verified copyright or release clearance",
+  "approvalBasis": "2026-10-07 user assertion of rights to edit the selected original portrait for private research/evaluation; 2026-10-08 owner-asserted approval to display the derived profile image publicly in repository READMEs; 2026-10-08 explicit user request to commit and push both repositories after asserting authority. These assertions are not independently verified copyright or third-party release clearance.",
   "userSelections": {
     "authority": "링크 초상화 디자인",
     "rights": "편집 권한 있음 · 비공개 연구/평가"
   },
-  "scope": "Private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion",
+  "scope": "2026-10-07: private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion. 2026-10-08: owner-approved public README display of previews/arin-research-profile.png and its app-repository copy, and public repository-source publication of the existing Arin research files, including PSD sources, through the requested commits and pushes. Source publication is not authorization for an official packaged release, catalog entry, downloadable or installable pack, commercial use, bundled-default replacement or a model-material license.",
   "originalImageSha256": "570f3ee2e8f334e540acf9a20a50332918d990f8de7f5d0d9e4aa97f48b9aef4",
   "source": "source-record.json",
-  "publicRedistributionApproved": false,
+  "publicProfileDisplayApproval": {
+    "date": "2026-10-08",
+    "basis": "Owner assertion in conversation: 아냐 승인했어 내가 권한있어",
+    "approved": true,
+    "asset": "previews/arin-research-profile.png",
+    "scope": "Public profile image display in herdr-characters and herdr-desktop-pet repository READMEs, including a copy of the profile PNG in herdr-desktop-pet for its README; not a release of the full pack or a grant of third-party or model-material rights",
+    "independentlyVerified": false
+  },
+  "publicRedistributionApproved": true,
+  "publicRedistributionScope": {
+    "date": "2026-10-08",
+    "basis": "User previously asserted authority: 아냐 승인했어 내가 권한있어; then explicitly requested: 양쪽 레포 둘다 커밋 push 하자",
+    "scope": "Public repository-source publication of the existing Arin research files, including ten-pose PSD sources, and profile publication in both repositories; not an official packaged release, catalog/download/installability authorization or general redistribution license",
+    "independentlyVerified": false
+  },
   "commercialUseApproved": false,
   "bundledDefaultReplacementApproved": false,
   "modelLicenseGrantedByUser": false,
