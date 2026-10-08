@@ -2,7 +2,7 @@ Rubelia — herdr v5 ten-model pack staged from run "rubelia-school-uniform-2026
 Authority illustration SHA256 862a03bf928f23e47c16ebdd68a9e71a800c5deb794fc696af825c9994650ce2 is the exact "waiting" pose and the outfit/body/style authority. Identity reference SHA256 4928c1c4507e684d9b6801c371a340a69cb3b992ba7637724f3c4badb900a822 supplied face identity only.
 Every other pose is a complete illustration generated for this run by local image editing; each pose has its own matte, See-through layer decomposition, own expression edit, source-layered PSD and native rig conversion. No reference-pack pose pixels and no post-export alpha crop are used.
 Recorded model files: isnet-anime.onnx, qwen3vl_8b_bf16.safetensors, qwen_image_2.1_bf16.safetensors, qwen_image_2.1_vae_bf16.safetensors.
-source-record.json records the exact file chain and hashes. This notice makes no claim about native review, publication or licenses beyond the files named in manifest.json.
+source-record.json records the exact file chain and hashes. The 2026-10-08 owner approval for public catalog listing and installable packs-v0.0.3 release is recorded separately in owner-approval.json; historical run/reference publication limits do not describe the current release boundary. No native-review or additional rights clearance is asserted here.
 
 Reference pack "rubelia-at12-multi-pose" ATTRIBUTION.txt (preserved verbatim, SHA256 f9c0188c5b5d68f5a16c787bb21bcf7835f8e8ff92f69d212eb884e07abe488a; its pose, hash and review statements describe that reference pack, not this staged pack):
 Rubelia — herdr v5 ten-model pack staged from run "rubelia-fivefold-face-20261002".

@@ -11,7 +11,7 @@
   },
   "licenses": [
     {
-      "expression": "Rubelia artwork: owner-authorized Herdr Desktop Pet distribution",
+      "expression": "Rubelia Swimsuit artwork: owner-approved public downloadable/installable pack distribution; no new downstream commercial license; see LICENSE.txt",
       "path": "LICENSE.txt"
     },
     {
@@ -62,20 +62,20 @@
   "payloads": [
     {
       "path": "ATTRIBUTION.txt",
-      "size": 3380,
-      "sha256": "bb6a4db564048f46a65237f45ea6f42974128d958d0fea99f481f00822c72fce",
+      "size": 3564,
+      "sha256": "8ec29803d58369ebb2bfa0ea7d6cd4bef283ad1ee101fd925cf6462b4c3816c2",
       "kind": "attribution"
     },
     {
       "path": "LICENSE.txt",
-      "size": 1774,
-      "sha256": "c5c524481fffaa79078caabca9760fb97d8bbc48543e38fa9b94376674279f0c",
+      "size": 2236,
+      "sha256": "ed0211735ee95503f830ed4023ab1055d2c516eaf66b2aebf7a67afb0108fe86",
       "kind": "license"
     },
     {
       "path": "NOTICE.txt",
-      "size": 3780,
-      "sha256": "4eab3574579399a7b811e8dbc19e5092b44956a6daacadeef52b114feab95339",
+      "size": 4528,
+      "sha256": "d7eac9c9d17de2a69f3964e15af7ed10c5edb82c8cc09f5b2f740a0c600db3fa",
       "kind": "attribution"
     },
     {
@@ -218,8 +218,8 @@
     },
     {
       "path": "owner-approval.json",
-      "size": 4882,
-      "sha256": "34370c838fe28aa2ce0d9e0b61b982a7671ce6e35feb8e771d852b8e10a904cc",
+      "size": 5991,
+      "sha256": "053b9e4b3e8edd7423c1d737dedfc90984a4faf607f00248d9a6052d1aa5d4f7",
       "kind": "source"
     },
     {
@@ -230,8 +230,8 @@
     },
     {
       "path": "source-record.json",
-      "size": 1078127,
-      "sha256": "3a645015c554b7b0f427a7bb98b6ba9e68c1998eb961529227747e4782d93898",
+      "size": 1078390,
+      "sha256": "ff57d8678a365251f6b701eddfd44f98515fb0f22d564e795b45d0917570d5b8",
       "kind": "source"
     },
     {

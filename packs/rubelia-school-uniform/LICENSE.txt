@@ -1,12 +1,18 @@
-Rubelia artwork — owner-authorized Herdr Desktop Pet default distribution.
-The approved 2026-10-02 drawing and nine locally authored independent poses replace
-the earlier cropped ten-pose adaptation. The original identity and owner authorization
-continue to be disclosed in owner-approval.json. The owner did not grant a Qwen model
-license: original Qwen research license terms are retained verbatim in
-QWEN_RESEARCH_LICENSE.txt. Software MIT terms do not relicense character artwork.
-This notice grants no unrelated third-party artwork rights and makes no exclusive
-copyright, non-infringement or trademark guarantee. Public Herdr Desktop Pet source
-and release distribution is owner-authorized; see owner-approval.json.
+Rubelia school-uniform artwork — owner-authorized public pack distribution.
+The owner authorized the existing rubelia-school-uniform artwork, rig and motion
+for listing in the herdr-characters download catalog and release as an installable
+.herdrchar archive in packs-v0.0.3 on 2026-10-08; see owner-approval.json.
+This is specific packaged-release authorization, not a general artwork license,
+downstream commercial-use clearance, builtin default replacement, or independently
+verified rights clearance. The shared-world-canon source identity and its recorded
+approval are distinct from approval of these generated school-uniform outputs.
+The Qwen RESEARCH LICENSE AGREEMENT in QWEN_RESEARCH_LICENSE.txt applies to
+model Materials used during authoring; this notice does not assert that its terms
+automatically govern the generated artwork output or grant a new model license.
+Software MIT terms do not relicense character artwork. No unrelated third-party
+artwork rights or exclusive-copyright, non-infringement or trademark guarantee
+are granted. Earlier default-distribution notices below are historical references
+to a different Rubelia adaptation, not this wardrobe pack's license scope.
 
 Historical owner distribution notice (preserved verbatim, referring to the previous
 cropped adaptation; its cropping description does NOT apply to this new pack):

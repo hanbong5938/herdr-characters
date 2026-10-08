@@ -2,13 +2,20 @@
   "schemaVersion": 1,
   "character": "아린",
   "date": "2026-10-07",
-  "approvalBasis": "2026-10-07 user assertion of rights to edit the selected original portrait for private research/evaluation; 2026-10-08 owner-asserted approval to display the derived profile image publicly in repository READMEs; 2026-10-08 explicit user request to commit and push both repositories after asserting authority; 2026-10-08 user request to register the Arin research/profile entry in the catalog and web gallery. These assertions and requests are not independently verified copyright or third-party release clearance.",
+  "approvalBasis": "2026-10-07 user assertion of rights to edit the selected original portrait for private research/evaluation; 2026-10-08 owner-asserted approval to display the derived profile image publicly in repository READMEs; 2026-10-08 explicit user request to commit and push both repositories after asserting authority; 2026-10-08 request to register the Arin research/profile entry in the catalog and web gallery; 2026-10-08 owner approval to release all four existing packs as downloadable installable .herdrchar archives in packs-v0.0.3 and include them in the download catalog, after identifying the original artwork as based on hanbong5938/shared-world-canon. These assertions and requests are not independently verified copyright or third-party clearance.",
   "userSelections": {
     "authority": "링크 초상화 디자인",
     "rights": "편집 권한 있음 · 비공개 연구/평가"
   },
-  "scope": "2026-10-07: private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion. 2026-10-08: owner-approved public README display of previews/arin-research-profile.png and its app-repository copy, public repository-source publication of the existing Arin research files including PSD sources through the requested commits and pushes, and public catalog/web gallery listing of Arin as a research profile linking to its published repository source and use terms. These do not authorize an official packaged release, downloadable or installable pack, commercial use, bundled-default replacement or a model-material license.",
+  "scope": "Historical 2026-10-07 approval: private noncommercial research/evaluation and reconstruction of the selected Arin portrait, removing background/book, preserving face, grey-brown side braid and powder-blue/ivory outfit, reconstructing hidden hands and clothing in large-head thigh-up framing; prepared candidate shown for user selection before ten-pose expansion. Earlier 2026-10-08 requests: public README display of previews/arin-research-profile.png and its app-repository copy, public repository-source publication of existing Arin research files including PSDs through the requested commits and pushes, and public catalog/web gallery research profile linking to published source and terms; at those stages packaged release was not yet approved. Latest 2026-10-08 authorization: public packs-v0.0.3 downloadable/installable .herdrchar release of this existing pack and download catalog listing/import distribution. No commercial-use approval, general third-party sublicensing, bundled-default replacement or new model-material license.",
   "originalImageSha256": "570f3ee2e8f334e540acf9a20a50332918d990f8de7f5d0d9e4aa97f48b9aef4",
+  "originalImageProvenance": {
+    "repository": "https://github.com/hanbong5938/shared-world-canon",
+    "provenancePath": "assets/provenance/shared-square-profiles-v1-2026-07-16.json",
+    "originalOutputPath": "assets/identity/reviews/commercial-rebuild/square-profiles-v1/arin-square-profile-v1.png",
+    "originalOutputSha256": "570f3ee2e8f334e540acf9a20a50332918d990f8de7f5d0d9e4aa97f48b9aef4",
+    "scope": "Exact hash match to the recorded original Arin face-identity source; the historical profile set is commercial-blocked. The new owner-approved packaged public download does not grant commercial-use clearance."
+  },
   "source": "source-record.json",
   "publicProfileDisplayApproval": {
     "date": "2026-10-08",
@@ -31,8 +38,19 @@
     "scope": "Register Arin as a public research/profile entry in the character catalog and web gallery, displaying previews/arin-research-profile.png and linking to published repository research sources and terms; not an official packaged release, downloadable or installable pack, commercial use, bundled-default replacement, general redistribution license or grant of third-party or model-material rights",
     "independentlyVerified": false
   },
+  "packagedReleaseAuthorization": {
+    "date": "2026-10-08",
+    "release": "packs-v0.0.3",
+    "basis": "Owner identified original artwork as based on https://github.com/hanbong5938/shared-world-canon and requested '포함하도록변경해줘 다운로드 카탈로그에 전부 포함되게 다운로드 가능한 릴리스로'; after asking '그럼 릴리즈 해도되는거 아님?' the owner gave final authorization 'ㅇㅇ해줘'.",
+    "approved": true,
+    "scope": "Public downloadable/installable .herdrchar archive for this existing Arin pack in packs-v0.0.3; inclusion in the download catalog and distribution for import. This approval covers packaging and listing, not commercial use, general third-party sublicensing or replacement of the built-in default.",
+    "independentlyVerified": false,
+    "newModelLicense": false,
+    "commercialUseApproved": false,
+    "bundledDefaultReplacementApproved": false
+  },
   "commercialUseApproved": false,
   "bundledDefaultReplacementApproved": false,
   "modelLicenseGrantedByUser": false,
-  "ownArtStatus": "Ten distinct own Arin poses and source-bound own motion clips replace the historical authoring template. This changes artifact provenance only, not the recorded rights scope."
+  "ownArtStatus": "Ten distinct own Arin poses and source-bound own motion clips replace the historical authoring template. This changes artifact provenance only; rights scope is recorded separately in the dated approvals above."
 }

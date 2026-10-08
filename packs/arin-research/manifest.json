@@ -11,7 +11,7 @@
   },
   "licenses": [
     {
-      "expression": "Arin artwork: user-asserted noncommercial research/evaluation rights; public repository source, profile and research gallery listing only, not an installable pack release",
+      "expression": "Arin artwork: owner-approved public downloadable/installable pack distribution; commercial use and general sublicensing not approved; see LICENSE.txt",
       "path": "LICENSE.txt"
     },
     {
@@ -45,20 +45,20 @@
   "payloads": [
     {
       "path": "ATTRIBUTION.txt",
-      "size": 1430,
-      "sha256": "9a76244442b1ee10c5f395182cf1b294de63f46b821f232f4c7865b45f45264d",
+      "size": 2294,
+      "sha256": "17170fb50130940c1619238c7db11d4af6ccc024d836c5bc4dfd23852d6e9965",
       "kind": "attribution"
     },
     {
       "path": "LICENSE.txt",
-      "size": 2648,
-      "sha256": "c081479ad215c9e4bdcaf4206050f6924d2d039dcfc697ca3de9f9b56076c4c3",
+      "size": 3904,
+      "sha256": "871031514b32da1cbd377d27f8b8b5e76dc748c579ae2add0501ac441b6ea897",
       "kind": "license"
     },
     {
       "path": "NOTICE.txt",
-      "size": 3216,
-      "sha256": "088380a106e6ef8a3d3fd6a12f53685c2aadb370de7d3ca23dd111eedc75935b",
+      "size": 3307,
+      "sha256": "8aeed7a6b4b3efd5135e1f54a97249ad362f754b1422ecfd49f4b170861594f5",
       "kind": "attribution"
     },
     {
@@ -195,8 +195,8 @@
     },
     {
       "path": "owner-approval.json",
-      "size": 3762,
-      "sha256": "e479cd740b3bca8a242e88be3592bbd61c788dc3bb5e44c53ee1ba7626334665",
+      "size": 5749,
+      "sha256": "032302f1b4e8bd9cabcb6e64603b30ad83a21d2ce10b852d13d6939132391c3e",
       "kind": "source"
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "source-record.json",
-      "size": 1218255,
-      "sha256": "dc49bf983febda4d1288d87d33b346b82a3fb70d9282946abf2acaff9a115cb6",
+      "size": 1218685,
+      "sha256": "5a5fab4440aa6d75e18f4d03bc223e89facaf75b119071cf6edcf51569bbcf62",
       "kind": "source"
     },
     {

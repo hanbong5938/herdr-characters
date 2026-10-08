@@ -24,7 +24,7 @@
     },
     "cropSourcePixels": [300, 0, 720, 420],
     "rigAndMotionChanged": false,
-    "rights": "Same unchanged source artwork and model terms as LICENSE.txt and QWEN_RESEARCH_LICENSE.txt; no new publication or commercial rights.",
+    "rights": "Same underlying artwork and model terms as LICENSE.txt and QWEN_RESEARCH_LICENSE.txt; the 2026-10-08 owner-approved packs-v0.0.3 public packaged release includes this pack, but no commercial-use or third-party sublicensing rights are inferred.",
     "displaySupport": "Repository profile image associated with this pack. Stored outside the flat v5 rig pack because native v5 rejects PNG payloads and has no dedicated profile-image selector; this asset does not add automatic app-menu display support."
   },
   "run": {
@@ -397,7 +397,7 @@
       "stagedSha256": "4a382ab4700f62a57fa007bbe11943bd1a9e616720abdd140bb2b7b8846f0c3b"
     }
   },
-  "licenseBoundary": "Current own-artifact notices preserve the same user-asserted private noncommercial research/evaluation scope. No new owner approval, model license, publication, commercial use or bundled-default replacement is granted. Original reference notices remain outside pack.",
+  "licenseBoundary": "Historical 2026-10-07 authoring was approved as private noncommercial research/evaluation; later 2026-10-08 approvals permitted public repository-source/profile/gallery publication and, most recently, public downloadable/installable .herdrchar release in packs-v0.0.3 with download catalog listing and import distribution. See owner-approval.json. Owner claims are not independently verified legal clearance; no commercial use, general third-party sublicensing, bundled-default replacement or new model-material license is granted. Original reference notices remain outside the pack.",
   "noPostExportAlphaCrop": true,
   "poses": {
     "waiting": {
@@ -23760,7 +23760,7 @@
     }
   },
   "portableEvidenceProjection": {
-    "policy": "Original full source records remain outside this private pack. File SHA256 values bind immutable original evidence; nested record values are portable projections, not byte-identical copies of those original files.",
+    "policy": "Original full authoring source records remain outside this pack. File SHA256 values bind immutable original evidence; nested record values are portable projections, not byte-identical copies of those original files.",
     "preserved": [
       "actual source/art/model/motion SHA256",
       "seeds",

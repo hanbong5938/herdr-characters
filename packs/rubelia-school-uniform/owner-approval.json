@@ -63,6 +63,7 @@
   },
   "wardrobeRepositorySourceApproval": {
     "date": "2026-10-08",
+    "historicalStatus": "Source-only selection at that date; superseded for packaged public release by publicPackReleaseAuthorization dated 2026-10-08.",
     "userRequest": "공통 캐릭터 쪽으로 교복이랑 수영복 팩 옮기는데 이름 통일해줘 루벨리아(수영복)이런식",
     "selectedOption": "공개 저장소 소스로 포함",
     "approved": true,
@@ -71,5 +72,19 @@
     "push": false,
     "release": false,
     "newModelLicense": false
+  },
+  "publicPackReleaseAuthorization": {
+    "date": "2026-10-08",
+    "owner": "hanbong5938",
+    "userRequest": "포함하도록변경해줘 다운로드 카탈로그에 전부 포함되게 다운로드 가능한 릴리스로",
+    "sourceClarification": "아니 https://github.com/hanbong5938/shared-world-canon 이거 기반으로 한건데?",
+    "releaseQuestion": "그럼 릴리즈 해도되는거 아님?",
+    "finalAuthorization": "ㅇㅇ해줘",
+    "release": "packs-v0.0.3",
+    "scope": "Owner approves public download-catalog listing and installable .herdrchar archive release of the existing rubelia-school-uniform artwork, rig and motion in herdr-characters. The earlier source-only selection remains historical; this approval does not replace the builtin default.",
+    "independentlyVerified": false,
+    "newModelLicenseGranted": false,
+    "downstreamCommercialLicenseGranted": false,
+    "builtinDefaultReplacementAuthorized": false
   }
 }

@@ -11,7 +11,7 @@
   },
   "licenses": [
     {
-      "expression": "Rubelia source artwork terms; no new school-uniform redistribution approval",
+      "expression": "Rubelia School Uniform artwork: owner-approved public downloadable/installable pack distribution; no new downstream commercial license; see LICENSE.txt",
       "path": "LICENSE.txt"
     },
     {
@@ -52,7 +52,7 @@
   },
   "source": {
     "method": "image-generated",
-    "description": "Private non-commercial Rubelia school-uniform evaluation pack. User-selected academy-v1 authority as waiting plus nine independently generated complete poses; each owns matte, See-through layers, registered expressions, PSD, rig and motion. No new redistribution or commercial approval is granted; see NOTICE.txt and source-record.json.",
+    "description": "Rubelia school-uniform pack, originally authored for private evaluation and approved by the owner for public packaged release on 2026-10-08. User-selected academy-v1 authority as waiting plus nine independently generated complete poses; each owns matte, See-through layers, registered expressions, PSD, rig and motion. Original artwork, owner and model records are preserved; no new downstream commercial license is granted. See NOTICE.txt and source-record.json.",
     "urls": [
       "source-record.json"
     ],
@@ -62,20 +62,20 @@
   "payloads": [
     {
       "path": "ATTRIBUTION.txt",
-      "size": 3375,
-      "sha256": "12412c67589c3f4a10a4256aad0977a33aaad9ae2cb1c45283d232da8fc77fe2",
+      "size": 3559,
+      "sha256": "59967400e75d5874043e025731df62fd18d3b14f4f43f12d09b875bc54a0f1ae",
       "kind": "attribution"
     },
     {
       "path": "LICENSE.txt",
-      "size": 1774,
-      "sha256": "c5c524481fffaa79078caabca9760fb97d8bbc48543e38fa9b94376674279f0c",
+      "size": 2246,
+      "sha256": "e6c907578deb7705dcc4231c6d3129153c1b651f6443fd8397a5dd4a24148f83",
       "kind": "license"
     },
     {
       "path": "NOTICE.txt",
-      "size": 4376,
-      "sha256": "74209dffa1821ae43443d3cb646e924788a9fc4a55b198be2b837b07831a1795",
+      "size": 4717,
+      "sha256": "5d0cec10ac3aa8192e82f6c97b4f3670215f5de43f6eab0830ba56a48a919797",
       "kind": "attribution"
     },
     {
@@ -218,8 +218,8 @@
     },
     {
       "path": "owner-approval.json",
-      "size": 4837,
-      "sha256": "f56577fd623596b01366bea4080b8f276e4e4416ebf580b2488cf81ae6cdeda0",
+      "size": 5948,
+      "sha256": "a24d4fccbbcd08f7b44ca6713c18baca33e3ed91c22a9114e4dc03840e1435b8",
       "kind": "source"
     },
     {
@@ -230,8 +230,8 @@
     },
     {
       "path": "source-record.json",
-      "size": 949616,
-      "sha256": "89b8be426612e3c1dc1dc94d1d805494a464feda5885de45b3dbcf6fdc263473",
+      "size": 949881,
+      "sha256": "fa1f45e4bef6f4327f12fda3b1543fb8b0c146ee3814f5544ec21e5a9f73e455",
       "kind": "source"
     },
     {

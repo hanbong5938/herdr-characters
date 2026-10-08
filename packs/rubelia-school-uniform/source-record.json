@@ -301,7 +301,7 @@
       "treatment": "verbatim"
     }
   },
-  "licenseBoundary": "License and owner records are carried from reference pack \"rubelia-at12-multi-pose\" for the same character; they grant only what their own text states. This run records no new owner approval, model license or publication.",
+  "licenseBoundary": "At creation this run had no new owner approval, model license or publication; its private/source-only request text and carried reference-pack notices are historical. The owner separately approved public catalog listing and installable .herdrchar release of the existing rubelia-school-uniform output in packs-v0.0.3 on 2026-10-08; see owner-approval.json. This is not independently verified legal clearance, a new model license, downstream commercial-use licensing or builtin replacement.",
   "noPostExportAlphaCrop": true,
   "poses": {
     "waiting": {

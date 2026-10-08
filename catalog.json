@@ -2,11 +2,58 @@
   "schemaVersion": 1,
   "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
   "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
-  "releaseTag": "packs-v0.0.2",
+  "releaseTag": "packs-v0.0.3",
   "characters": [
     {
-      "id": "coding-cat",
+      "id": "arin-research",
+      "name": "Arin",
+      "description": {
+        "en": "Owner-approved downloadable Arin rig pack with ten independent poses and source-bound motion. Requires Herdr Desktop Pet v0.2.1 or later. Artwork use terms and model provenance are preserved; no downstream commercial-use clearance is granted.",
+        "ko": "소유자가 공개 배포를 승인한 아린 리깅 팩입니다. 독립 포즈 10개와 원본 기반 모션을 포함하며 Herdr Desktop Pet v0.2.1 이상이 필요합니다. 작품 이용 조건·모델 출처를 보존하며 별도 상업 이용 허가는 부여하지 않습니다."
+      },
+      "author": "Arin private research authoring",
+      "tags": [
+        "arin",
+        "아린",
+        "research",
+        "연구"
+      ],
       "type": "pack",
+      "variants": [
+        {
+          "id": "arin-research",
+          "name": {
+            "en": "Original",
+            "ko": "오리지널"
+          },
+          "version": "0.0.3",
+          "formatVersion": 5,
+          "renderMode": "rig",
+          "publishedAt": "2026-10-08",
+          "download": {
+            "path": "downloads/arin-research-v0.0.3.herdrchar",
+            "bytes": 31006330,
+            "sha256": "44aec8f3103a4cd16a071f25c874d01d4b55741ccea1d402262d691c8cb6cd85"
+          },
+          "preview": {
+            "idle": "previews/arin-research-idle.png",
+            "running": [
+              "previews/arin-research-running-0.png",
+              "previews/arin-research-running-1.png",
+              "previews/arin-research-running-2.png",
+              "previews/arin-research-running-3.png"
+            ]
+          },
+          "license": {
+            "label": "Owner-approved distribution; separate artwork terms",
+            "path": "packs/arin-research/LICENSE.txt"
+          },
+          "sourceTerms": "packs/arin-research/NOTICE.txt"
+        }
+      ]
+    },
+    {
+      "id": "coding-cat",
       "name": "Coding Cat",
       "description": {
         "en": "Original MIT-licensed procedural Coding Cat: transparent 384×512 PNG frames with four phase clips and four reaction clips for Herdr Desktop Pet.",
@@ -18,6 +65,7 @@
         "cat",
         "procedural"
       ],
+      "type": "pack",
       "variants": [
         {
           "id": "coding-cat",
@@ -25,12 +73,12 @@
             "en": "Original",
             "ko": "오리지널"
           },
-          "version": "0.0.2",
+          "version": "0.0.3",
           "formatVersion": 4,
           "renderMode": "png",
-          "publishedAt": "2026-10-06",
+          "publishedAt": "2026-10-08",
           "download": {
-            "path": "downloads/coding-cat-v0.0.2.herdrchar",
+            "path": "downloads/coding-cat-v0.0.3.herdrchar",
             "bytes": 173269,
             "sha256": "be1653e7de46ac111f55701216e6d8a633a345239ac5be026af2f5ac9a3c55be"
           },
@@ -52,86 +100,103 @@
       ]
     },
     {
-      "id": "arin-research",
-      "type": "research",
-      "name": "Arin",
-      "description": {
-        "en": "Public Arin research sources and profile image for viewing; no official downloadable or installable pack release is available.",
-        "ko": "아린 공개 연구 소스와 프로필 이미지를 소개합니다. 공식 다운로드 또는 설치 가능한 팩 릴리스는 없습니다."
-      },
-      "author": "Arin private research authoring",
-      "tags": [
-        "arin",
-        "아린",
-        "research",
-        "연구"
-      ],
-      "publishedAt": "2026-10-08",
-      "profile": "previews/arin-research-profile.png",
-      "sourceUrl": "https://github.com/hanbong5938/herdr-characters/tree/main/packs/arin-research",
-      "license": {
-        "label": "Research-use terms",
-        "path": "packs/arin-research/LICENSE.txt"
-      },
-      "sourceTerms": "packs/arin-research/NOTICE.txt"
-    },
-    {
       "id": "rubelia-school-uniform",
-      "type": "research",
       "name": "루벨리아(교복)",
       "description": {
-        "en": "Source files and artwork preview for 루벨리아(교복); no downloadable gallery pack is offered here.",
-        "ko": "루벨리아(교복) 소스 파일과 아트워크 미리보기입니다. 이 갤러리에서 다운로드 가능한 팩은 제공하지 않습니다."
+        "en": "Rubelia (School Uniform): owner-approved downloadable rig pack with ten independent poses and source-bound motion. Source, owner and model notices are included; no new downstream commercial license is granted.",
+        "ko": "소유자가 공개 배포를 승인한 루벨리아(교복) 리깅 팩입니다. 독립 포즈 10개와 원본 기반 모션을 포함하며, 원본·소유자·모델 고지를 보존합니다. 새 상업 이용 라이선스는 부여하지 않습니다."
       },
       "author": "hanbong5938; Herdr contributors",
       "tags": [
-        "rubelia-school-uniform",
         "rubelia",
+        "루벨리아",
         "school",
         "uniform",
-        "루벨리아(교복)",
-        "source",
-        "research",
-        "소스",
-        "연구"
+        "교복",
+        "rig"
       ],
-      "publishedAt": "2026-10-08",
-      "profile": "previews/rubelia-school-uniform-source.png",
-      "sourceUrl": "https://github.com/hanbong5938/herdr-characters/tree/main/packs/rubelia-school-uniform",
-      "license": {
-        "label": "Rubelia source artwork terms; no new school-uniform redistribution approval",
-        "path": "packs/rubelia-school-uniform/LICENSE.txt"
-      },
-      "sourceTerms": "packs/rubelia-school-uniform/NOTICE.txt"
+      "type": "pack",
+      "variants": [
+        {
+          "id": "rubelia-school-uniform",
+          "name": {
+            "en": "School Uniform",
+            "ko": "교복"
+          },
+          "version": "0.0.3",
+          "formatVersion": 5,
+          "renderMode": "rig",
+          "publishedAt": "2026-10-08",
+          "download": {
+            "path": "downloads/rubelia-school-uniform-v0.0.3.herdrchar",
+            "bytes": 27434909,
+            "sha256": "bc847c7cafde25bf912afd989fe321bde3f51bb98ad8da43cab74f27649dd12b"
+          },
+          "preview": {
+            "idle": "previews/rubelia-school-uniform-idle.png",
+            "running": [
+              "previews/rubelia-school-uniform-running-0.png",
+              "previews/rubelia-school-uniform-running-1.png",
+              "previews/rubelia-school-uniform-running-2.png",
+              "previews/rubelia-school-uniform-running-3.png"
+            ]
+          },
+          "license": {
+            "label": "Owner-approved distribution; separate artwork terms",
+            "path": "packs/rubelia-school-uniform/LICENSE.txt"
+          },
+          "sourceTerms": "packs/rubelia-school-uniform/NOTICE.txt"
+        }
+      ]
     },
     {
       "id": "rubelia-white-bikini",
-      "type": "research",
       "name": "루벨리아(수영복)",
       "description": {
-        "en": "Source files and artwork preview for 루벨리아(수영복); no downloadable gallery pack is offered here.",
-        "ko": "루벨리아(수영복) 소스 파일과 아트워크 미리보기입니다. 이 갤러리에서 다운로드 가능한 팩은 제공하지 않습니다."
+        "en": "Rubelia (Swimsuit): owner-approved downloadable rig pack with ten independent poses and source-bound motion. Source, owner and model notices are included; no new downstream commercial license is granted.",
+        "ko": "소유자가 공개 배포를 승인한 루벨리아(수영복) 리깅 팩입니다. 독립 포즈 10개와 원본 기반 모션을 포함하며, 원본·소유자·모델 고지를 보존합니다. 새 상업 이용 라이선스는 부여하지 않습니다."
       },
       "author": "hanbong5938; Herdr contributors",
       "tags": [
-        "rubelia-white-bikini",
         "rubelia",
-        "white",
-        "bikini",
-        "루벨리아(수영복)",
-        "source",
-        "research",
-        "소스",
-        "연구"
+        "루벨리아",
+        "swimsuit",
+        "수영복",
+        "rig"
       ],
-      "publishedAt": "2026-10-08",
-      "profile": "previews/rubelia-white-bikini-source.png",
-      "sourceUrl": "https://github.com/hanbong5938/herdr-characters/tree/main/packs/rubelia-white-bikini",
-      "license": {
-        "label": "Rubelia artwork: owner-authorized Herdr Desktop Pet distribution",
-        "path": "packs/rubelia-white-bikini/LICENSE.txt"
-      },
-      "sourceTerms": "packs/rubelia-white-bikini/NOTICE.txt"
+      "type": "pack",
+      "variants": [
+        {
+          "id": "rubelia-white-bikini",
+          "name": {
+            "en": "Swimsuit",
+            "ko": "수영복"
+          },
+          "version": "0.0.3",
+          "formatVersion": 5,
+          "renderMode": "rig",
+          "publishedAt": "2026-10-08",
+          "download": {
+            "path": "downloads/rubelia-white-bikini-v0.0.3.herdrchar",
+            "bytes": 27658569,
+            "sha256": "637a4ed7a94cfd51a166280cc569649c00cd0a0799c575c5c4cf48506611b6f3"
+          },
+          "preview": {
+            "idle": "previews/rubelia-white-bikini-idle.png",
+            "running": [
+              "previews/rubelia-white-bikini-running-0.png",
+              "previews/rubelia-white-bikini-running-1.png",
+              "previews/rubelia-white-bikini-running-2.png",
+              "previews/rubelia-white-bikini-running-3.png"
+            ]
+          },
+          "license": {
+            "label": "Owner-approved distribution; separate artwork terms",
+            "path": "packs/rubelia-white-bikini/LICENSE.txt"
+          },
+          "sourceTerms": "packs/rubelia-white-bikini/NOTICE.txt"
+        }
+      ]
     }
   ]
 }
