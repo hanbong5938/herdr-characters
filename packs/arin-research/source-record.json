@@ -4,6 +4,29 @@
     "id": "arin-research",
     "label": "아린"
   },
+  "profileImage": {
+    "repositoryPath": "previews/arin-research-profile.png",
+    "sha256": "834271903d3d51fe893ee45a0ae7543141c6bb7331a99eb75ebb44dcbf0fd97a",
+    "width": 512,
+    "height": 512,
+    "format": "PNG",
+    "alpha": "Native source transparency retained; no background painted.",
+    "method": "Face-centered square crop of actual own waiting native render, then LANCZOS resize; no new inference, retouching, face donor or rig/motion change.",
+    "nativeCapture": {
+      "path": "arin-profile-image-native-r1/waiting-actual-native-profile-source.png",
+      "sha256": "57e0e49dd1e3351bb6b271ce1dfe6f691db84591e9921b8681cca231a8b71ea7",
+      "sourcePackManifestSha256": "7f6ecfde46d519325a10bc5b5338507313a1b0d7c63b9ad1bc31ca0352c89794",
+      "pose": "waiting",
+      "phase": "idle",
+      "timeMs": 0,
+      "sourceWidth": 1024,
+      "sourceHeight": 1024
+    },
+    "cropSourcePixels": [300, 0, 720, 420],
+    "rigAndMotionChanged": false,
+    "rights": "Same unchanged source artwork and model terms as LICENSE.txt and QWEN_RESEARCH_LICENSE.txt; no new publication or commercial rights.",
+    "displaySupport": "Repository profile image associated with this pack. Stored outside the flat v5 rig pack because native v5 rejects PNG payloads and has no dedicated profile-image selector; this asset does not add automatic app-menu display support."
+  },
   "run": {
     "root": ".",
     "runJson": {

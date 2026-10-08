@@ -57,8 +57,8 @@
     },
     {
       "path": "NOTICE.txt",
-      "size": 1430,
-      "sha256": "9a76244442b1ee10c5f395182cf1b294de63f46b821f232f4c7865b45f45264d",
+      "size": 1976,
+      "sha256": "90d5a7c1c272db3f94357fbae78445d2ac02249be854997778771958a44ac7f2",
       "kind": "attribution"
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "source-record.json",
-      "size": 1216882,
-      "sha256": "beade9b7071c4427f7e7c8fb7a7e264cab360d70eb97dd290d3bc723556a5021",
+      "size": 1218255,
+      "sha256": "dc49bf983febda4d1288d87d33b346b82a3fb70d9282946abf2acaff9a115cb6",
       "kind": "source"
     },
     {
