@@ -17,7 +17,7 @@ def main():
     if repository_url.scheme != "https" or repository_url.netloc != "github.com":
         raise RuntimeError("repositoryUrl must name the GitHub repository that owns the pack release")
     repository = repository_url.path.strip("/")
-    variants = [variant for character in catalog["characters"] for variant in character["variants"]]
+    variants = [variant for character in catalog["characters"] if character["type"] == "pack" for variant in character["variants"]]
     release_url = f"https://github.com/{repository}/releases/download/{quote(catalog['releaseTag'], safe='')}"
     with tempfile.TemporaryDirectory(prefix="herdr-downloads-") as temporary:
         stage = Path(temporary)
