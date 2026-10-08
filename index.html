@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Explore Coding Cat, a downloadable MIT-licensed PNG pack, and Arin's public research profile and source. No official Arin installable pack has been released.">
-  <title>Coding Cat &amp; Arin research · Herdr characters</title>
+  <meta name="description" content="Explore downloadable character packs and public character profiles and source in the Herdr character collection.">
+  <title>Herdr characters · Character collection</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
 </head>
@@ -27,39 +27,14 @@
       <div class="hero-content">
         <p class="eyebrow" data-i18n="eyebrow">THE PUBLIC CHARACTER LIBRARY</p>
         <h1 id="hero-title" data-i18n="heroTitle">A little company<br>for your desktop<span class="accent">.</span></h1>
-        <p class="hero-copy" data-i18n="heroCopy">Explore Coding Cat, a downloadable MIT-licensed PNG pack, and Arin, a public research profile and source with no official installable pack release.</p>
+        <p class="hero-copy" data-i18n="heroCopy">Explore the character collection: download gallery packs where available, or discover public profiles and source.</p>
         <div class="hero-links">
           <a class="button button-primary" id="submit-link" href="#" target="_blank" rel="noopener noreferrer" hidden><span data-i18n="submit">Submit on GitHub</span><span aria-hidden="true">↗</span></a>
           <a class="text-link" id="repository-link" href="#" target="_blank" rel="noopener noreferrer" hidden><span data-i18n="browseSource">Browse repository</span><span aria-hidden="true">↗</span></a>
         </div>
       </div>
       <div class="hero-art" aria-hidden="true">
-        <div class="hero-collage">
-          <div class="hero-card hero-card-pack">
-            <div class="hero-card-preview">
-              <img class="hero-card-img" src="./previews/coding-cat-idle.png" alt="" width="384" height="512">
-            </div>
-            <div class="hero-card-meta">
-              <div class="hero-card-head">
-                <span class="hero-card-name">Coding Cat</span>
-                <span class="hero-pill hero-pill-pack">PNG</span>
-              </div>
-              <p class="hero-card-desc">MIT</p>
-            </div>
-          </div>
-          <div class="hero-card hero-card-research">
-            <div class="hero-card-preview">
-              <img class="hero-card-img" src="./previews/arin-research-profile.png" alt="" width="480" height="480">
-            </div>
-            <div class="hero-card-meta">
-              <div class="hero-card-head">
-                <span class="hero-card-name">Arin</span>
-                <span class="hero-pill hero-pill-research" data-i18n="research">Research</span>
-              </div>
-              <p class="hero-card-desc hero-card-notice" data-i18n="researchPreview">Profile preview · No official pack release</p>
-            </div>
-          </div>
-        </div>
+        <div class="hero-collage" id="hero-collage"></div>
       </div>
     </section>
 
@@ -75,7 +50,7 @@
     </section>
   </main>
 
-  <footer class="site-footer"><span class="footer-brand">herdr<span class="brand-dot">.</span>characters</span><span data-i18n="footer">Coding Cat PNG pack and Arin research profile and source; no official Arin pack release.</span></footer>
+  <footer class="site-footer"><span class="footer-brand">herdr<span class="brand-dot">.</span>characters</span><span data-i18n="footer">A collection of downloadable character packs and public character profiles and source.</span></footer>
 
   <dialog id="details" class="details-dialog" aria-labelledby="detail-title"><div class="dialog-inner"><button type="button" id="close-details" class="dialog-close" aria-label="Close details">×</button><div id="detail-body"></div></div></dialog>
 </body>

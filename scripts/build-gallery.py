@@ -5,21 +5,27 @@ import json
 from pathlib import Path
 import shutil
 import tempfile
+from catalog_inventory import synchronize_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    catalog = json.loads((ROOT / "catalog.json").read_text())
+    source_catalog = json.loads((ROOT / "catalog.json").read_text())
     output = ROOT / "dist/gallery"
     output.parent.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="gallery-", dir=output.parent) as temporary:
         stage = Path(temporary)
-        for name in ("index.html", "app.js", "styles.css", "catalog.json"):
+        (stage / "previews").mkdir()
+        catalog = synchronize_catalog(ROOT, source_catalog, stage / "previews")
+        for name in ("index.html", "app.js", "styles.css"):
             shutil.copyfile(ROOT / name, stage / name)
+        (stage / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
         for character in catalog["characters"]:
             if character["type"] == "research":
-                paths = [character["profile"], character["license"]["path"], character["sourceTerms"]]
+                paths = [character["profile"], character["license"]["path"]]
+                if character.get("sourceTerms"):
+                    paths.append(character["sourceTerms"])
             elif character["type"] == "pack":
                 paths = []
                 for variant in character["variants"]:
@@ -35,9 +41,11 @@ def main():
             else:
                 raise ValueError(f"Unsupported character type: {character['type']}")
             for relative in paths:
+                destination = stage / relative
+                if destination.is_file():
+                    continue
                 source = (ROOT / relative).resolve(strict=True)
                 source.relative_to(ROOT)
-                destination = stage / relative
                 destination.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(source, destination)
         if output.exists():

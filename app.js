@@ -3,17 +3,18 @@
 
   const strings = {
     en: {
-      eyebrow: 'THE CHARACTER LIBRARY', heroTitle: 'A little company<br>for your desktop<span class="accent">.</span>', heroCopy: 'Explore Coding Cat, a downloadable MIT-licensed PNG pack, and Arin, a public research profile and source with no official installable pack release.', submit: 'Submit on GitHub', browseSource: 'Browse repository', collectionLabel: 'EXPLORE THE COLLECTION', collectionTitle: 'Meet the characters', collectionNote: 'Made to live alongside your work.', searchLabel: 'Search characters', searchPlaceholder: 'Search names, tags, descriptions…', sortLabel: 'Sort characters', all: 'All', recent: 'Newest first', alphabetic: 'A to Z', loading: 'Loading characters…', footer: 'Coding Cat PNG pack and Arin research profile and source; no official Arin pack release.', themeLight: 'Switch to light theme', themeDark: 'Switch to dark theme', rendererFilter: 'Character type filter', collectionAria: 'Character collection', variant: 'Look', creator: 'By', details: 'View details', download: 'Download pack', packDetails: 'Pack details', version: 'Version', renderer: 'Renderer', fileSize: 'Archive size', checksum: 'SHA-256', copy: 'Copy SHA-256', copied: 'Copied!', copyFailed: 'Select the checksum to copy it.', license: 'License', sourceTerms: 'Source terms', importTitle: 'Bring them home', importSteps: ['Download the .herdrchar archive (do not unzip it).', 'In Herdr Desktop Pet, open the menu bar settings → Character → Add Character… and choose the downloaded archive.', 'Select the imported character in the Character tab. Importing alone does not activate it.'], noResults: 'No characters match your search. Try another name or filter.', loadError: 'Could not load the collection. Check your connection or refresh this page.', retry: 'Try again', showing: (n) => `${n} ${n === 1 ? 'character' : 'characters'}`, close: 'Close details', imageAlt: (name, look) => `${name} — ${look} preview`, source: 'Source repository', format: (type) => type === 'rig' ? 'Rig' : 'PNG',
-      research: 'Research', researchDetails: 'Research profile', researchPreview: 'Profile preview · No official pack release', researchSource: 'Research source', researchImageAlt: (name) => `${name} — research profile preview`
+      eyebrow: 'THE CHARACTER LIBRARY', heroTitle: 'A little company<br>for your desktop<span class="accent">.</span>', heroCopy: 'Explore the character collection: download gallery packs where available, or discover public profiles and source.', submit: 'Submit on GitHub', browseSource: 'Browse repository', collectionLabel: 'EXPLORE THE COLLECTION', collectionTitle: 'Meet the characters', collectionNote: 'Made to live alongside your work.', searchLabel: 'Search characters', searchPlaceholder: 'Search names, tags, descriptions…', sortLabel: 'Sort characters', all: 'All', recent: 'Newest first', alphabetic: 'A to Z', loading: 'Loading characters…', footer: 'A collection of downloadable character packs and public character profiles and source.', themeLight: 'Switch to light theme', themeDark: 'Switch to dark theme', rendererFilter: 'Character type filter', collectionAria: 'Character collection', variant: 'Look', creator: 'By', details: 'View details', download: 'Download pack', packDetails: 'Pack details', version: 'Version', renderer: 'Renderer', fileSize: 'Archive size', checksum: 'SHA-256', copy: 'Copy SHA-256', copied: 'Copied!', copyFailed: 'Select the checksum to copy it.', license: 'License', sourceTerms: 'Source terms', importTitle: 'Bring them home', importSteps: ['Download the .herdrchar archive (do not unzip it).', 'In Herdr Desktop Pet, open the menu bar settings → Character → Add Character… and choose the downloaded archive.', 'Select the imported character in the Character tab. Importing alone does not activate it.'], noResults: 'No characters match your search. Try another name or filter.', loadError: 'Could not load the collection. Check your connection or refresh this page.', retry: 'Try again', showing: (n) => `${n} ${n === 1 ? 'character' : 'characters'}`, close: 'Close details', imageAlt: (name, look) => `${name} — ${look} preview`, source: 'Source repository', format: (type) => type === 'rig' ? 'Rig' : 'PNG',
+      research: 'Research', researchDetails: 'Source profile', researchPreview: 'Profile preview · No gallery pack download', researchSource: 'Character source', researchImageAlt: (name) => `${name} — source profile preview`
     },
     ko: {
-      eyebrow: '캐릭터 라이브러리', heroTitle: '책상 위의 작은 동료<span class="accent">.</span>', heroCopy: '다운로드 가능한 MIT 라이선스 PNG 팩 Coding Cat과 공개 연구 프로필·소스인 아린을 둘러보세요. 아린의 공식 설치형 팩은 출시되지 않았습니다.', submit: 'GitHub에서 제출하기', browseSource: '저장소 둘러보기', collectionLabel: '컬렉션 둘러보기', collectionTitle: '캐릭터 만나기', collectionNote: '작업하는 동안 곁을 지키는 친구들.', searchLabel: '캐릭터 검색', searchPlaceholder: '이름, 태그, 설명 검색…', sortLabel: '캐릭터 정렬', all: '전체', recent: '최신순', alphabetic: '이름순', loading: '캐릭터를 불러오는 중…', footer: 'Coding Cat PNG 팩과 아린 연구 프로필·소스 공개. 아린 공식 팩은 없습니다.', themeLight: '밝은 테마로 전환', themeDark: '어두운 테마로 전환', rendererFilter: '캐릭터 유형 필터', collectionAria: '캐릭터 컬렉션', variant: '의상', creator: '제작', details: '상세 보기', download: '팩 다운로드', packDetails: '팩 정보', version: '버전', renderer: '렌더러', fileSize: '압축 파일 크기', checksum: 'SHA-256', copy: 'SHA-256 복사', copied: '복사됨!', copyFailed: '체크섬을 선택해 복사해 주세요.', license: '라이선스', sourceTerms: '원본 이용 조건', importTitle: '캐릭터 가져오기', importSteps: ['.herdrchar 압축 파일을 다운로드하세요 (압축 해제하지 마세요).', 'Herdr Desktop Pet 메뉴 막대 설정 → 캐릭터 → 캐릭터 추가…에서 다운로드한 파일을 선택하세요.', '캐릭터 탭에서 가져온 캐릭터를 선택하세요. 가져오기만으로는 활성화되지 않습니다.'], noResults: '검색 결과가 없습니다. 검색어나 필터를 바꿔 보세요.', loadError: '컬렉션을 불러올 수 없습니다. 연결 상태를 확인하거나 새로고침해 주세요.', retry: '다시 시도', showing: (n) => `캐릭터 ${n}개`, close: '상세 정보 닫기', imageAlt: (name, look) => `${name} — ${look} 미리보기`, source: '소스 저장소', format: (type) => type === 'rig' ? '리그' : 'PNG',
-      research: '연구', researchDetails: '연구 프로필', researchPreview: '프로필 미리보기 · 공식 팩 출시 없음', researchSource: '연구 소스', researchImageAlt: (name) => `${name} — 연구 프로필 미리보기`
+      eyebrow: '캐릭터 라이브러리', heroTitle: '책상 위의 작은 동료<span class="accent">.</span>', heroCopy: '캐릭터 컬렉션을 둘러보세요. 제공되는 갤러리 팩은 다운로드하고, 공개 프로필과 소스도 만나볼 수 있습니다.', submit: 'GitHub에서 제출하기', browseSource: '저장소 둘러보기', collectionLabel: '컬렉션 둘러보기', collectionTitle: '캐릭터 만나기', collectionNote: '작업하는 동안 곁을 지키는 친구들.', searchLabel: '캐릭터 검색', searchPlaceholder: '이름, 태그, 설명 검색…', sortLabel: '캐릭터 정렬', all: '전체', recent: '최신순', alphabetic: '이름순', loading: '캐릭터를 불러오는 중…', footer: '다운로드 가능한 캐릭터 팩과 공개 캐릭터 프로필·소스를 모았습니다.', themeLight: '밝은 테마로 전환', themeDark: '어두운 테마로 전환', rendererFilter: '캐릭터 유형 필터', collectionAria: '캐릭터 컬렉션', variant: '의상', creator: '제작', details: '상세 보기', download: '팩 다운로드', packDetails: '팩 정보', version: '버전', renderer: '렌더러', fileSize: '압축 파일 크기', checksum: 'SHA-256', copy: 'SHA-256 복사', copied: '복사됨!', copyFailed: '체크섬을 선택해 복사해 주세요.', license: '라이선스', sourceTerms: '원본 이용 조건', importTitle: '캐릭터 가져오기', importSteps: ['.herdrchar 압축 파일을 다운로드하세요 (압축 해제하지 마세요).', 'Herdr Desktop Pet 메뉴 막대 설정 → 캐릭터 → 캐릭터 추가…에서 다운로드한 파일을 선택하세요.', '캐릭터 탭에서 가져온 캐릭터를 선택하세요. 가져오기만으로는 활성화되지 않습니다.'], noResults: '검색 결과가 없습니다. 검색어나 필터를 바꿔 보세요.', loadError: '컬렉션을 불러올 수 없습니다. 연결 상태를 확인하거나 새로고침해 주세요.', retry: '다시 시도', showing: (n) => `캐릭터 ${n}개`, close: '상세 정보 닫기', imageAlt: (name, look) => `${name} — ${look} 미리보기`, source: '소스 저장소', format: (type) => type === 'rig' ? '리그' : 'PNG',
+      research: '연구', researchDetails: '소스 프로필', researchPreview: '프로필 미리보기 · 갤러리 팩 다운로드 없음', researchSource: '캐릭터 소스', researchImageAlt: (name) => `${name} — 소스 프로필 미리보기`
     }
   };
 
   const $ = (selector) => document.querySelector(selector);
   const cards = $('#cards');
+  const heroCollage = $('#hero-collage');
   const status = $('#status');
   const dialog = $('#details');
   const search = $('#search');
@@ -160,6 +161,29 @@
     article.append(content);
     return article;
   }
+  function renderHero() {
+    if (!state.catalog) { heroCollage.replaceChildren(); return; }
+    const items = state.catalog.characters.map((character) => {
+      const variant = character.type === 'pack' ? character.variants[0] : null;
+      const item = node('div', 'hero-card');
+      const preview = node('div', 'hero-card-preview');
+      const image = node('img', 'hero-card-img');
+      image.alt = '';
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.src = safeURL(variant ? variant.preview?.idle : character.profile) || '';
+      preview.append(image);
+      const meta = node('div', 'hero-card-meta');
+      const heading = node('div', 'hero-card-head');
+      heading.append(node('span', 'hero-card-name', character.name),
+        node('span', `hero-pill hero-pill-${variant ? 'pack' : 'research'}`, variant ? t('format')(variant.renderMode) : t('research')));
+      meta.append(heading, node('p', `hero-card-desc${variant ? '' : ' hero-card-notice'}`,
+        variant ? variant.license?.label || localized(variant.name) : t('researchPreview')));
+      item.append(preview, meta);
+      return item;
+    });
+    heroCollage.replaceChildren(...items);
+  }
   function updateStatus() {
     status.hidden = state.loadStatus === 'success' && state.resultCount > 0;
     if (state.loadStatus === 'loading') {
@@ -283,7 +307,7 @@
     $('#close-details').setAttribute('aria-label', t('close'));
     for (const button of document.querySelectorAll('[data-lang]')) button.setAttribute('aria-pressed', String(button.dataset.lang === state.lang));
     updateTheme();
-    if (state.loadStatus === 'success') renderCards();
+    if (state.loadStatus === 'success') { renderHero(); renderCards(); }
     else updateStatus();
     if (dialog.open && state.activeDetail) showDetails(state.activeDetail.character, state.activeDetail.variant, state.opener);
   }
@@ -297,6 +321,7 @@
   async function load() {
     state.loadStatus = 'loading';
     state.catalog = null;
+    renderHero();
     for (const id of ['submit-link', 'repository-link']) document.getElementById(id).hidden = true;
     updateStatus();
     try {
@@ -307,6 +332,7 @@
       state.catalog = catalog;
       state.loadStatus = 'success';
       renderCards();
+      renderHero();
       for (const [id, key] of [['submit-link', 'submissionUrl'], ['repository-link', 'repositoryUrl']]) {
         const url = safeURL(catalog[key]);
         if (url) { const anchor = document.getElementById(id); anchor.href = url; anchor.hidden = false; }
@@ -316,6 +342,7 @@
       state.loadStatus = 'error';
       stopAnimations();
       cards.replaceChildren();
+      renderHero();
       for (const id of ['submit-link', 'repository-link']) document.getElementById(id).hidden = true;
       updateStatus();
     }
