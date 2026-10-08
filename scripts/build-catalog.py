@@ -36,7 +36,16 @@ def main():
         (stage / "downloads").mkdir()
         (stage / "previews").mkdir()
         for character in source["characters"]:
-            item = {key: character[key] for key in ("id", "name", "description", "author", "tags")}
+            item = {key: character[key] for key in ("id", "name", "description", "author", "tags", "type")}
+            if character["type"] == "research":
+                item.update({key: character[key] for key in ("publishedAt", "profile", "sourceUrl", "license", "sourceTerms")})
+                profile = (ROOT / item["profile"]).resolve(strict=True)
+                profile.relative_to(ROOT / "previews")
+                shutil.copy2(profile, stage / "previews" / profile.name)
+                catalog["characters"].append(item)
+                continue
+            if character["type"] != "pack":
+                raise ValueError(f"Unsupported character type: {character['type']}")
             item["variants"] = []
             for spec in character["variants"]:
                 pack = (ROOT / spec["path"]).resolve(strict=True)
@@ -74,7 +83,7 @@ def main():
                 })
                 print(f"Prepared {pack_id}: validated archive and five native previews")
             catalog["characters"].append(item)
-        checksums = "".join(f"{variant['download']['sha256']}  {Path(variant['download']['path']).name}\n" for item in catalog["characters"] for variant in item["variants"])
+        checksums = "".join(f"{variant['download']['sha256']}  {Path(variant['download']['path']).name}\n" for item in catalog["characters"] if item["type"] == "pack" for variant in item["variants"])
         (stage / "downloads/SHA256SUMS").write_text(checksums)
         # Standalone profile assets are maintained separately from native gallery previews.
         existing_previews = ROOT / "previews"
@@ -89,7 +98,7 @@ def main():
                 shutil.rmtree(destination)
             shutil.move(str(stage / directory), destination)
         (ROOT / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
-    print(f"Catalog ready: {len(catalog['characters'])} characters, {sum(len(item['variants']) for item in catalog['characters'])} packs")
+    print(f"Catalog ready: {len(catalog['characters'])} characters, {sum(len(item['variants']) for item in catalog['characters'] if item['type'] == 'pack')} packs")
 
 
 if __name__ == "__main__":

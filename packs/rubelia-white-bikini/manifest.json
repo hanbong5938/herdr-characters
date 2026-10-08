@@ -1,0 +1,292 @@
+{
+  "format": "herdr.character",
+  "version": 5,
+  "render_mode": "rig",
+  "id": "rubelia-white-bikini",
+  "name": "루벨리아(수영복)",
+  "width": 1024,
+  "height": 1024,
+  "author": {
+    "name": "hanbong5938; Herdr contributors"
+  },
+  "licenses": [
+    {
+      "expression": "Rubelia artwork: owner-authorized Herdr Desktop Pet distribution",
+      "path": "LICENSE.txt"
+    },
+    {
+      "expression": "Qwen RESEARCH LICENSE AGREEMENT",
+      "path": "QWEN_RESEARCH_LICENSE.txt"
+    }
+  ],
+  "attributions": [
+    "ATTRIBUTION.txt",
+    "NOTICE.txt"
+  ],
+  "entry": "rig-entry.json",
+  "runtime": {
+    "name": "herdr-native-rig",
+    "version": 2,
+    "capabilities": [
+      "mesh-deformation",
+      "eye-stencil",
+      "independent-models"
+    ]
+  },
+  "persona": "루벨리아는 차분하고 영리하며 따뜻한 성인 동료입니다. 조용히 상황을 살피고, 필요한 순간에는 다정하고 정확하게 함께합니다.",
+  "dialogue": {
+    "ko": {
+      "phases": {
+        "idle": "루벨리아가 차분히 다음 일을 살피고 있어요.",
+        "running": "루벨리아가 침착하게 작업을 이어가고 있어요.",
+        "waiting": "루벨리아가 따뜻한 미소로 잠시 기다리고 있어요.",
+        "unknown": "루벨리아가 영리하게 다음 단서를 생각하고 있어요."
+      },
+      "reactions": {
+        "head_tap": "루벨리아가 고개를 살짝 기울이며 반응해요.",
+        "body_tap": "루벨리아가 살짝 놀라며 당신을 바라봐요.",
+        "pet": "루벨리아가 안심한 듯 따뜻하게 미소 지어요.",
+        "completion_observed": "루벨리아가 함께 이룬 결과를 기쁘게 축하해요."
+      }
+    }
+  },
+  "source": {
+    "method": "image-generated",
+    "description": "Rubelia: identity-corrected run authority illustration as the waiting pose plus complete pose illustrations generated in this run from the authority and its head crop; per-pose matte, See-through decomposition, own expression sheet features, native rig and motion. source-record.json records the exact chain.",
+    "urls": [
+      "source-record.json"
+    ],
+    "provider": "private local ComfyUI Qwen-Image-2.1 BF16",
+    "model": "isnet-anime.onnx, qwen3vl_8b_bf16.safetensors, qwen_image_2.1_bf16.safetensors, qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "payloads": [
+    {
+      "path": "ATTRIBUTION.txt",
+      "size": 3380,
+      "sha256": "bb6a4db564048f46a65237f45ea6f42974128d958d0fea99f481f00822c72fce",
+      "kind": "attribution"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size": 1774,
+      "sha256": "c5c524481fffaa79078caabca9760fb97d8bbc48543e38fa9b94376674279f0c",
+      "kind": "license"
+    },
+    {
+      "path": "NOTICE.txt",
+      "size": 3780,
+      "sha256": "4eab3574579399a7b811e8dbc19e5092b44956a6daacadeef52b114feab95339",
+      "kind": "attribution"
+    },
+    {
+      "path": "QWEN_RESEARCH_LICENSE.txt",
+      "size": 7831,
+      "sha256": "8dc973f024ff95966bea25866efa443fd16776dcb1001e681e3d467ea572b28d",
+      "kind": "license"
+    },
+    {
+      "path": "background-repair.json",
+      "size": 1511380,
+      "sha256": "8ed6ca856296fb17d3be4b53b61d3f27e7b659519f2e621d2bda6e8b30c6d1cb",
+      "kind": "attribution"
+    },
+    {
+      "path": "bored-motion.json",
+      "size": 15365,
+      "sha256": "885f1de6a42274fe721f94e1a7155b50aa0c2afe20591a9350c6df862503c056",
+      "kind": "motion"
+    },
+    {
+      "path": "bored-overrides.json",
+      "size": 12321,
+      "sha256": "cf0dc07aa833febe0d91924cef89876db6770e010809baadd01dab98b7cb9f41",
+      "kind": "overrides"
+    },
+    {
+      "path": "bored.psd",
+      "size": 2441426,
+      "sha256": "a97054f4115ff32b8a6299ab7630245d62b2b9b149765237c552d1a70a60d69d",
+      "kind": "psd"
+    },
+    {
+      "path": "cancelled-motion.json",
+      "size": 18190,
+      "sha256": "2d2ce1b2dc2ced656f82eafe57b7cf7544e464973e4ab6e891fdaa1b47ebcb6c",
+      "kind": "motion"
+    },
+    {
+      "path": "cancelled-overrides.json",
+      "size": 12312,
+      "sha256": "895d8c10e84ff0e51f297764add3d195718deb23f0d5b5415c5f49c503901663",
+      "kind": "overrides"
+    },
+    {
+      "path": "cancelled.psd",
+      "size": 2589506,
+      "sha256": "9d38450e8138d74018c92ba7c42ff6a2ef3acccaa830c9b4b3cfcb6b8402697a",
+      "kind": "psd"
+    },
+    {
+      "path": "disconnected-motion.json",
+      "size": 27421,
+      "sha256": "f3cd9f692fbe22acf0c9dcfad62c795139c2866d8b16fb92c78de486ae04f30b",
+      "kind": "motion"
+    },
+    {
+      "path": "disconnected-overrides.json",
+      "size": 12314,
+      "sha256": "de146baca9bc0ed9e54fee10e0b85a78e39decfb9cf0ed3e240d361027f0066f",
+      "kind": "overrides"
+    },
+    {
+      "path": "disconnected.psd",
+      "size": 2496127,
+      "sha256": "63ffa8bfaab284a158c622488ca122789574b5d5ccf52a4104bf9cf36d210c7a",
+      "kind": "psd"
+    },
+    {
+      "path": "failed-motion.json",
+      "size": 13682,
+      "sha256": "0c5de6844549fc30d22efee1f576c03baefc39752295d92ed2b7416287399598",
+      "kind": "motion"
+    },
+    {
+      "path": "failed-overrides.json",
+      "size": 12325,
+      "sha256": "d2b10a2e9dc7fbb3c4cf69cbc2c2e3bb689b585842ae1392a7e0dbe4fd7814b8",
+      "kind": "overrides"
+    },
+    {
+      "path": "failed.psd",
+      "size": 2420157,
+      "sha256": "37b269795f1cbd66bef9f6e02e6988b725c79a06e2f0f885da9159f344e0b92a",
+      "kind": "psd"
+    },
+    {
+      "path": "happy-motion.json",
+      "size": 23702,
+      "sha256": "8a819ce5b3689ba210d592dd89736a37b9b7b3ab110bff089e190e2dfc97d1d0",
+      "kind": "motion"
+    },
+    {
+      "path": "happy-overrides.json",
+      "size": 12249,
+      "sha256": "b3fc5e0b4c7a6ef857c5c6bd5aa89b69728cae2a92da37ad9089af5ee074f6d8",
+      "kind": "overrides"
+    },
+    {
+      "path": "happy.psd",
+      "size": 2375385,
+      "sha256": "9be411364e02427bbea722f210aab8432c18f45a744cb7c2e76fb3e6fe7f03a7",
+      "kind": "psd"
+    },
+    {
+      "path": "head-pet-motion.json",
+      "size": 16005,
+      "sha256": "5382111879d2fd6372c9f219ca8e8ab152555317ec4c4c2ccb2e8f80ae0b1f5f",
+      "kind": "motion"
+    },
+    {
+      "path": "head-pet-overrides.json",
+      "size": 12366,
+      "sha256": "d2ef1a31e18d78fd6c8539981d88cdc25e97f53e0d81497ffa39e17a44df9784",
+      "kind": "overrides"
+    },
+    {
+      "path": "head-pet.psd",
+      "size": 2610086,
+      "sha256": "3449942ac142213572190a916663837aa14bb5e98df7ebfab9e8e00ffbf5f7ef",
+      "kind": "psd"
+    },
+    {
+      "path": "head-tap-motion.json",
+      "size": 16316,
+      "sha256": "565fe2add19b55db4bdfd9dd999f2bea2844bc0ce8d7bb046651cb13bf5ccbda",
+      "kind": "motion"
+    },
+    {
+      "path": "head-tap-overrides.json",
+      "size": 12469,
+      "sha256": "141aafed36a89f0f0a850685592ed4c19a4e40524cb466427911e1f4c4b540a4",
+      "kind": "overrides"
+    },
+    {
+      "path": "head-tap.psd",
+      "size": 2374838,
+      "sha256": "fd5e867cd36802d42e0c8e891487e0f3b7f5f455f48eaa4b73a93d42b237396b",
+      "kind": "psd"
+    },
+    {
+      "path": "owner-approval.json",
+      "size": 4882,
+      "sha256": "34370c838fe28aa2ce0d9e0b61b982a7671ce6e35feb8e771d852b8e10a904cc",
+      "kind": "source"
+    },
+    {
+      "path": "rig-entry.json",
+      "size": 1857,
+      "sha256": "765045b542fb63c45e8c30da95b8537d7313b0b8e78efa830e3e7d86879cce19",
+      "kind": "entry"
+    },
+    {
+      "path": "source-record.json",
+      "size": 1078127,
+      "sha256": "3a645015c554b7b0f427a7bb98b6ba9e68c1998eb961529227747e4782d93898",
+      "kind": "source"
+    },
+    {
+      "path": "torso-tap-motion.json",
+      "size": 18233,
+      "sha256": "5ce474595b962bec77023c64b9b26cd5d947637429a558cec8b7c9b933b03223",
+      "kind": "motion"
+    },
+    {
+      "path": "torso-tap-overrides.json",
+      "size": 12370,
+      "sha256": "e08853d3dad43c8d45524538918654deb82bc72d1a01c7a58f537eb31faa7d9b",
+      "kind": "overrides"
+    },
+    {
+      "path": "torso-tap.psd",
+      "size": 2251599,
+      "sha256": "ffddfbcc09b5ea0570e3efa82d003e3565fcb62890569699f40b7a99a0258700",
+      "kind": "psd"
+    },
+    {
+      "path": "waiting-motion.json",
+      "size": 21787,
+      "sha256": "fb079ad160737c60c7514b40a5bf84ae77323384676af85bddbbf8ded7c9b888",
+      "kind": "motion"
+    },
+    {
+      "path": "waiting-overrides.json",
+      "size": 12313,
+      "sha256": "539ca59c1fe200b13cc6475622fdeead38be9ff75616330467230f8d1bfa9acc",
+      "kind": "overrides"
+    },
+    {
+      "path": "waiting.psd",
+      "size": 2465637,
+      "sha256": "d18668019eff322b582d58cae66b66ab21eb2161a15dc0bdb4a25aed6d63bfff",
+      "kind": "psd"
+    },
+    {
+      "path": "writing-motion.json",
+      "size": 12946,
+      "sha256": "b225952fbf83705b3f538ebc32958dece2ada319ddc13c74807e6009e1e8caee",
+      "kind": "motion"
+    },
+    {
+      "path": "writing-overrides.json",
+      "size": 12347,
+      "sha256": "df2595fac451a798c8b4c1d86db79d298e87a48e6f48e506f1b234050f4574ab",
+      "kind": "overrides"
+    },
+    {
+      "path": "writing.psd",
+      "size": 2697434,
+      "sha256": "36228e557f5dca54bbc9ba873805b6db0784b5bc88ad9b51eee72d6d68e3871d",
+      "kind": "psd"
+    }
+  ]
+}
