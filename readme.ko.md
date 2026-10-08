@@ -31,7 +31,7 @@ npm run preview
 
 ## GitHub Pages에 게시하기
 
-저장소 **Settings → Pages → Build and deployment → Source: GitHub Actions**를 선택하세요. `github-pages` 환경에서 `main`의 배포를 허용하세요(필요한 환경 보호 규칙 포함). `main`에 푸시하거나 **Actions → Deploy gallery to GitHub Pages → Run workflow**에서 수동으로 실행하면 Pages 워크플로가 시작됩니다. 게시된 코딩 캣 아카이브를 가져와 검증하고 `dist/gallery`를 빌드하여 이 정적 디렉터리만 배포합니다. 아린 소스 그림을 팩으로 가져오거나 게시하지 않습니다. 예상 프로젝트 주소는 [https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)이지만, **Pages 설정과 배포 성공 전에는 활성 사이트로 확인된 주소가 아닙니다**. 배포 후 워크플로의 `page_url`에서 실제 주소를 확인하세요.
+공개 갤러리 주소는 **[https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)**입니다. GitHub Pages는 **Settings → Pages → Build and deployment → Source: GitHub Actions**와 `main`용 `github-pages` 환경을 사용합니다. `main`에 푸시하거나 **Actions → Deploy gallery to GitHub Pages → Run workflow**에서 수동으로 실행하면 게시된 코딩 캣 아카이브를 가져와 검증하고 `dist/gallery`를 빌드하여 이 정적 디렉터리만 배포합니다. 아린 소스 그림을 팩으로 가져오거나 게시하지 않습니다. 워크플로의 `page_url`에서 배포 주소를 확인할 수 있습니다.
 
 ## 루벨리아 복장 소스
 

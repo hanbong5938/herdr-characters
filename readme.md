@@ -31,7 +31,7 @@ Open `http://127.0.0.1:4187/`. These Python-standard-library scripts need no nat
 
 ## Publish with GitHub Pages
 
-In the repository settings, choose **Settings → Pages → Build and deployment → Source: GitHub Actions**. Permit the `github-pages` environment to deploy from `main` (including any required environment protection rules). A push to `main` or a manual **Actions → Deploy gallery to GitHub Pages → Run workflow** starts the Pages workflow; it fetches and verifies the published Coding Cat archive, builds `dist/gallery`, and deploys only that static directory. It does not fetch or publish Arin source artwork as a pack. The expected project address is [https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/), **not a confirmed active site before Pages is configured and a deployment succeeds**. After deployment, check the workflow's `page_url` for the actual address.
+The public gallery is available at **[https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)**. GitHub Pages uses **Settings → Pages → Build and deployment → Source: GitHub Actions** and the `github-pages` environment for `main`. A push to `main` or a manual **Actions → Deploy gallery to GitHub Pages → Run workflow** fetches and verifies the published Coding Cat archive, builds `dist/gallery`, and deploys only that static directory. It does not fetch or publish Arin source artwork as a pack. Check the workflow's `page_url` for the deployment address.
 
 ## Rubelia wardrobe sources
 
