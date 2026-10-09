@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-07",
+  "requester": "han",
+  "userStatement": "skills 사용해서 https://github.com/hanbong5938/moba-coach-manager/blob/ed2ac8bf6b86c40280103abff2f9e405a5568028/assets/champions/pilots/rubelia-v2.png 이거 모습으로 구현해줘 이미 있는 얼굴은 최대한 활용하고 qwen image 사용하는걸로 해",
+  "framingAnswer": "확장해서 제작",
+  "candidateSelectionAnswer": "이 제복·구도로 진행",
+  "selectedCandidateSha256": "12dff7aad39c48da375dc183c6af6d03010d048b89d0788c543f6ee2a23c069d",
+  "scope": "Local private artwork production and native evaluation. User selected source, approved reconstruction of arms/hands/lower uniform and removal of book/magic background, then selected outfit/framing candidate for existing-face correction and pilot production.",
+  "exactSourceImageRights": "unverified; previous artwork approval does not cover this PNG",
+  "originalProviderModel": "unverified",
+  "publicationAuthorized": false,
+  "commercialUseAuthorized": false,
+  "newModelLicenseGranted": false,
+  "historicalReleaseAuthorizationsApplyToThisImage": false,
+  "wardrobeSelection": {
+    "date": "2026-10-09",
+    "userStatement": "b로해",
+    "selectedDesignSha256": "a964db41e3be48bbb2a3105876814aa74e6fe59103f713dfaf5b6093dc924f61",
+    "scope": "Local private B short pleated-skirt replacement of all ten existing burgundy pose models; keep original face and earrings; select the same local pack",
+    "publicationAuthorized": false,
+    "commercialUseAuthorized": false
+  },
+  "publicPackReleaseAuthorization": {
+    "date": "2026-10-09",
+    "owner": "hanbong5938",
+    "userRequest": "캐릭터 저장소에 배포 해줘 0.0.4였나?로",
+    "rightsQuestion": "제복 원안(rubelia-v2.png)과 얼굴 참조 이미지가 모두 본인 소유이거나, 수정본을 공개 재배포할 권한이 있어?",
+    "rightsConfirmation": "권한 있음 — 공개 배포",
+    "repository": "https://github.com/hanbong5938/herdr-characters",
+    "release": "packs-v0.0.5",
+    "scope": "Owner confirms ownership or public redistribution rights for both exact source and identity reference and approves public source catalog plus installable release of the completed B short-pleated ten-pose burgundy uniform. Earlier local-only scopes are historical.",
+    "independentlyVerified": false,
+    "newModelLicenseGranted": false,
+    "downstreamCommercialLicenseGranted": false,
+    "builtinDefaultReplacementAuthorized": false
+  }
+}

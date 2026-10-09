@@ -1,0 +1,30 @@
+CURRENT PUBLIC RELEASE: packs-v0.0.5, 2026-10-09.
+Owner-confirmed original/face-reference redistribution rights and explicit public
+source/catalog/installable-pack approval supersede earlier local-only scope for
+this completed B short-pleated burgundy adaptation. No builtin replacement or
+new downstream commercial/model license is granted. Artwork and ten original
+face/earring regions are unchanged from the accepted local revision37; only
+publication metadata and privacy-reviewed provenance projection differ.
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) 2026 Hangzhou Tongyi Laboratory Technology Co., Ltd. All Rights Reserved.
+
+Historical local B artwork and review notice (not current distribution scope):
+Rubelia — B short pleated burgundy uniform wardrobe revision, local private evaluation only.
+Approved B image SHA256 a964db41e3be48bbb2a3105876814aa74e6fe59103f713dfaf5b6093dc924f61; selected by user statement "b로해".
+Ten independent existing rigs retain their own original face, eyes, earrings, hair, body/hand pose and all motion clips and non-layer-order rig settings. Each lower garment is own-pose local Qwen artwork with an actual own matte; six same-pose concealed-cloth edits and four measured-zero-occlusion cases complete the garment behind moving gloves.
+Topwear/bottomwear are replaced; waiting/writing/failed lower-garment draw order is corrected behind retained gloves, head-pet clothing ownership is restored using actual own Qwen cloth without modifying back hair, plus a separately source-proven bored handwear-l old-skirt ownership correction (3184 pixels): actual glove/cuff/sleeve and original rig bounds remain unchanged. This is a semantic cloth repair, not inherited artwork or a claim that no post-export alpha editing occurred.
+Narrow/enclosed source ownership omissions are restored only from real same-pose Qwen RGB and its own original model alpha; no synthetic garment pixels or alpha erosion. The current final 71-capture native review was personally accepted on light/dark backgrounds: all ten own poses, hit regions, entry/middle/near-expiry and available expression frames, four unforced phases and four reactions. All ten original face/earring top-400-row native RGBA regions remain pixel-identical. This is not a new 100-expression/80-clip approval. Historical parent expression/motion approvals describe revision35 only, not these changed garment assets. source-record.json binds current model hashes and labeled original ancestry; full execution details remain in a private sibling audit outside the pack.
+No publication, commercial-use permission, image-rights clearance or new model license is granted. Existing LICENSE, ATTRIBUTION and QWEN_RESEARCH_LICENSE remain in force.
+
+Historical revision35 NOTICE, preserved for ancestry only:
+Rubelia — herdr v5 ten-model pack staged from run "rubelia-burgundy-face-consistency-20261007".
+Authority illustration SHA256 7ea7f9f5ced8afc9bf60a740d977901b75e51d8f01ec086ae965a8513f828f63 is the exact "waiting" pose and the outfit/body/style authority. Identity reference SHA256 4928c1c4507e684d9b6801c371a340a69cb3b992ba7637724f3c4badb900a822 supplied face identity only.
+Every other pose is a complete illustration generated for this run by local image editing; each pose has its own matte, See-through layer decomposition, own expression edit, source-layered PSD and native rig conversion. No reference-pack pose pixels and no post-export alpha crop are used.
+Recorded model files: isnet-anime.onnx, qwen3vl_8b_bf16.safetensors, qwen_image_2.1_bf16.safetensors, qwen_image_2.1_vae_bf16.safetensors.
+source-record.json records the exact file chain and hashes. Final local review: ten own poses, 100 forced native expression states and active frames from all 80 native 25fps clips were personally inspected on light/dark backgrounds; original earring design retained. finalNativeArtReview binds the actual external capture inventory, parent acceptance and geometry-only root report. Historical source-only/pending stages below remain records of their original times. This review grants no installation, publication, commercial permission or rights clearance; private local noncommercial research/evaluation only.
+
+Reference pack "rubelia-v2-reference" NOTICE.txt (preserved verbatim, SHA256 56a75470f437a08176324bbdf483baf39cd269e19c91f3a566dd4a617a5117b3; its pose, hash and review statements describe that reference pack, not this staged pack):
+Rubelia v2 private motion-reference working copy
+
+This private template initially copies the bundled historical Rubelia pack solely to reuse its v5 entry and eight-slot per-pose motion authoring conventions. Its PSDs are historical template art, not the requested new implementation. The final staged pack replaces every model with a newly produced pose-local source-derived rig. The historical source-record.json remains historical motion-reference provenance, not an authorization for the new design image.
+
+LICENSE.txt, ATTRIBUTION.txt and owner-approval.json record THIS current run's limited local adaptation scope and unresolved exact-image rights. Historical release approvals are not carried forward as permission. QWEN_RESEARCH_LICENSE.txt retains the complete recorded model terms. No model weights are included. No release, publication, commercial permission or rights clearance is inferred.

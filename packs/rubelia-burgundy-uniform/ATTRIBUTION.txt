@@ -1,0 +1,16 @@
+Rubelia — herdr v5 ten-model pack staged from run "rubelia-burgundy-face-consistency-20261007".
+Authority illustration SHA256 7ea7f9f5ced8afc9bf60a740d977901b75e51d8f01ec086ae965a8513f828f63 is the exact "waiting" pose and the outfit/body/style authority. Identity reference SHA256 4928c1c4507e684d9b6801c371a340a69cb3b992ba7637724f3c4badb900a822 supplied face identity only.
+Every other pose is a complete illustration generated for this run by local image editing; each pose has its own matte, See-through layer decomposition, own expression edit, source-layered PSD and native rig conversion. No reference-pack pose pixels and no post-export alpha crop are used.
+Recorded model files: isnet-anime.onnx, qwen3vl_8b_bf16.safetensors, qwen_image_2.1_bf16.safetensors, qwen_image_2.1_vae_bf16.safetensors.
+source-record.json records the exact file chain and hashes. This notice makes no claim about native review, publication or licenses beyond the files named in manifest.json.
+
+Reference pack "rubelia-v2-reference" ATTRIBUTION.txt (preserved verbatim, SHA256 930bf28c45b3375f86ce4e7e494028f8854d81752461833d0bc71de30df993cc; its pose, hash and review statements describe that reference pack, not this staged pack):
+Rubelia v2 local evaluation source attribution
+
+Design source selected by user: hanbong5938/moba-coach-manager, commit ed2ac8bf6b86c40280103abff2f9e405a5568028, assets/champions/pilots/rubelia-v2.png; Git blob ac6388efdb2f6576620ff4d16317e7cce105c155; PNG 512x512, SHA-256 6b119bed3c22959111d5aacf70a6baf5bc1dbfabe0da24eef8da4d6004cee1a9. Original generation provider/model unverified. Exact-image redistribution rights unverified.
+
+Facial identity: the existing bundled Rubelia corrected original authority, SHA-256 4d0aa41b5ade3be06d05c319d8a88e1fb19fb2c712abf186fc2aec9baf0fa043; own head crop SHA-256 4928c1c4507e684d9b6801c371a340a69cb3b992ba7637724f3c4badb900a822. It serves as the bounded Qwen face-edit identity reference, never donor-face paint. Its historical identity source is the Rubelia champion portrait recorded in the old builtin source record.
+
+New images: private local ComfyUI Qwen-Image-2.1 BF16 two-reference generation/edits; complete prompts, seeds, graphs and input/output hashes recorded by the production pipeline. Alpha: ISNet anime and PyMatting. Parts: local ComfyUI See-through. Rig authoring: DAEMONLET creator runtime, herdr production skill and native rig adapter. Native renderer: herdr-desktop-pet. Motion profiles are retargeted from the same character's existing builtin pack to each new pose's geometry. No historical pose pixels are used as new pose masters.
+
+This record authorizes no publication or new model rights. See LICENSE.txt and QWEN_RESEARCH_LICENSE.txt.

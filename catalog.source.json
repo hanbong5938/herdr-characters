@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
   "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
-  "releaseTag": "packs-v0.0.4",
+  "releaseTag": "packs-v0.0.5",
   "characters": [
     {
       "id": "coding-cat",
@@ -87,6 +87,28 @@
           "name": {"en": "Swimsuit", "ko": "수영복"},
           "version": "0.0.3",
           "publishedAt": "2026-10-08",
+          "licenseLabel": "Owner-approved distribution; separate artwork terms",
+          "licenseDisplayLabel": {"en": "Owner-approved distribution; separate artwork terms", "ko": "소유자 승인 배포 · 별도 작품 이용 조건"}
+        }
+      ]
+    },
+    {
+      "id": "rubelia-burgundy-uniform",
+      "type": "pack",
+      "name": "루벨리아(제복)",
+      "displayName": {"en": "Rubelia (Burgundy Uniform)", "ko": "루벨리아(제복)"},
+      "description": {
+        "en": "Rubelia (Burgundy Uniform): owner-approved B short-pleated skirt in ten independent rig poses. Original faces, earrings and motion are retained; source and model notices travel with the pack. No new downstream commercial license is granted.",
+        "ko": "소유자가 공개 배포를 승인한 루벨리아(제복) B 짧은 플리츠 팩입니다. 독립 포즈 10개에 기존 얼굴·원안 귀걸이·모션을 유지하며 원본·모델 고지를 포함합니다. 새 상업 이용 라이선스는 부여하지 않습니다."
+      },
+      "author": "hanbong5938; Herdr contributors",
+      "tags": ["rubelia", "루벨리아", "burgundy", "uniform", "제복", "pleated", "rig"],
+      "variants": [
+        {
+          "path": "packs/rubelia-burgundy-uniform",
+          "name": {"en": "B short pleated skirt", "ko": "B 짧은 플리츠"},
+          "version": "0.0.5",
+          "publishedAt": "2026-10-09",
           "licenseLabel": "Owner-approved distribution; separate artwork terms",
           "licenseDisplayLabel": {"en": "Owner-approved distribution; separate artwork terms", "ko": "소유자 승인 배포 · 별도 작품 이용 조건"}
         }

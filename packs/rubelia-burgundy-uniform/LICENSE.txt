@@ -1,0 +1,27 @@
+Rubelia Burgundy Uniform — owner-authorized public pack distribution.
+The owner confirmed ownership or public redistribution rights for the exact
+Rubelia v2 source image and face reference, and authorized public source listing
+and installable B short-pleated ten-pose pack release in packs-v0.0.5 on
+2026-10-09; see owner-approval.json. Earlier local-only notices below are
+historical and are superseded only for this specifically authorized release.
+This is specific packaged-release authorization, not a general artwork license,
+new downstream commercial-use clearance or independently verified legal clearance.
+QWEN_RESEARCH_LICENSE.txt records model Materials terms separately from owner
+artwork permission; no new model license or blanket generated-output license is
+inferred. Other recorded model-term uncertainties remain disclosed. Software MIT
+does not relicense artwork. No exclusive copyright, non-infringement or trademark
+guarantee is granted. Keep all license, source and owner notices with this pack.
+
+Historical local-stage license notice:
+Rubelia v2 — local private authoring and evaluation only
+
+This run adapts the image explicitly selected by the user from:
+https://github.com/hanbong5938/moba-coach-manager/blob/ed2ac8bf6b86c40280103abff2f9e405a5568028/assets/champions/pilots/rubelia-v2.png
+Original image SHA-256: 6b119bed3c22959111d5aacf70a6baf5bc1dbfabe0da24eef8da4d6004cee1a9.
+Exact-image license, original provider/model and redistribution permission were not found in the available records. Selection for this local adaptation is not a publication license. Do not publish, release, commercially use or redistribute this candidate pack without verifying the applicable image and model terms.
+
+The existing Rubelia corrected authority is reused only as a face identity reference; the prior pack supplies motion templates, not new-pose artwork. Its historical public-release approval applies to that historical artwork, not this new source image or output.
+
+Every new image edit uses private local Qwen-Image-2.1 BF16. Its complete recorded Qwen RESEARCH LICENSE AGREEMENT is retained in QWEN_RESEARCH_LICENSE.txt. Recorded use is private non-commercial research/evaluation only; no commercial model-use or new output-distribution license is inferred.
+
+See-through LayerDiff3D model-card terms declare Apache-2.0; the exact See-through Marigold and isnet-anime matting-weight terms remain unresolved in the production skill records. Availability is not rights clearance. Software MIT terms do not relicense artwork or model materials. No exclusive copyright, non-infringement or trademark clearance is claimed.
