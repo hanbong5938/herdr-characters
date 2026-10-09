@@ -7,6 +7,7 @@
     {
       "id": "arin-research",
       "name": "Arin",
+      "displayName": {"en": "Arin", "ko": "아린"},
       "description": {
         "en": "Owner-approved downloadable Arin rig pack with ten independent poses and source-bound motion. Requires Herdr Desktop Pet v0.2.1 or later. Artwork use terms and model provenance are preserved; no downstream commercial-use clearance is granted.",
         "ko": "소유자가 공개 배포를 승인한 아린 리깅 팩입니다. 독립 포즈 10개와 원본 기반 모션을 포함하며 Herdr Desktop Pet v0.2.1 이상이 필요합니다. 작품 이용 조건·모델 출처를 보존하며 별도 상업 이용 허가는 부여하지 않습니다."
@@ -46,6 +47,7 @@
           },
           "license": {
             "label": "Owner-approved distribution; separate artwork terms",
+            "displayLabel": {"en": "Owner-approved distribution; separate artwork terms", "ko": "소유자 승인 배포 · 별도 작품 이용 조건"},
             "path": "packs/arin-research/LICENSE.txt"
           },
           "sourceTerms": "packs/arin-research/NOTICE.txt"
@@ -55,6 +57,7 @@
     {
       "id": "coding-cat",
       "name": "Coding Cat",
+      "displayName": {"en": "Coding Cat", "ko": "코딩 캣"},
       "description": {
         "en": "Original MIT-licensed procedural Coding Cat: transparent 384×512 PNG frames with four phase clips and four reaction clips for Herdr Desktop Pet.",
         "ko": "MIT 라이선스로 제공하는 오리지널 절차적 코딩 캣: Herdr Desktop Pet용 384×512 투명 PNG 프레임과 상태별 클립 네 개, 반응 클립 네 개."
@@ -93,6 +96,7 @@
           },
           "license": {
             "label": "MIT",
+            "displayLabel": {"en": "MIT", "ko": "MIT"},
             "path": "packs/png-example/LICENSE.txt"
           },
           "sourceTerms": null
@@ -102,6 +106,7 @@
     {
       "id": "rubelia-school-uniform",
       "name": "루벨리아(교복)",
+      "displayName": {"en": "Rubelia (School Uniform)", "ko": "루벨리아(교복)"},
       "description": {
         "en": "Rubelia (School Uniform): owner-approved downloadable rig pack with ten independent poses and source-bound motion. Source, owner and model notices are included; no new downstream commercial license is granted.",
         "ko": "소유자가 공개 배포를 승인한 루벨리아(교복) 리깅 팩입니다. 독립 포즈 10개와 원본 기반 모션을 포함하며, 원본·소유자·모델 고지를 보존합니다. 새 상업 이용 라이선스는 부여하지 않습니다."
@@ -143,6 +148,7 @@
           },
           "license": {
             "label": "Owner-approved distribution; separate artwork terms",
+            "displayLabel": {"en": "Owner-approved distribution; separate artwork terms", "ko": "소유자 승인 배포 · 별도 작품 이용 조건"},
             "path": "packs/rubelia-school-uniform/LICENSE.txt"
           },
           "sourceTerms": "packs/rubelia-school-uniform/NOTICE.txt"
@@ -152,6 +158,7 @@
     {
       "id": "rubelia-white-bikini",
       "name": "루벨리아(수영복)",
+      "displayName": {"en": "Rubelia (Swimsuit)", "ko": "루벨리아(수영복)"},
       "description": {
         "en": "Rubelia (Swimsuit): owner-approved downloadable rig pack with ten independent poses and source-bound motion. Source, owner and model notices are included; no new downstream commercial license is granted.",
         "ko": "소유자가 공개 배포를 승인한 루벨리아(수영복) 리깅 팩입니다. 독립 포즈 10개와 원본 기반 모션을 포함하며, 원본·소유자·모델 고지를 보존합니다. 새 상업 이용 라이선스는 부여하지 않습니다."
@@ -192,6 +199,7 @@
           },
           "license": {
             "label": "Owner-approved distribution; separate artwork terms",
+            "displayLabel": {"en": "Owner-approved distribution; separate artwork terms", "ko": "소유자 승인 배포 · 별도 작품 이용 조건"},
             "path": "packs/rubelia-white-bikini/LICENSE.txt"
           },
           "sourceTerms": "packs/rubelia-white-bikini/NOTICE.txt"

@@ -41,6 +41,8 @@
     } catch { return null; }
   }
   function localized(value) { return value?.[state.lang] || value?.en || ''; }
+  function displayName(character) { return localized(character.displayName) || character.name; }
+  function licenseLabel(license) { return localized(license?.displayLabel) || license?.label; }
   function bytes(value) {
     if (!Number.isFinite(value) || value < 0) return '—';
     return new Intl.NumberFormat(state.lang === 'ko' ? 'ko-KR' : 'en-US', { maximumFractionDigits: 1 }).format(value / 1048576) + ' MB';
@@ -70,7 +72,7 @@
     const query = search.value.trim().toLocaleLowerCase();
     if (!query) return true;
     const names = character.type === 'pack' ? character.variants.flatMap((variant) => [variant.name?.en, variant.name?.ko]) : [];
-    const haystack = [character.name, character.author, character.description?.en, character.description?.ko, ...(character.tags || []), ...names].join(' ').toLocaleLowerCase();
+    const haystack = [character.name, character.displayName?.en, character.displayName?.ko, character.author, character.description?.en, character.description?.ko, ...(character.tags || []), ...names].join(' ').toLocaleLowerCase();
     return haystack.includes(query);
   }
   function stopAnimations() {
@@ -102,7 +104,7 @@
     const article = node('article', 'character-card');
     const visual = node('div', 'card-visual');
     const image = node('img', 'card-preview');
-    image.alt = variant ? t('imageAlt')(character.name, localized(variant.name)) : t('researchImageAlt')(character.name);
+    image.alt = variant ? t('imageAlt')(displayName(character), localized(variant.name)) : t('researchImageAlt')(displayName(character));
     image.loading = 'lazy';
     image.decoding = 'async';
     if (variant) animatePreview(image, variant);
@@ -112,7 +114,7 @@
     article.append(visual);
     const content = node('div', 'card-content');
     const heading = node('div', 'card-heading');
-    heading.append(node('h3', '', character.name), node('span', 'creator', `${t('creator')} ${character.author}`));
+    heading.append(node('h3', '', displayName(character)), node('span', 'creator', `${t('creator')} ${character.author}`));
     content.append(heading, node('p', 'card-description', localized(character.description)));
     if (character.tags?.length) {
       const tags = node('div', 'tag-list');
@@ -175,10 +177,10 @@
       preview.append(image);
       const meta = node('div', 'hero-card-meta');
       const heading = node('div', 'hero-card-head');
-      heading.append(node('span', 'hero-card-name', character.name),
+      heading.append(node('span', 'hero-card-name', displayName(character)),
         node('span', `hero-pill hero-pill-${variant ? 'pack' : 'research'}`, variant ? t('format')(variant.renderMode) : t('research')));
       meta.append(heading, node('p', `hero-card-desc${variant ? '' : ' hero-card-notice'}`,
-        variant ? variant.license?.label || localized(variant.name) : t('researchPreview')));
+        variant ? licenseLabel(variant.license) || localized(variant.name) : t('researchPreview')));
       item.append(preview, meta);
       return item;
     });
@@ -202,8 +204,8 @@
     if (!state.catalog) return;
     const list = state.catalog.characters.filter(matches);
     list.sort(state.sort === 'alphabetic'
-      ? (a, b) => a.name.localeCompare(b.name, state.lang)
-      : (a, b) => latestDate(b) - latestDate(a) || a.name.localeCompare(b.name, state.lang));
+      ? (a, b) => displayName(a).localeCompare(displayName(b), state.lang)
+      : (a, b) => latestDate(b) - latestDate(a) || displayName(a).localeCompare(displayName(b), state.lang));
     cards.replaceChildren(...list.map(card));
     state.resultCount = list.length;
     $('#results-label').textContent = t('showing')(list.length);
@@ -221,10 +223,10 @@
     const imageBox = node('div', 'detail-image');
     const image = node('img');
     image.src = character.type === 'research' ? safeURL(character.profile) || '' : safeURL(variant.preview?.idle) || '';
-    image.alt = character.type === 'research' ? t('researchImageAlt')(character.name) : t('imageAlt')(character.name, localized(variant.name));
+    image.alt = character.type === 'research' ? t('researchImageAlt')(displayName(character)) : t('imageAlt')(displayName(character), localized(variant.name));
     imageBox.append(image);
     const intro = node('div', 'detail-intro');
-    const title = node('h2', '', character.name);
+    const title = node('h2', '', displayName(character));
     title.id = 'detail-title';
     intro.append(node('p', 'eyebrow', t(character.type === 'research' ? 'researchDetails' : 'packDetails')), title,
       node('p', 'detail-look', character.type === 'research' ? t('researchPreview') : localized(variant.name)),
@@ -235,7 +237,7 @@
       info.append(node('p', 'card-description', localized(character.description)));
       const resources = node('div', 'detail-resources');
       const license = safeURL(character.license?.path);
-      if (license) resources.append(link(`${t('license')}: ${character.license.label} ↗`, license, 'resource-link'));
+      if (license) resources.append(link(`${t('license')}: ${licenseLabel(character.license)} ↗`, license, 'resource-link'));
       const sourceTerms = safeURL(character.sourceTerms);
       if (sourceTerms) resources.append(link(`${t('sourceTerms')} ↗`, sourceTerms, 'resource-link'));
       const source = safeURL(character.sourceUrl);
@@ -273,7 +275,7 @@
     info.append(checksum);
     const resources = node('div', 'detail-resources');
     const license = safeURL(variant.license?.path);
-    if (license) resources.append(link(`${t('license')}: ${variant.license.label} ↗`, license, 'resource-link'));
+    if (license) resources.append(link(`${t('license')}: ${licenseLabel(variant.license)} ↗`, license, 'resource-link'));
     const sourceTerms = safeURL(variant.sourceTerms);
     if (sourceTerms) resources.append(link(`${t('sourceTerms')} ↗`, sourceTerms, 'resource-link'));
     else if (variant.sourceTerms) resources.append(node('p', 'source-terms', `${t('sourceTerms')}: ${variant.sourceTerms}`));

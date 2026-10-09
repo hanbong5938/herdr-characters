@@ -74,24 +74,41 @@ class CatalogInventoryTests(unittest.TestCase):
         (self.root / "previews").mkdir()
         Image.new("RGBA", (32, 32), (253, 1, 2, 255)).save(self.root / "previews/arin-profile.png")
         authored = {
-            "id": "arin-research", "type": "research", "name": "Arin", "author": "Research author",
+            "id": "arin-research", "type": "research", "name": "Arin",
+            "displayName": {"en": "Arin", "ko": "아린"}, "author": "Research author",
             "description": {"en": "Authored profile", "ko": "원본 설명"}, "tags": ["arin"],
             "publishedAt": "2026-10-08", "profile": "previews/arin-profile.png",
-            "sourceUrl": "https://example.com/arin", "license": {"label": "Research", "path": "packs/arin-research/LICENSE.txt"},
+            "sourceUrl": "https://example.com/arin",
+            "license": {"label": "Research", "displayLabel": {"en": "Research", "ko": "연구"},
+                        "path": "packs/arin-research/LICENSE.txt"},
         }
-        (self.root / "catalog.source.json").write_text(json.dumps({"characters": [authored]}))
+        (self.root / "catalog.source.json").write_text(json.dumps({"characters": [
+            authored,
+            {"id": "coding-cat", "type": "pack",
+             "displayName": {"en": "Wrong source", "ko": "잘못된 원본"},
+             "variants": [{"id": "coding-cat", "licenseDisplayLabel": {"en": "Wrong source", "ko": "잘못된 원본"}}]},
+        ]}))
         original = {
             "id": "coding-cat", "name": "Coding Cat", "type": "pack", "author": "Herdr contributors",
+            "displayName": {"en": "Coding Cat", "ko": "코딩 캣"},
             "description": {"en": "Published", "ko": "출시"}, "tags": ["cat"],
             "variants": [{"id": "coding-cat", "version": "0.0.2", "publishedAt": "2026-10-06",
                           "download": {"path": "downloads/cat.herdrchar", "bytes": 421, "sha256": "f" * 64},
-                          "preview": {"idle": "previews/cat.png", "running": []}}],
+                          "preview": {"idle": "previews/cat.png", "running": []},
+                          "license": {"label": "MIT", "displayLabel": {"en": "MIT", "ko": "MIT"},
+                                      "path": "packs/png-example/LICENSE.txt"}}],
         }
-        self.catalog["characters"] = [original]
+        self.catalog["characters"] = [original, {
+            "id": "arin-research", "type": "research", "name": "Stale",
+            "displayName": {"en": "Stale", "ko": "오래된 이름"},
+            "license": {"label": "Old terms", "displayLabel": {"en": "Old", "ko": "이전"}},
+        }]
         characters = {item["id"]: item for item in self.sync()["characters"]}
         self.assertEqual(characters["coding-cat"], original)
         self.assertEqual(characters["arin-research"]["description"], authored["description"])
         self.assertEqual(characters["arin-research"]["profile"], authored["profile"])
+        self.assertEqual(characters["arin-research"]["displayName"], authored["displayName"])
+        self.assertEqual(characters["arin-research"]["license"], authored["license"])
         self.assertNotIn("sourceTerms", characters["arin-research"])
         self.assertFalse((self.previews / "arin-research-source.png").exists())
 
@@ -210,14 +227,20 @@ class CatalogInventoryTests(unittest.TestCase):
     def test_discovered_records_are_rebuilt_after_rename_or_removal(self):
         pack = self.add_png_pack("mika", "mika", "Mika")
         old = self.sync()["characters"][0]
+        old["displayName"] = {"en": "Old", "ko": "이전"}
+        old["license"]["displayLabel"] = {"en": "Old terms", "ko": "이전 조건"}
         self.catalog["characters"] = [old]
         manifest = json.loads((pack / "manifest.json").read_text())
         manifest["name"] = "새 이름"
+        manifest["licenses"][0]["expression"] = "New terms"
         (pack / "manifest.json").write_text(json.dumps(manifest))
         changed = self.sync()["characters"][0]
         self.assertEqual(changed["name"], "새 이름")
         self.assertEqual(changed["profile"], "previews/mika-source.png")
         self.assertNotEqual(changed["description"], old["description"])
+        self.assertEqual(changed["license"]["label"], "New terms")
+        self.assertNotIn("displayName", changed)
+        self.assertNotIn("displayLabel", changed["license"])
         shutil.rmtree(pack)
         self.assertEqual(self.sync()["characters"], [])
         self.add_png_pack("replacement", "new-id", "New")
