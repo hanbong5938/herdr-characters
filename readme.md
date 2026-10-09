@@ -19,7 +19,7 @@ Arin and both Rubelia wardrobe packs retain provenance linked to [`shared-world-
 
 ## Browse the web gallery
 
-The [gallery](https://hanbong5938.github.io/herdr-characters/) discovers every `packs/*/manifest.json`; [`catalog.source.json`](catalog.source.json) supplies authored profiles and explicit publication metadata. All four current entries are downloadable: **Rig** shows Arin and both Rubelia packs, **PNG** shows Coding Cat. **Research** is reserved for source-only entries and currently has none. Search matches names (including Korean), tags, descriptions and variant names; sort by recorded publication date or name. Newly discovered sources are not automatically authorized or packaged for release. The original [`sources/legacy-png`](sources/legacy-png) fixture is Coding Cat source material, not a fifth pack.
+The [gallery](https://hanbong5938.github.io/herdr-characters/) discovers every `packs/*/manifest.json`; [`catalog.source.json`](catalog.source.json) supplies authored profiles and explicit publication metadata. All four current entries are downloadable: **Rig** shows Arin and both Rubelia packs, **PNG** shows Coding Cat. **Research** is reserved for source-only entries and currently has none. Optional `displayName` and license `displayLabel` metadata localize gallery names and license summaries using the current language, then English, then the canonical scalar name or label. Search matches canonical and both English/Korean display names regardless of the selected language, plus tags, descriptions and variant names; alphabetic order and publication-date ties sort by the visible name in the current language. The gallery reads the published [`catalog.json`](catalog.json), so metadata-only changes must update both source and published catalogs; editing `catalog.source.json` alone does not change the gallery. Newly discovered sources are not automatically authorized or packaged for release. The original [`sources/legacy-png`](sources/legacy-png) fixture is Coding Cat source material, not a fifth pack.
 
 For a local preview, install the gallery image dependency, fetch all four pinned release archives, build the static site and serve it:
 
@@ -47,7 +47,7 @@ The school-uniform and swimsuit sources moved from the private archive into this
 
 The earlier source-only migration did not publish installable archives. The user subsequently approved publishing all four packs as downloads; both Rubelia `owner-approval.json` files record this separate authorization. Their `NOTICE.txt`, `LICENSE.txt` and `QWEN_RESEARCH_LICENSE.txt` preserve source and model provenance without granting a new downstream commercial license.
 
-The private local gallery references these same canonical sources and uses the Korean/English display names above. Installed manifest names remain single Korean strings; automatic name switching with the app language is not supported.
+The gallery uses these same canonical sources and its localized display names are distinct from installed manifest names. Installed manifest names remain single Korean strings; automatic name switching with the app language is not supported.
 
 ## Download and import
 

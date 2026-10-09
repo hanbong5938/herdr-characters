@@ -38,6 +38,8 @@ def main():
         (stage / "previews").mkdir()
         for character in source["characters"]:
             item = {key: character[key] for key in ("id", "name", "description", "author", "tags", "type")}
+            if "displayName" in character:
+                item["displayName"] = character["displayName"]
             if character["type"] == "research":
                 item.update({key: character[key] for key in ("publishedAt", "profile", "sourceUrl", "license")})
                 item["sourceTerms"] = character.get("sourceTerms")
@@ -66,6 +68,9 @@ def main():
                     running.append(f"previews/{name}")
                 license_path = next(entry["path"] for entry in manifest["licenses"])
                 terms = next((name for name in ("SOURCE_TERMS.txt", "NOTICE.txt") if (pack / name).is_file()), None)
+                license = {"label": spec["licenseLabel"], "path": f"{spec['path']}/{license_path}"}
+                if "licenseDisplayLabel" in spec:
+                    license["displayLabel"] = spec["licenseDisplayLabel"]
                 item["variants"].append({
                     "id": pack_id,
                     "name": spec["name"],
@@ -79,7 +84,7 @@ def main():
                         "sha256": hashlib.sha256(archive.read_bytes()).hexdigest(),
                     },
                     "preview": {"idle": f"previews/{idle_name}", "running": running},
-                    "license": {"label": spec["licenseLabel"], "path": f"{spec['path']}/{license_path}"},
+                    "license": license,
                     "sourceTerms": f"{spec['path']}/{terms}" if terms else None,
                 })
                 print(f"Prepared {pack_id}: validated archive and five native previews")
