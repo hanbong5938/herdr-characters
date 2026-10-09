@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "character": "chaerin-research",
+  "userStatement": "현재 고정 환경 검수 기준으로 전달",
+  "scope": "Historical private 2026-10-08 delivery criterion: all ten own models and eight own motion slots each under the then-frozen native runtime. Superseded for publication scope by the separate 2026-10-09 owner-asserted approval in owner-approval.json; not evidence of validation under app v0.3.4.",
+  "knownHistoricalLimits": {
+    "poses": [
+      "cancelled",
+      "disconnected"
+    ],
+    "pastFullyOpenEyeOnlyWhiteArtifactsExist": true,
+    "causeEstablished": false,
+    "runtimeFixEstablished": false,
+    "notRegeneratedAfterEyeAnomaly": true,
+    "currentSourceIdentical44EachNormal": true,
+    "historicalLoadedLibraryHashNotRecorded": true,
+    "notAnUnlimitedReliabilityGuarantee": true
+  },
+  "historicalProhibitedBeforePublicationApproval": [
+    "Claiming historical eye artifact fixed",
+    "Hiding source pigment or disabling/reducing blink/motion to pass",
+    "Shipping reference/template model/motion bytes",
+    "Installation, bundled-default replacement, public or commercial distribution (historical private-delivery scope; public archive and PSD/gallery publication separately approved 2026-10-09, not commercial use or default replacement)"
+  ],
+  "currentReleaseRequirement": "Native-validate and review this exact published pack against app v0.3.4 or newer, including side-owned iris clipping and late-white ordering regression cases. This historical QA alone does not establish current-runtime compatibility.",
+  "currentActualQA": [
+    {
+      "path": "all-ten-own-native-validation-r8-evidence.json",
+      "sha256": "060fe8eb5a4ca5d30efa187cc983c1a5b09aa00cbc4788b3001991d004391bdc"
+    },
+    {
+      "path": "cancelled-main-runtime-bound-native44-characterization-review-r1.json",
+      "sha256": "7eb5c3e25e5e5776ad8646100564f9a8fa6d03c7ccca2eabcf601c27e55b04f2"
+    },
+    {
+      "path": "disconnected-main-runtime-bound-native44-characterization-review-r1.json",
+      "sha256": "f5fb4dea1271f78cd9069c785552f04e617dd730fc72eae927066686cc20f5d1"
+    }
+  ],
+  "runtimeBindings": {
+    "nativeRendererLibrary": {
+      "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+      "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+    },
+    "nativeRigDecoderWorker": {
+      "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+      "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+    },
+    "nativeRigDecoderScript": {
+      "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+      "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+    },
+    "nativeRuntimeDeployment": {
+      "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+      "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+    }
+  },
+  "nativeProgram": {
+    "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/herdr-desktop-pet",
+    "sha256": "574fae0876a16d7548c14dedd3a7b508f6f2cb31b818bdc2a149582ab223b692"
+  }
+}

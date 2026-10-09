@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "character": {"id": "chaerin-research", "label": "채린"},
+  "request": {"userStatement": "거기서 채린도 있지? 같은 작업 진행해줘", "date": "2026-10-07"},
+  "editingPermission": {"userStatement": "편집 권한 있음 · 비공개 연구/평가", "scope": "Private noncommercial research/evaluation only", "basis": "User confirmation in this session; not independently verified rights clearance"},
+  "authoritySelection": {"userStatement": "진행", "date": "2026-10-08", "scope": "Proceed with selected authority v2 for subsequent production", "path": "cleanup/candidates/chaerin-authority-v2.png", "sha256": "739ab724a1881700d4dc0534b19009626d6f67df932a85a3cc89d814816879bc"},
+  "originalSource": {"repository": "hanbong5938/shared-world-canon", "revision": "70756fab286e83b01605c5755c2a465e8438d344", "path": "assets/identity/reviews/commercial-rebuild/square-profiles-v1/chaerin-square-profile-v1.png", "sha256": "7dc47930c1826a4a3249233ae378b0028053776b43a1f7dafd48aee779b63194", "registryAssetId": "review.character.chaerin.square-profile-v1", "registryRightsStatus": "commercial-blocked"},
+  "historicalPrivateApproval": {
+    "date": "2026-10-07",
+    "scope": "Private noncommercial research/evaluation editing only; authority v2 selection followed 2026-10-08",
+    "publicRedistributionApprovedAtThatTime": false
+  },
+  "publicRedistributionApproved": true,
+  "commercialUseApproved": false,
+  "bundledDefaultReplacementApproved": false,
+  "modelLicenseGrantedByUser": false,
+  "templateArtIsApprovedChaerinArt": false,
+  "evidence": ["../approval.json", "../authority-selection.json", "../preparation.json"],
+  "historicalEvidenceNote": "The relative evidence paths above refer to the private 2026-10-07 authoring run, not files in this public pack. Historical editing/selection approvals did not authorize publication.",
+  "publicationAuthorization": {
+    "date": "2026-10-09",
+    "recordedAt": "2026-10-09T13:35:20Z",
+    "userRequest": "공식 배포 해줘 캐릭터팩에 합류시켜줘",
+    "authorityQuestion": "채린 원본·얼굴 참조 이미지의 공개 재배포 권한을 보유하고 있으며, 이번 공식 팩 다운로드·PSD 소스 공개·갤러리 등록을 승인하시나요?",
+    "userConfirmation": "권한 있음 · 공개 배포 승인",
+    "approved": true,
+    "targetRelease": "packs-v0.0.6",
+    "scope": "Public downloadable/installable Chaerin .herdrchar, publication of all ten original Chaerin PSDs with rig and motion source, and public catalog/gallery listing. Not automatic installation or bundled-default replacement.",
+    "independentlyVerified": false,
+    "commercialUseApproved": false,
+    "thirdPartySublicenseGranted": false,
+    "modelMaterialsLicenseGranted": false,
+    "bundledDefaultReplacementApproved": false
+  },
+  "modelLicenseRecord": "QWEN_RESEARCH_LICENSE.txt"
+}

@@ -1,0 +1,5 @@
+채린 (Chaerin) — 기존 비공개 제작물, 2026-10-09 별도 사용자 승인으로 공개 팩·PSD 소스·갤러리 등록 대상.
+원본 Canon: hanbong5938/shared-world-canon, revision70756fab286e83b01605c5755c2a465e8438d344, assets/identity/reviews/commercial-rebuild/square-profiles-v1/chaerin-square-profile-v1.png; SHA256 7dc47930c1826a4a3249233ae378b0028053776b43a1f7dafd48aee779b63194.
+사용자 선택 원화: authority v2; 동일 원화의 제한된 얼굴 정합 수정본 SHA256 41ab6a97fff21f83a26ae6a7809ea2d83339a76e2a422312385882e308efca2d.
+10개 실제 모델·자체 원화/레이어/지오메트리·포즈별 8개 자체 움직임의 정확한 출처는 source-record.json에 기록했습니다. Rubelia/Arin의 원화·모델·지오메트리·움직임은 이 팩에 포함하지 않았습니다.
+Qwen RESEARCH LICENSE AGREEMENT는 QWEN_RESEARCH_LICENSE.txt에 원문 그대로 보존합니다. 원본 소유·공개 재배포 권한은 사용자가 진술했으며 별도 법적 검증이나 상업적 이용·모델 자료 이용권 허가로 간주하지 않습니다. owner-approval.json 참조.

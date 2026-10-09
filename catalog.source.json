@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
   "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
-  "releaseTag": "packs-v0.0.5",
+  "releaseTag": "packs-v0.0.6",
   "characters": [
     {
       "id": "coding-cat",
@@ -45,6 +45,28 @@
           "publishedAt": "2026-10-09",
           "licenseLabel": "Owner-approved distribution; separate artwork terms",
           "licenseDisplayLabel": {"en": "Owner-approved distribution; separate artwork terms", "ko": "소유자 승인 배포 · 별도 작품 이용 조건"}
+        }
+      ]
+    },
+    {
+      "id": "chaerin-research",
+      "type": "pack",
+      "name": "채린",
+      "displayName": {"en": "Chaerin", "ko": "채린"},
+      "description": {
+        "en": "Owner-approved Chaerin download with ten independent PSD rig poses and eighty source-bound motion slots. Requires Herdr Desktop Pet v0.3.4 or later for side-owned eye clipping. Original registry commercial status remains blocked; model/output and downstream commercial terms are not independently cleared.",
+        "ko": "소유자가 공개 배포를 승인한 채린 팩으로, 독립적인 PSD 리깅 포즈 10개와 원본 기반 모션 슬롯 80개를 포함합니다. 좌우 눈 소유 영역 클리핑을 위해 Herdr Desktop Pet v0.3.4 이상이 필요합니다. 원본 레지스트리의 상업적 이용 차단 상태는 그대로이며 모델/출력 및 이후 상업적 이용 권리는 독립적으로 확인되지 않았습니다."
+      },
+      "author": "Chaerin private ten-pose production",
+      "tags": ["chaerin", "채린", "rig", "psd", "research", "연구"],
+      "variants": [
+        {
+          "path": "packs/chaerin-research",
+          "name": {"en": "Original", "ko": "오리지널"},
+          "version": "0.0.6",
+          "publishedAt": "2026-10-09",
+          "licenseLabel": "Owner-approved public distribution; separate artwork/model terms; no commercial clearance",
+          "licenseDisplayLabel": {"en": "Owner-approved public distribution; separate artwork/model terms", "ko": "소유자 승인 공개 배포 · 별도 작품/모델 이용 조건"}
         }
       ]
     },

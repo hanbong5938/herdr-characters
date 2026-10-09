@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
   "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
-  "releaseTag": "packs-v0.0.5",
+  "releaseTag": "packs-v0.0.6",
   "characters": [
     {
       "id": "arin-research",
@@ -57,6 +57,64 @@
             }
           },
           "sourceTerms": "packs/arin-research/NOTICE.txt"
+        }
+      ]
+    },
+    {
+      "id": "chaerin-research",
+      "name": "채린",
+      "description": {
+        "en": "Owner-approved Chaerin download with ten independent PSD rig poses and eighty source-bound motion slots. Requires Herdr Desktop Pet v0.3.4 or later for side-owned eye clipping. Original registry commercial status remains blocked; model/output and downstream commercial terms are not independently cleared.",
+        "ko": "소유자가 공개 배포를 승인한 채린 팩으로, 독립적인 PSD 리깅 포즈 10개와 원본 기반 모션 슬롯 80개를 포함합니다. 좌우 눈 소유 영역 클리핑을 위해 Herdr Desktop Pet v0.3.4 이상이 필요합니다. 원본 레지스트리의 상업적 이용 차단 상태는 그대로이며 모델/출력 및 이후 상업적 이용 권리는 독립적으로 확인되지 않았습니다."
+      },
+      "author": "Chaerin private ten-pose production",
+      "tags": [
+        "chaerin",
+        "채린",
+        "rig",
+        "psd",
+        "research",
+        "연구"
+      ],
+      "type": "pack",
+      "displayName": {
+        "en": "Chaerin",
+        "ko": "채린"
+      },
+      "variants": [
+        {
+          "id": "chaerin-research",
+          "name": {
+            "en": "Original",
+            "ko": "오리지널"
+          },
+          "version": "0.0.6",
+          "formatVersion": 5,
+          "renderMode": "rig",
+          "publishedAt": "2026-10-09",
+          "download": {
+            "path": "downloads/chaerin-research-v0.0.6.herdrchar",
+            "bytes": 31300196,
+            "sha256": "dc4e31f931a01125a05527b21bf50cbb6193c5fb94358a017396b5426a7839d3"
+          },
+          "preview": {
+            "idle": "previews/chaerin-research-idle.png",
+            "running": [
+              "previews/chaerin-research-running-0.png",
+              "previews/chaerin-research-running-1.png",
+              "previews/chaerin-research-running-2.png",
+              "previews/chaerin-research-running-3.png"
+            ]
+          },
+          "license": {
+            "label": "Owner-approved public distribution; separate artwork/model terms; no commercial clearance",
+            "path": "packs/chaerin-research/LICENSE.txt",
+            "displayLabel": {
+              "en": "Owner-approved public distribution; separate artwork/model terms",
+              "ko": "소유자 승인 공개 배포 · 별도 작품/모델 이용 조건"
+            }
+          },
+          "sourceTerms": "packs/chaerin-research/NOTICE.txt"
         }
       ]
     },

@@ -2,7 +2,7 @@
 
 [English](readme.md)
 
-이 공개 캐릭터 라이브러리의 **`packs-v0.0.5`에는 새 루벨리아(제복) 0.0.5와 아린 0.0.4·코딩 캣·루벨리아(교복)·루벨리아(수영복), 총 다섯 팩이 포함됩니다.** 기존 네 팩의 버전과 아카이브 바이트는 그대로 유지합니다. **Herdr Desktop Pet v0.2.1 이상**을 사용하세요. 코딩 캣은 오리지널 MIT 라이선스 PNG 팩(v4)이며 나머지 네 팩은 독립 포즈 10개를 가진 rig 팩(v5)입니다. 별도 작품 이용 조건을 유지하며 저장소 [MIT 라이선스](LICENSE.txt)가 이 작품을 재라이선스하지 않습니다.
+**네이티브 검증을 마친 `packs-v0.0.6` 카탈로그**에는 새 **채린 0.0.6**과 기존 코딩 캣·아린·루벨리아 세 팩, 총 **여섯 다운로드 팩**이 포함됩니다. 기존 다섯 팩의 버전과 아카이브 바이트는 유지합니다. 채린의 좌우 눈 소유 영역 클리핑에는 **Herdr Desktop Pet v0.3.4 이상**이 필요하고, 기존 다섯 팩은 **v0.2.1 이상**을 유지합니다. 코딩 캣은 오리지널 MIT 라이선스 PNG 팩(v4), 나머지 다섯 팩은 독립 포즈 10개를 가진 rig 팩(v5)이며 작품 이용 조건은 별개입니다. 저장소 [MIT 라이선스](LICENSE.txt)는 작품을 재라이선스하지 않습니다. 공개 게시·다운로드 가능 여부는 비초안 릴리스에서 확인하세요. 소스 메타데이터만으로 공개 업로드를 증명하지 않습니다.
 
 ## 캐릭터 미리보기
 
@@ -10,19 +10,20 @@
   <tr>
     <td align="center" width="180"><a href="previews/coding-cat-profile.png"><img src="previews/coding-cat-profile.png" alt="코딩 캣 프로필 미리보기" width="160"></a><br><strong>코딩 캣</strong><br>선택 다운로드<br>MIT</td>
     <td align="center" width="180"><a href="previews/arin-research-profile.png"><img src="previews/arin-research-profile.png" alt="아린 프로필 미리보기" width="160"></a><br><strong>아린</strong><br>다운로드 가능한 rig 팩<br>별도 작품 이용 조건</td>
+    <td align="center" width="180"><a href="previews/chaerin-research-profile.png"><img src="previews/chaerin-research-profile.png" alt="채린 네이티브 프로필 미리보기" width="160"></a><br><strong>채린</strong><br>0.0.6 · 앱 v0.3.4+<br>별도 작품/모델 이용 조건</td>
     <td align="center" width="180"><a href="previews/rubelia-school-uniform-idle.png"><img src="previews/rubelia-school-uniform-idle.png" alt="루벨리아 교복 미리보기" width="160"></a><br><strong>루벨리아(교복)</strong><br>다운로드 가능한 rig 팩</td>
     <td align="center" width="180"><a href="previews/rubelia-white-bikini-idle.png"><img src="previews/rubelia-white-bikini-idle.png" alt="루벨리아 수영복 미리보기" width="160"></a><br><strong>루벨리아(수영복)</strong><br>다운로드 가능한 rig 팩</td>
     <td align="center" width="180"><a href="previews/rubelia-burgundy-uniform-idle.png"><img src="previews/rubelia-burgundy-uniform-idle.png" alt="루벨리아 제복 미리보기" width="160"></a><br><strong>루벨리아(제복)</strong><br>B 짧은 플리츠 · 0.0.5</td>
   </tr>
 </table>
 
-아린과 루벨리아 두 복장 팩의 출처 기록은 [`shared-world-canon`](https://github.com/hanbong5938/shared-world-canon)의 원본 해시와 소유자 기록을 보존합니다. 이번 공개 다운로드·설치형 릴리스에 대한 소유자의 별도 승인은 각 팩의 `owner-approval.json`에 기록됩니다. 새 상업 이용 라이선스·독립적인 법적 권리 검증·모델 자료 이용권을 부여하지 않습니다. 라이선스·저작자·출처 고지문을 아카이브와 함께 보존하세요.
+아린·채린·루벨리아 복장 팩은 [`shared-world-canon`](https://github.com/hanbong5938/shared-world-canon) 원본 해시와 소유자 기록을 포함한 출처 정보를 유지합니다. 채린 원본·얼굴 참조의 공개 재배포 권한에 대한 사용자 진술 및 다운로드/설치형 팩·PSD 소스 10개·갤러리 게시의 **2026-10-09 별도 명시적 승인**은 [소유자 승인 기록](packs/chaerin-research/owner-approval.json)에 있습니다. 이전 비공개 편집 승인만으로 공개를 허가하지 않았습니다. 독립적인 법적·모델 자료 권리 검증이나 이후 상업 이용·제3자 재허락은 부여하지 않으며 원본 레지스트리의 commercial-blocked 상태는 그대로입니다. 팩의 라이선스·저작자·출처 고지문을 아카이브와 함께 보존하세요.
 
 ## 웹 갤러리 둘러보기
 
-[갤러리](https://hanbong5938.github.io/herdr-characters/)는 모든 `packs/*/manifest.json`을 발견하며 [`catalog.source.json`](catalog.source.json)이 프로필과 명시적인 게시 정보를 제공합니다. 현재 다섯 항목 모두 다운로드할 수 있습니다. **Rig**에는 아린과 루벨리아 세 팩, **PNG**에는 코딩 캣이 표시됩니다. **연구(Research)**는 소스 전용 항목용이며 현재 해당 항목은 없습니다. 선택적인 `displayName`과 라이선스 `displayLabel` 메타데이터는 갤러리의 이름·라이선스 요약을 현재 언어, 영어, 기존 단일 문자열 이름·레이블 순으로 표시합니다. 선택 언어와 관계없이 기존 이름과 영어·한국어 표시 이름, 태그·설명·변형 이름으로 검색할 수 있으며 이름순 정렬과 게시 날짜가 같은 항목의 정렬은 현재 언어로 표시되는 이름을 따릅니다. 갤러리는 게시된 [`catalog.json`](catalog.json)을 읽으므로 표시 메타데이터만 바꾸더라도 원본과 게시 카탈로그를 모두 수정해야 합니다. `catalog.source.json`만 변경해서는 갤러리에 반영되지 않습니다. 새 소스의 자동 발견은 릴리스 승인이 아닙니다. 원본 [`sources/legacy-png`](sources/legacy-png)는 코딩 캣 소스이지 추가 팩이 아닙니다.
+[갤러리](https://hanbong5938.github.io/herdr-characters/)는 모든 `packs/*/manifest.json`을 발견하며 [`catalog.source.json`](catalog.source.json)이 프로필과 명시적인 게시 정보를 제공합니다. 네이티브 검증한 카탈로그에는 다운로드 가능한 여섯 항목이 있습니다. **Rig**에는 채린·아린·루벨리아 세 팩, **PNG**에는 코딩 캣이 표시됩니다. **연구(Research)**는 소스 전용 항목용이며 현재 해당 항목은 없습니다. 선택적인 `displayName`과 라이선스 `displayLabel` 메타데이터는 현재 언어, 영어, 기존 단일 문자열 순으로 표시합니다. 이름과 영어·한국어 표시 이름, 태그·설명·변형 이름 검색 및 정렬도 현재 언어를 따릅니다. 갤러리는 게시된 [`catalog.json`](catalog.json)을 읽으므로 네이티브 패키징 후 원본에서 카탈로그를 재생성하고 배포해야 실제 갤러리에 반영됩니다. 자동 소스 발견은 공개 릴리스 승인이 아닙니다. [`sources/legacy-png`](sources/legacy-png)는 코딩 캣 소스이지 추가 팩이 아닙니다.
 
-로컬 미리보기는 이미지 의존성을 설치하고 고정 릴리스의 다섯 아카이브를 가져온 다음 정적 사이트를 빌드해 실행하세요.
+로컬 미리보기를 위해 이미지 의존성을 설치하고 고정 릴리스의 여섯 아카이브를 가져온 다음 정적 사이트를 빌드해 실행하세요.
 
 ```sh
 python3 -m pip install -r requirements-gallery.txt
@@ -35,7 +36,7 @@ npm run preview
 
 ## GitHub Pages에 게시하기
 
-공개 갤러리는 **[https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)**입니다. GitHub Pages는 **GitHub Actions**와 `github-pages` 환경을 사용합니다. **새 카탈로그를 `main`에 푸시하기 전에 모든 릴리스 파일을 게시하세요.** Pages 워크플로는 고정된 다섯 아카이브를 가져와 검증하고 `dist/gallery`를 빌드·배포합니다. 소스 전용 미리보기·저장소 링크가 설치형 릴리스를 승인하지는 않습니다.
+공개 갤러리는 **[https://hanbong5938.github.io/herdr-characters/](https://hanbong5938.github.io/herdr-characters/)**입니다. GitHub Pages는 **GitHub Actions**와 `github-pages` 환경을 사용합니다. **재생성한 카탈로그를 `main`에 푸시하기 전에 여섯 릴리스 파일을 모두 게시하세요.** Pages 워크플로는 모든 고정 아카이브를 검증하고 `dist/gallery`를 빌드·배포합니다. 소스 미리보기·저장소 링크만으로 설치형 배포가 완료되지 않습니다.
 
 ## 루벨리아 복장 소스
 
@@ -53,27 +54,28 @@ npm run preview
 
 ## 다운로드 및 가져오기
 
-[`packs-v0.0.5`](https://github.com/hanbong5938/herdr-characters/releases/tag/packs-v0.0.5)에서 다섯 아카이브와 [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.5/SHA256SUMS)를 받으세요. B 짧은 플리츠 제복을 추가했으며 아린 0.0.4와 나머지 세 팩의 0.0.3 아카이브는 바이트까지 동일합니다. 과거 `packs-v0.0.4`·`packs-v0.0.3`·`packs-v0.0.2` 릴리스는 변경하지 않습니다.
+비초안 [`packs-v0.0.6`](https://github.com/hanbong5938/herdr-characters/releases/tag/packs-v0.0.6)에서 여섯 아카이브와 [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/SHA256SUMS)를 받으세요. 채린만 새 아카이브이며 기존 다섯 팩의 버전·바이트는 변하지 않습니다. 이전 `packs-v0.0.5` 등은 유지합니다.
 
 | 캐릭터 | 아카이브 | 선택 ID |
 | --- | --- | --- |
-| 코딩 캣 | [coding-cat-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.5/coding-cat-v0.0.3.herdrchar) | `coding-cat` |
-| 아린 | [arin-research-v0.0.4.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.5/arin-research-v0.0.4.herdrchar) | `arin-research` |
-| 루벨리아(교복) | [rubelia-school-uniform-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.5/rubelia-school-uniform-v0.0.3.herdrchar) | `rubelia-school-uniform` |
-| 루벨리아(수영복) | [rubelia-white-bikini-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.5/rubelia-white-bikini-v0.0.3.herdrchar) | `rubelia-white-bikini` |
-| 루벨리아(제복) | [rubelia-burgundy-uniform-v0.0.5.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.5/rubelia-burgundy-uniform-v0.0.5.herdrchar) | `rubelia-burgundy-uniform` |
+| 코딩 캣 | [coding-cat-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/coding-cat-v0.0.3.herdrchar) | `coding-cat` |
+| 아린 | [arin-research-v0.0.4.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/arin-research-v0.0.4.herdrchar) | `arin-research` |
+| 채린 (앱 v0.3.4+) | [chaerin-research-v0.0.6.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/chaerin-research-v0.0.6.herdrchar) | `chaerin-research` |
+| 루벨리아(교복) | [rubelia-school-uniform-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/rubelia-school-uniform-v0.0.3.herdrchar) | `rubelia-school-uniform` |
+| 루벨리아(수영복) | [rubelia-white-bikini-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/rubelia-white-bikini-v0.0.3.herdrchar) | `rubelia-white-bikini` |
+| 루벨리아(제복) | [rubelia-burgundy-uniform-v0.0.5.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.6/rubelia-burgundy-uniform-v0.0.5.herdrchar) | `rubelia-burgundy-uniform` |
 
-다섯 파일과 `SHA256SUMS`를 같은 폴더에 내려받아 `shasum -a 256 -c SHA256SUMS`로 검증하세요. [`catalog.json`](catalog.json)에도 각 아카이브의 정확한 바이트 수와 SHA-256이 기록됩니다.
+여섯 파일과 `SHA256SUMS`를 같은 폴더에 내려받아 `shasum -a 256 -c SHA256SUMS`로 검증하세요. 재생성된 [`catalog.json`](catalog.json)에 각 아카이브의 정확한 바이트 수와 SHA-256이 기록됩니다.
 
-[v0.2.1 앱](https://github.com/hanbong5938/herdr-desktop-pet/releases/tag/v0.2.1) 이상으로 가져온 **다음 별도로 선택**하세요. 가져오기만 해서는 활성화되지 않습니다.
+채린은 [v0.3.4 앱](https://github.com/hanbong5938/herdr-desktop-pet/releases/tag/v0.3.4) 이상, 기존 다섯 팩은 v0.2.1 이상으로 가져온 **다음 별도로 선택**하세요. 가져오기만 해서는 활성화되지 않습니다.
 
 ```sh
 PET="/path/to/herdr-desktop-pet"
-"$PET" pack import --path "/absolute/path/to/arin-research-v0.0.4.herdrchar"
-"$PET" pack select arin-research
+"$PET" pack import --path "/absolute/path/to/chaerin-research-v0.0.6.herdrchar"
+"$PET" pack select chaerin-research
 ```
 
-`PET`와 아카이브 경로를 실제 로컬 경로로 바꾸거나 앱의 **캐릭터** 탭에서 가져온 뒤 선택한 캐릭터를 **적용**하세요. 다른 팩은 위 표의 선택 ID를 사용합니다. 안정판 v0.2.1은 수동 가져오기를 지원하며 `main`의 미출시 온라인 캐릭터 브라우저를 포함하거나 내장 기본 캐릭터를 교체하지 않습니다.
+`PET`와 아카이브 경로를 실제 로컬 경로로 바꾸거나 앱의 **캐릭터** 탭에서 가져온 뒤 선택한 캐릭터를 **적용**하세요. 다른 팩은 위 표의 선택 ID를 사용합니다. 가져오기는 사용자 선택이며 내장 기본 캐릭터를 교체하지 않습니다.
 
 ## 소스 예제 다시 생성하기
 
@@ -88,7 +90,7 @@ python3 tools/generate-character-examples.py --output packs/png-example --replac
 
 ## 카탈로그와 갤러리 빌드
 
-다섯 팩을 모두 패키징·검증하고 네이티브 미리보기를 렌더링하려면 **Herdr Desktop Pet v0.2.1 이상**과 `tools/character-pack.py`가 있는 소스 체크아웃을 제공하세요. 갤러리 이미지 의존성을 설치하세요.
+여섯 팩을 모두 패키징·검증하고 네이티브 미리보기를 렌더링하려면 **Herdr Desktop Pet v0.3.4 이상**과 `tools/character-pack.py`가 있는 소스 체크아웃을 제공하세요. 기존 다섯 팩의 최소 버전은 그대로지만 이전 앱은 채린 눈 클리핑 호환성을 증명하지 않습니다. 갤러리 이미지 의존성을 설치하세요.
 
 ```sh
 python3 -m pip install -r requirements-gallery.txt
@@ -96,9 +98,9 @@ python3 scripts/build-catalog.py --native /absolute/path/to/herdr-desktop-pet --
 python3 scripts/build-gallery.py
 ```
 
-두 빌더 모두 `packs/*/manifest.json`을 발견합니다. `build-catalog.py`는 `catalog.source.json`에 명시적으로 게시한 모든 변형을 패키징하고, 소스와 정확한 아카이브를 네이티브 앱으로 검증한 뒤 팩마다 네이티브 미리보기 다섯 장을 렌더링합니다. 모든 팩이 성공한 뒤에만 `catalog.json`과 `SHA256SUMS`를 갱신합니다. `build-gallery.py`는 현재 다섯 다운로드와 이용 고지를 배치하며 `fetch-downloads.py`는 모든 고정 아카이브의 크기·해시를 확인합니다. 새 소스 전용 팩은 별도 승인·등록 전까지 아카이브가 없으며 Pillow 합성 미리보기가 네이티브 호환성 증명은 아닙니다.
+두 빌더 모두 `packs/*/manifest.json`을 발견합니다. `build-catalog.py`는 `catalog.source.json`에 명시적으로 게시한 모든 변형을 패키징하고, 소스와 아카이브를 네이티브 검증한 뒤 팩마다 미리보기 다섯 장(채린: `chaerin-research-idle.png`, `chaerin-research-running-0.png`부터 `-3.png`)을 렌더링합니다. 모든 팩이 성공한 뒤에만 `catalog.json`과 `SHA256SUMS`를 갱신합니다. `build-gallery.py`는 다운로드·이용 고지를 배치하고 `fetch-downloads.py`는 아카이브 크기·해시를 확인합니다. 신규 소스 전용 팩에는 별도 승인·등록 전까지 아카이브가 없으며 Pillow 합성 미리보기는 네이티브 호환성 증명이 아닙니다.
 
-카탈로그 재생성은 기존 [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png)와 [`previews/arin-research-profile.png`](previews/arin-research-profile.png)를 보존합니다. 아린의 [출처 기록](packs/arin-research/source-record.json)과 [소유자 승인](packs/arin-research/owner-approval.json)은 과거 프로필·소스 전용 범위를 이후 공개 팩 릴리스 승인과 구분합니다. 다운로드 카탈로그는 내장 캐릭터를 추가하거나 상업 이용·모델 자료 이용권을 부여하지 않습니다.
+기존 [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png)와 [`previews/arin-research-profile.png`](previews/arin-research-profile.png)는 카탈로그 재생성 중 보존합니다. 채린의 [네이티브 프로필](previews/chaerin-research-profile.png)은 실제 v0.3.4 [waiting idle 미리보기](previews/chaerin-research-idle.png), SHA-256 `598c5a0feaf36312e2550a338ea16ebe3d36ce57ea30e1baa903c6e18268f56f`에서 `[300, 0, 790, 445]`를 잘라 LANCZOS로 512×512 RGBA로 만든 결과이며 SHA-256은 `34cb9ce0008f6436f9be406cc1e7cdbe046044de305a1d93d8f33c9db6b88dc4`입니다. 직접 시각 검토했고 덧칠·추가 생성은 없습니다. 패키징한 최신 ABI SDK 검수는 실제 233프레임(10모델 진입·동일 컨텍스트 재진입 3개·원본 모션 80개·분리된 눈/입/머리 제어 140개)을 포함합니다. PSD·오버라이드·모션·rig entry 31개는 승인한 production 원본과 바이트 단위로 일치하며 진단 모션 복사본은 배포하지 않습니다. [출처](packs/chaerin-research/source-record.json)·[소유자 승인](packs/chaerin-research/owner-approval.json)·[QA 정책](packs/chaerin-research/qa-release-policy.json)은 과거 비공개 검수와 새 공개 범위를 구분합니다. cancelled/disconnected의 과거 흰색 눈 이상 원인은 미확인 상태이며 별개의 좌우 홍채 소유 영역·흰자 후반 순서 회귀는 수정 전 실패하고 v0.3.4 후보의 실제 Metal 다섯 fixture에서 통과했습니다. 새 상업 이용·제3자 재허락·모델 자료 이용권은 부여하지 않습니다.
 
 **제복 0.0.5**는 승인된 B 짧은 플리츠를 독립 포즈 10개에 적용하고 기존 얼굴·원안 귀걸이·모션을 유지합니다. 실제 native 71개 캡처를 밝고 어두운 배경에서 검토했으며 10포즈 얼굴·귀걸이 영역의 원본 픽셀 일치를 확인했습니다. 소유자가 원안·얼굴 참조의 공개 재배포 권한과 이번 소스·카탈로그·설치형 릴리스를 별도로 확인했습니다([소유자 승인](packs/rubelia-burgundy-uniform/owner-approval.json)). 과거 로컬 전용 고지는 역사적 기록으로 구분합니다. 비공개 실행 감사·작업 이미지는 패키지에 포함하지 않으며 해시와 현재 제작 경로는 [출처 기록](packs/rubelia-burgundy-uniform/source-record.json)에 보존합니다. 새 상업 이용·모델 자료 라이선스는 부여하지 않습니다.
 
