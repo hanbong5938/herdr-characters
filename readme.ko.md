@@ -2,7 +2,7 @@
 
 [English](readme.md)
 
-이 공개 캐릭터 라이브러리의 **`packs-v0.0.3`에는 코딩 캣·아린·루벨리아(교복)·루벨리아(수영복) 네 팩이 모두 다운로드 가능하게 포함됩니다.** **Herdr Desktop Pet v0.2.1 이상**을 사용하세요. v0.2.0은 아린의 참조 전용 mesh 레이어를 처리하지 못합니다. 코딩 캣은 오리지널 MIT 라이선스의 384×512 투명 PNG 팩(v4)이며 상태 클립 네 개와 반응 클립 네 개를 포함합니다. 나머지는 독립 포즈 10개를 가진 rig 팩(v5)이며 별도 작품 이용 조건을 유지합니다. 저장소 [MIT 라이선스](LICENSE.txt)가 이 작품을 재라이선스하지 않습니다.
+이 공개 캐릭터 라이브러리의 **`packs-v0.0.4`에는 얼굴을 수정한 아린 0.0.4와 코딩 캣·루벨리아(교복)·루벨리아(수영복) 네 팩이 포함됩니다.** 다른 세 팩은 **0.0.3 버전과 기존 아카이브 바이트를 그대로 유지합니다.** **Herdr Desktop Pet v0.2.1 이상**을 사용하세요. v0.2.0은 아린의 참조 전용 mesh 레이어를 처리하지 못합니다. 코딩 캣은 오리지널 MIT 라이선스의 384×512 투명 PNG 팩(v4)이며 상태 클립 네 개와 반응 클립 네 개를 포함합니다. 나머지는 독립 포즈 10개를 가진 rig 팩(v5)이며 별도 작품 이용 조건을 유지합니다. 저장소 [MIT 라이선스](LICENSE.txt)가 이 작품을 재라이선스하지 않습니다.
 
 ## 캐릭터 미리보기
 
@@ -51,14 +51,14 @@ npm run preview
 
 ## 다운로드 및 가져오기
 
-[`packs-v0.0.3`](https://github.com/hanbong5938/herdr-characters/releases/tag/packs-v0.0.3)에서 네 아카이브와 [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/SHA256SUMS)를 받으세요. 과거 `packs-v0.0.2`에는 코딩 캣만 포함됐으며 해당 릴리스는 변경하지 않습니다.
+[`packs-v0.0.4`](https://github.com/hanbong5938/herdr-characters/releases/tag/packs-v0.0.4)에서 네 아카이브와 [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/SHA256SUMS)를 받으세요. 수정된 아린 0.0.4와 변경 없는 다른 세 팩의 0.0.3 아카이브를 포함합니다. 과거 `packs-v0.0.3`과 코딩 캣만 포함한 `packs-v0.0.2` 릴리스는 변경하지 않습니다.
 
 | 캐릭터 | 아카이브 | 선택 ID |
 | --- | --- | --- |
-| 코딩 캣 | [coding-cat-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/coding-cat-v0.0.3.herdrchar) | `coding-cat` |
-| 아린 | [arin-research-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/arin-research-v0.0.3.herdrchar) | `arin-research` |
-| 루벨리아(교복) | [rubelia-school-uniform-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/rubelia-school-uniform-v0.0.3.herdrchar) | `rubelia-school-uniform` |
-| 루벨리아(수영복) | [rubelia-white-bikini-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/rubelia-white-bikini-v0.0.3.herdrchar) | `rubelia-white-bikini` |
+| 코딩 캣 | [coding-cat-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/coding-cat-v0.0.3.herdrchar) | `coding-cat` |
+| 아린 | [arin-research-v0.0.4.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/arin-research-v0.0.4.herdrchar) | `arin-research` |
+| 루벨리아(교복) | [rubelia-school-uniform-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/rubelia-school-uniform-v0.0.3.herdrchar) | `rubelia-school-uniform` |
+| 루벨리아(수영복) | [rubelia-white-bikini-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/rubelia-white-bikini-v0.0.3.herdrchar) | `rubelia-white-bikini` |
 
 네 파일과 `SHA256SUMS`를 같은 폴더에 내려받아 `shasum -a 256 -c SHA256SUMS`로 검증하세요. [`catalog.json`](catalog.json)에도 각 아카이브의 정확한 바이트 수와 SHA-256이 기록됩니다.
 
@@ -66,7 +66,7 @@ npm run preview
 
 ```sh
 PET="/path/to/herdr-desktop-pet"
-"$PET" pack import --path "/absolute/path/to/arin-research-v0.0.3.herdrchar"
+"$PET" pack import --path "/absolute/path/to/arin-research-v0.0.4.herdrchar"
 "$PET" pack select arin-research
 ```
 
@@ -96,3 +96,5 @@ python3 scripts/build-gallery.py
 두 빌더 모두 `packs/*/manifest.json`을 발견합니다. `build-catalog.py`는 `catalog.source.json`에 명시적으로 게시한 모든 변형을 패키징하고, 소스와 정확한 아카이브를 네이티브 앱으로 검증한 뒤 팩마다 네이티브 미리보기 다섯 장을 렌더링합니다. 모든 팩이 성공한 뒤에만 `catalog.json`과 `SHA256SUMS`를 갱신합니다. `build-gallery.py`는 현재 네 다운로드와 이용 고지를 배치하며 `fetch-downloads.py`는 모든 고정 아카이브의 크기·해시를 확인합니다. 새 소스 전용 팩은 별도 승인·등록 전까지 아카이브가 없으며 Pillow 합성 미리보기가 네이티브 호환성 증명은 아닙니다.
 
 카탈로그 재생성은 기존 [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png)와 [`previews/arin-research-profile.png`](previews/arin-research-profile.png)를 보존합니다. 아린의 [출처 기록](packs/arin-research/source-record.json)과 [소유자 승인](packs/arin-research/owner-approval.json)은 과거 프로필·소스 전용 범위를 이후 공개 팩 릴리스 승인과 구분합니다. 다운로드 카탈로그는 내장 캐릭터를 추가하거나 상업 이용·모델 자료 이용권을 부여하지 않습니다.
+
+아린 **0.0.4**에는 원본 초상화를 기준으로 수정한 얼굴이 독립 native 모델 10개 모두에 포함됩니다. 기존 비얼굴 원화와 포즈별 모션 8개는 유지합니다. 사용자가 2026-10-09 공식 배포를 별도로 요청했으며 [소유자 승인](packs/arin-research/owner-approval.json)과 [출처 기록](packs/arin-research/source-record.json)은 그 승인과 운영자의 시각 검토를 구분합니다. 독립 프로필은 waiting idle t0 네이티브 캡처 SHA-256 `d754457b44e4bc087da1e7750322e38dc57e6042fb99ed751fa26196d2e35012`에서 `[300, 0, 720, 420]`을 잘라 LANCZOS로 512×512 RGBA 크기로 만든 결과이며 SHA-256은 `b77249f42f0b094f8284e50707ec0a61c1fb7c7235d7b9b486d5e90d7ed58d35`입니다. 카탈로그의 아린 대기·작업 미리보기도 수정된 production 모델로 재생성합니다. 과거 `packs-v0.0.3` 아카이브는 덮어쓰지 않으며 StageR3/91d756 기록은 현재 얼굴 일치성의 근거가 아닙니다. 이번 배포는 새 상업 이용·모델 자료 이용권을 부여하지 않습니다.

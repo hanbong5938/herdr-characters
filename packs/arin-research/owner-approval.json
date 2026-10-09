@@ -49,6 +49,18 @@
     "commercialUseApproved": false,
     "bundledDefaultReplacementApproved": false
   },
+  "correctedFaceReleaseAuthorization": {
+    "date": "2026-10-09",
+    "release": "packs-v0.0.4",
+    "version": "0.0.4",
+    "userStatement": "캐릭터 저장소에 공식 배포 해줘",
+    "approved": true,
+    "scope": "Official public release of the corrected ten-pose Arin pack and its native-derived profile in herdr-characters; commit and push the release sources, publish the downloadable/installable .herdrchar archive, and update the public download catalog and gallery. Existing packs-v0.0.3 assets remain unchanged.",
+    "independentlyVerified": false,
+    "commercialUseApproved": false,
+    "newModelLicense": false,
+    "bundledDefaultReplacementApproved": false
+  },
   "commercialUseApproved": false,
   "bundledDefaultReplacementApproved": false,
   "modelLicenseGrantedByUser": false,

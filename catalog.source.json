@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
   "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
-  "releaseTag": "packs-v0.0.3",
+  "releaseTag": "packs-v0.0.4",
   "characters": [
     {
       "id": "coding-cat",
@@ -38,8 +38,8 @@
         {
           "path": "packs/arin-research",
           "name": {"en": "Original", "ko": "오리지널"},
-          "version": "0.0.3",
-          "publishedAt": "2026-10-08",
+          "version": "0.0.4",
+          "publishedAt": "2026-10-09",
           "licenseLabel": "Owner-approved distribution; separate artwork terms"
         }
       ]

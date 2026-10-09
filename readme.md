@@ -2,7 +2,7 @@
 
 [한국어](readme.ko.md)
 
-This public character library provides **four downloadable packs in `packs-v0.0.3`**: Coding Cat, Arin, Rubelia (School Uniform), and Rubelia (Swimsuit). Use **Herdr Desktop Pet v0.2.1 or newer**; v0.2.0 cannot resolve Arin's reference-only mesh layers. Coding Cat is an original MIT-licensed procedural PNG pack with transparent 384×512 frames, four phase clips and four reaction clips (format v4). The other three are independent ten-pose rig packs (format v5) with separately recorded artwork terms. The repository [MIT license](LICENSE.txt) does not relicense their artwork.
+This public character library provides **four downloadable packs in `packs-v0.0.4`**: corrected Arin **0.0.4**, Coding Cat, Rubelia (School Uniform), and Rubelia (Swimsuit). The other three packs retain their **0.0.3** versions and unchanged archives. Use **Herdr Desktop Pet v0.2.1 or newer**; v0.2.0 cannot resolve Arin's reference-only mesh layers. Coding Cat is an original MIT-licensed procedural PNG pack with transparent 384×512 frames, four phase clips and four reaction clips (format v4). The other three are independent ten-pose rig packs (format v5) with separately recorded artwork terms. The repository [MIT license](LICENSE.txt) does not relicense their artwork.
 
 ## Character previews
 
@@ -51,14 +51,14 @@ The private local gallery references these same canonical sources and uses the K
 
 ## Download and import
 
-Download the archives and [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/SHA256SUMS) from [`packs-v0.0.3`](https://github.com/hanbong5938/herdr-characters/releases/tag/packs-v0.0.3). The older `packs-v0.0.2` release contained only Coding Cat and remains unchanged.
+Download the archives and [`SHA256SUMS`](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/SHA256SUMS) from [`packs-v0.0.4`](https://github.com/hanbong5938/herdr-characters/releases/tag/packs-v0.0.4). This release contains the repaired Arin 0.0.4 and the unchanged three 0.0.3 archives. Historical `packs-v0.0.3` and Coding Cat-only `packs-v0.0.2` remain unchanged.
 
 | Character | Archive | Selection ID |
 | --- | --- | --- |
-| Coding Cat | [coding-cat-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/coding-cat-v0.0.3.herdrchar) | `coding-cat` |
-| Arin | [arin-research-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/arin-research-v0.0.3.herdrchar) | `arin-research` |
-| Rubelia (School Uniform) | [rubelia-school-uniform-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/rubelia-school-uniform-v0.0.3.herdrchar) | `rubelia-school-uniform` |
-| Rubelia (Swimsuit) | [rubelia-white-bikini-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.3/rubelia-white-bikini-v0.0.3.herdrchar) | `rubelia-white-bikini` |
+| Coding Cat | [coding-cat-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/coding-cat-v0.0.3.herdrchar) | `coding-cat` |
+| Arin | [arin-research-v0.0.4.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/arin-research-v0.0.4.herdrchar) | `arin-research` |
+| Rubelia (School Uniform) | [rubelia-school-uniform-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/rubelia-school-uniform-v0.0.3.herdrchar) | `rubelia-school-uniform` |
+| Rubelia (Swimsuit) | [rubelia-white-bikini-v0.0.3.herdrchar](https://github.com/hanbong5938/herdr-characters/releases/download/packs-v0.0.4/rubelia-white-bikini-v0.0.3.herdrchar) | `rubelia-white-bikini` |
 
 Download all four files alongside `SHA256SUMS`, then run `shasum -a 256 -c SHA256SUMS`. [`catalog.json`](catalog.json) also records each archive's exact byte count and SHA-256.
 
@@ -66,7 +66,7 @@ Use the [v0.2.1 app release](https://github.com/hanbong5938/herdr-desktop-pet/re
 
 ```sh
 PET="/path/to/herdr-desktop-pet"
-"$PET" pack import --path "/absolute/path/to/arin-research-v0.0.3.herdrchar"
+"$PET" pack import --path "/absolute/path/to/arin-research-v0.0.4.herdrchar"
 "$PET" pack select arin-research
 ```
 
@@ -96,5 +96,7 @@ python3 scripts/build-gallery.py
 Both builders discover `packs/*/manifest.json`. `build-catalog.py` packages every explicitly published variant in `catalog.source.json`, validates both source and exact archive with the native app, renders five native previews per pack, and regenerates `catalog.json` and `SHA256SUMS` only after all packs succeed. `build-gallery.py` stages all four current downloads and notices. `fetch-downloads.py` fetches every pinned archive and checks its bytes and hash. A newly discovered source-only pack still has no archive until separately authorized and registered; its Pillow composite preview is not native compatibility proof.
 
 Curated [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png) and [`previews/arin-research-profile.png`](previews/arin-research-profile.png) remain unchanged during regeneration. Arin's [source record](packs/arin-research/source-record.json) and [owner approvals](packs/arin-research/owner-approval.json) retain historical profile/source-only scopes separately from the subsequent public pack-release approval. This downloadable catalog does not add bundled characters or grant commercial/model-material rights.
+
+Arin **0.0.4** includes the original-portrait face repair in all ten independent native models, with the existing body artwork and eight motion slots per pose preserved. The user separately authorized this official release on 2026-10-09; [owner approvals](packs/arin-research/owner-approval.json) and the [source record](packs/arin-research/source-record.json) distinguish that authorization from operator artistic review. The standalone profile is a waiting idle t0 native capture SHA-256 `d754457b44e4bc087da1e7750322e38dc57e6042fb99ed751fa26196d2e35012`, crop `[300, 0, 720, 420]` and 512×512 LANCZOS RGBA SHA-256 `b77249f42f0b094f8284e50707ec0a61c1fb7c7235d7b9b486d5e90d7ed58d35`. The catalog's Arin idle/running previews are regenerated from the repaired production model. Historical `packs-v0.0.3` archives are not overwritten, and StageR3/91d756 records are not current face-match evidence. This release grants no new commercial or model-material rights.
 
 Coding Cat profile provenance: source [`previews/coding-cat-idle.png`](previews/coding-cat-idle.png), SHA-256 `35df3d4346005167b645e0997723ad2e59404729fc895518733fe83629aa286d` (384×512 RGBA); face-centered square crop `[84, 35, 300, 251]` in source pixels (left, top, right, bottom), resized with LANCZOS to 512×512 RGBA PNG. Output [`previews/coding-cat-profile.png`](previews/coding-cat-profile.png) has SHA-256 `aa75304d0c0e7d570dc39465ccec8fc7af369efbbff970119e15f228a900ea3a`. Source transparency is retained; no AI generation, retouching, or new background. Rights remain unchanged: original repository-authored artwork, MIT, as recorded in [`packs/png-example/SOURCE.txt`](packs/png-example/SOURCE.txt).
