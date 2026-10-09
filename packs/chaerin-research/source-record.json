@@ -1,0 +1,2286 @@
+{
+  "schemaVersion": 1,
+  "status": "OWN_SOURCE_MOUTH_CONTOUR_PACK; historical private runtime QA retained below; public release requires fresh v0.3.4 native validation",
+  "character": {
+    "id": "chaerin-research",
+    "label": "채린"
+  },
+  "historicalEvidenceLocation": "The relative run paths and hashes below identify private production evidence outside this public pack; original run directory, raw logs and runtime binaries are not distributed.",
+  "approval": {
+    "authority": {
+      "path": "identity/corrected-202610080905.png",
+      "sha256": "41ab6a97fff21f83a26ae6a7809ea2d83339a76e2a422312385882e308efca2d",
+      "headCrop": [
+        323,
+        0,
+        945,
+        435
+      ],
+      "faceEditRect": [
+        548,
+        220,
+        799,
+        385
+      ],
+      "sourcePose": "waiting",
+      "boundedIdentityCorrection": {
+        "path": "identity/parent-review-202610080905.json",
+        "sha256": "0289fc0ef46d4b0b4d791b0bec84838ef7044e15f4cdbe0ffc0e1f475b4fe30c"
+      }
+    },
+    "editingPermission": {
+      "path": "private-all-ten-owned-native-qa-r8/owner-approval.json",
+      "sha256": "e2b95a57508ae20631350487bc08f28ea00f0063a82ad9355bac398221aa7e88"
+    },
+    "currentRuntimeReleaseCriterion": {
+      "schemaVersion": 1,
+      "character": "chaerin-research",
+      "userStatement": "현재 고정 환경 검수 기준으로 전달",
+      "scope": "Package and deliver all TEN own original source models and EIGHT own motions each for PRIVATE noncommercial research/evaluation, based on exact current frozen native-runtime QA.",
+      "knownHistoricalLimits": {
+        "poses": [
+          "cancelled",
+          "disconnected"
+        ],
+        "pastFullyOpenEyeOnlyWhiteArtifactsExist": true,
+        "causeEstablished": false,
+        "runtimeFixEstablished": false,
+        "notRegeneratedAfterEyeAnomaly": true,
+        "currentSourceIdentical44EachNormal": true,
+        "historicalLoadedLibraryHashNotRecorded": true,
+        "notAnUnlimitedReliabilityGuarantee": true
+      },
+      "prohibited": [
+        "Claiming historical eye artifact fixed",
+        "Hiding source pigment or disabling/reducing blink/motion to pass",
+        "Shipping reference/template model/motion bytes",
+        "Installation, bundled-default replacement, public or commercial distribution"
+      ],
+      "currentActualQA": [
+        {
+          "path": "all-ten-own-native-validation-r8-evidence.json",
+          "sha256": "060fe8eb5a4ca5d30efa187cc983c1a5b09aa00cbc4788b3001991d004391bdc"
+        },
+        {
+          "path": "cancelled-main-runtime-bound-native44-characterization-review-r1.json",
+          "sha256": "7eb5c3e25e5e5776ad8646100564f9a8fa6d03c7ccca2eabcf601c27e55b04f2"
+        },
+        {
+          "path": "disconnected-main-runtime-bound-native44-characterization-review-r1.json",
+          "sha256": "f5fb4dea1271f78cd9069c785552f04e617dd730fc72eae927066686cc20f5d1"
+        }
+      ],
+      "runtimeBindings": {
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "nativeProgram": {
+        "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/herdr-desktop-pet",
+        "sha256": "574fae0876a16d7548c14dedd3a7b508f6f2cb31b818bdc2a149582ab223b692"
+      }
+    },
+    "publicationAuthorization": {
+      "date": "2026-10-09",
+      "recordedAt": "2026-10-09T13:35:20Z",
+      "userRequest": "공식 배포 해줘 캐릭터팩에 합류시켜줘",
+      "authorityQuestion": "채린 원본·얼굴 참조 이미지의 공개 재배포 권한을 보유하고 있으며, 이번 공식 팩 다운로드·PSD 소스 공개·갤러리 등록을 승인하시나요?",
+      "userConfirmation": "권한 있음 · 공개 배포 승인",
+      "targetRelease": "packs-v0.0.6",
+      "scope": "Official downloadable/installable Chaerin pack, public original ten-pose PSD/rig/motion sources and catalog/gallery listing; not commercial use, third-party sublicense, model materials or bundled-default replacement.",
+      "independentlyVerified": false,
+      "originalPrivateArchiveSHA256": "87f8485930b5b7a50eacf5711099c453f61deb1ad8c14b6a1ec32a106a8c3501",
+      "originalPrivateManifestSHA256": "c70ff3773eecd08f376abd0c2a56d0341703344389fe35d28151e84ab711bcf6"
+    }
+  },
+  "canonicalOriginalCanon": {
+    "repository": "hanbong5938/shared-world-canon",
+    "revision": "70756fab286e83b01605c5755c2a465e8438d344",
+    "path": "assets/identity/reviews/commercial-rebuild/square-profiles-v1/chaerin-square-profile-v1.png",
+    "sha256": "7dc47930c1826a4a3249233ae378b0028053776b43a1f7dafd48aee779b63194",
+    "rights": "Original registry remains commercial-blocked. Historical private editing permission did not grant publication; separate user-asserted public archive/PSD/gallery approval is recorded in approval.publicationAuthorization. No independent legal, commercial, model-material or general third-party clearance."
+  },
+  "production": {
+    "ownModels": 10,
+    "ownMotionSlotsPerModel": 8,
+    "totalOwnMotionSlots": 80,
+    "schemaAndLicenseBaselineOnly": "Original temporary motion-reference/schema catalogs preserved as production evidence only; no borrowed model/motion data in this artifact.",
+    "unchangedOriginalSourceAndG0": true,
+    "ownSourceLayerGeometry": true,
+    "sourceBoundPostexportNegativePocketMattePoses": [
+      "bored",
+      "happy",
+      "head-pet"
+    ],
+    "sourceOverConservingPhysicalContactRepartitionPoses": [
+      "torso-tap"
+    ],
+    "actualSourceOwnedContactInfluenceProjection": [
+      "head-tap"
+    ],
+    "noTemplateArtworkOrGeometry": true,
+    "noTemplateMotions": true,
+    "noHistoricalRendererBugFixClaim": true,
+    "boundedOriginalProximalArmUnderpaintAndUpperFrillRepartitionPoses": [
+      "writing"
+    ],
+    "originalWritingTimedTracksExactlyUnchanged": true,
+    "ownSourceMouthContourRegisteredPoses": [
+      "waiting",
+      "writing",
+      "failed",
+      "cancelled",
+      "disconnected",
+      "bored",
+      "happy",
+      "head-tap",
+      "torso-tap",
+      "head-pet"
+    ],
+    "allTwentyOwnPSDAndMotionPayloadBytesUnchanged": true
+  },
+  "pipeline": [
+    "User-selected authority v2 plus bounded same-original facial identity correction; alpha and outside-mask original pixels unchanged.",
+    "Own complete pose sources (waiting is exact corrected authority); private local Qwen Image2.1; original matte and See-through semantic source decomposition and actual per-pose geometry.",
+    "Own G0 two-panel same-pose expression source; registered own original closed lids/mouth extracted as source-owned native layers, no whole face template pasted.",
+    "Exact native PSD source models; conservative original-source negative-space matte where needed and proven source-over-conserving physical sleeve/hand ownership, no original pigment wipe.",
+    "Eight independently own-source authored slots per model: nine original accepted own motion files unchanged; writing retains all original own timed tracks/strengths exactly and only 64 source-UV origin/influence scalars are retargeted to the real repaired complete-arm decoded geometry. Original author/plan retained; exact retarget proof included in own source bindings.",
+    "Correct omitted mouth contour registration: each own current PSD neutral/open/smile original raster measured through exact frozen SDK decoder; supported anchorOverrides.mouth.morph only, no PSD/G0/motion byte changes. Native range interpolation aligns original lip seams rather than opacity-crossfading offset outlines."
+  ],
+  "native": {
+    "program": {
+      "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/herdr-desktop-pet",
+      "sha256": "574fae0876a16d7548c14dedd3a7b508f6f2cb31b818bdc2a149582ab223b692"
+    },
+    "runtimeBindings": {
+      "nativeRendererLibrary": {
+        "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+        "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+      },
+      "nativeRigDecoderWorker": {
+        "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+        "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+      },
+      "nativeRigDecoderScript": {
+        "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+        "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+      },
+      "nativeRuntimeDeployment": {
+        "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+        "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+      }
+    },
+    "currentRuntimeQAReleaseScope": "Package and deliver all TEN own original source models and EIGHT own motions each for PRIVATE noncommercial research/evaluation, based on exact current frozen native-runtime QA.",
+    "knownHistoricalLimits": {
+      "poses": [
+        "cancelled",
+        "disconnected"
+      ],
+      "pastFullyOpenEyeOnlyWhiteArtifactsExist": true,
+      "causeEstablished": false,
+      "runtimeFixEstablished": false,
+      "notRegeneratedAfterEyeAnomaly": true,
+      "currentSourceIdentical44EachNormal": true,
+      "historicalLoadedLibraryHashNotRecorded": true,
+      "notAnUnlimitedReliabilityGuarantee": true
+    }
+  },
+  "models": {
+    "waiting": {
+      "sourceBindings": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/waiting/inputs/master.png",
+          "sha256": "35d6c7dfe2e86f844d6a0ba5c1d172eaa2ed8d81bee052439c0cc27ebb1965d2"
+        },
+        "sourceGeneration": {
+          "path": "generation/waiting-v1.png.provenance.json",
+          "sha256": "3b30e2809f6938d727b1d849ce0dddb05c126b495676bab0565ef1803b63cdc7"
+        },
+        "nativeGeneration": {
+          "path": "poses/waiting/native/generation.json",
+          "sha256": "98babb1eead86cd093cb4ef264cb43119d8a4f193d369ad08ff4501077f3dc68"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/waiting/native/waiting_layers.json",
+          "sha256": "c1784e783cbc21fb422600443e654c8f83b781beab7a836f9fd2f1fef241de61"
+        },
+        "geometry": {
+          "path": "poses/waiting/plan/geometry.json",
+          "sha256": "bb11a673b7617b8c445278592deea1588e474d96dbdfd067758cfb49c8c9459e"
+        },
+        "modelPsd": {
+          "path": "native-models/waiting/model.psd",
+          "sha256": "2f7876a2fd6cf0f13857ba5aff0d8faed6988b80d78ceb600a0fe5e5be166b09"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/rig-overrides.json",
+          "sha256": "da2cc14552d02ba4d0dbdc8ccfd0861f84711343eebe559bfaab7a2de7645c7b"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/actual-current-decoder-evidence.json",
+          "sha256": "e489556e6a864fdc989803a3a8df6b9331911855d39af9f14c5aa334e5703bb4"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/current-own-native-motion-source-plan.json",
+          "sha256": "f71617b5c02c6227334eedfca86c267ccc9c840a623db7ee1b5ca2e01cc4e00f"
+        },
+        "motionAuthorEvidence": {
+          "path": "waiting-own-motion-candidate-r4/waiting/author-evidence.json",
+          "sha256": "36eb00d67307b06a15b14d7c57a2d7bdec8ff996e8237a9b1210123993aa2cb8"
+        },
+        "candidateMotion": {
+          "path": "waiting-own-motion-candidate-r4/waiting/motion.json",
+          "sha256": "3a110947b5fb9f832cb6ec41638a4e5988fd57d92ce475c4ed2df615f7f623d2"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/waiting/own-source-record.json",
+          "sha256": "5e477b16a6cc738557beeec9ace890c1cc96730ad5c0c1781fff8f2654fd1643"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/own-mouth-contours-native1024.json",
+          "sha256": "d9f5247ef202ad222e151c035fbb1172ea09ae7cec5772f4af1757d786da4f63"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "waiting.psd",
+          "sha256": "2f7876a2fd6cf0f13857ba5aff0d8faed6988b80d78ceb600a0fe5e5be166b09"
+        },
+        "overrides": {
+          "path": "waiting-overrides.json",
+          "sha256": "da2cc14552d02ba4d0dbdc8ccfd0861f84711343eebe559bfaab7a2de7645c7b"
+        },
+        "motion": {
+          "path": "waiting-motion.json",
+          "sha256": "3a110947b5fb9f832cb6ec41638a4e5988fd57d92ce475c4ed2df615f7f623d2"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/waiting/inputs/master.png",
+          "sha256": "35d6c7dfe2e86f844d6a0ba5c1d172eaa2ed8d81bee052439c0cc27ebb1965d2"
+        },
+        "sourceGeneration": {
+          "path": "generation/waiting-v1.png.provenance.json",
+          "sha256": "3b30e2809f6938d727b1d849ce0dddb05c126b495676bab0565ef1803b63cdc7"
+        },
+        "nativeGeneration": {
+          "path": "poses/waiting/native/generation.json",
+          "sha256": "98babb1eead86cd093cb4ef264cb43119d8a4f193d369ad08ff4501077f3dc68"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/waiting/native/waiting_layers.json",
+          "sha256": "c1784e783cbc21fb422600443e654c8f83b781beab7a836f9fd2f1fef241de61"
+        },
+        "geometry": {
+          "path": "poses/waiting/plan/geometry.json",
+          "sha256": "bb11a673b7617b8c445278592deea1588e474d96dbdfd067758cfb49c8c9459e"
+        },
+        "modelPsd": {
+          "path": "native-models/waiting/model.psd",
+          "sha256": "2f7876a2fd6cf0f13857ba5aff0d8faed6988b80d78ceb600a0fe5e5be166b09"
+        },
+        "rigOverrides": {
+          "path": "native-models/waiting/rig-overrides.json",
+          "sha256": "11c26d7ebf7fbb66d66da00416a07351b4cd3fb417ffcbc23d0fad844335cdb3"
+        },
+        "decodedEvidence": {
+          "path": "waiting-r4-real-decoder-current-source/decoded-model-evidence.json",
+          "sha256": "9aa99959b70e802791028a5a2162316ab8ce3f3b9dd2c5faf53f36f9d65dcb78"
+        },
+        "motionPlan": {
+          "path": "poses/waiting/plan/own-native-motion.json",
+          "sha256": "151b7fb7399e7f11fe938e628e3383266bb1471de9a7aa209c863590cf17d0c0"
+        },
+        "motionAuthorEvidence": {
+          "path": "waiting-own-motion-candidate-r4/waiting/author-evidence.json",
+          "sha256": "36eb00d67307b06a15b14d7c57a2d7bdec8ff996e8237a9b1210123993aa2cb8"
+        },
+        "candidateMotion": {
+          "path": "waiting-own-motion-candidate-r4/waiting/motion.json",
+          "sha256": "3a110947b5fb9f832cb6ec41638a4e5988fd57d92ce475c4ed2df615f7f623d2"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/waiting/own-source-record.json",
+          "sha256": "5e477b16a6cc738557beeec9ace890c1cc96730ad5c0c1781fff8f2654fd1643"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "waiting-main-native-pilot-acceptance-r4.json",
+        "sha256": "b1d64bea76bb68f5cb1577575853949443bd90dfdac0e691d89cdcc9e4689f74"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "waiting",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/waiting.psd",
+          "sha256": "2f7876a2fd6cf0f13857ba5aff0d8faed6988b80d78ceb600a0fe5e5be166b09"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/waiting-motion.json",
+          "sha256": "3a110947b5fb9f832cb6ec41638a4e5988fd57d92ce475c4ed2df615f7f623d2"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/waiting-overrides.json",
+          "sha256": "11c26d7ebf7fbb66d66da00416a07351b4cd3fb417ffcbc23d0fad844335cdb3"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/rig-overrides.json",
+          "sha256": "da2cc14552d02ba4d0dbdc8ccfd0861f84711343eebe559bfaab7a2de7645c7b"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/own-mouth-contours-native1024.json",
+          "sha256": "d9f5247ef202ad222e151c035fbb1172ea09ae7cec5772f4af1757d786da4f63"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/actual-original-decoder-evidence.json",
+          "sha256": "c3154f664c22543bfa0fdfabf3ff1334d8aa5f26a976c99d2b6ec1915a42d800"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/waiting/actual-current-decoder-evidence.json",
+          "sha256": "e489556e6a864fdc989803a3a8df6b9331911855d39af9f14c5aa334e5703bb4"
+        }
+      }
+    },
+    "writing": {
+      "sourceBindings": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/writing/inputs/master.png",
+          "sha256": "af7fa9843c5bfbc055a122f8e837abbb9bf2b964156fc919938ce5f76716fedc"
+        },
+        "sourceGeneration": {
+          "path": "generation/writing-v1.png.provenance.json",
+          "sha256": "f1f953112291d8c5330088fcb04243722b812766f50594e1ea40bbfcbd35848a"
+        },
+        "nativeGeneration": {
+          "path": "poses/writing/native/generation.json",
+          "sha256": "a277ef974a19853cda74a8c25056dd918526c50e5f56c3024180769d55879fb1"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/writing/native/writing_layers.json",
+          "sha256": "4d08431dc9242b821357bb9d4d3cdf500ec2718d5f372433478a8c2da3cbc757"
+        },
+        "geometry": {
+          "path": "poses/writing/plan/geometry.json",
+          "sha256": "a737ef1e174fb3b5aa75c12f4791ff073a9e79c4572137b7e3db4d233d4ddbe7"
+        },
+        "modelPsd": {
+          "path": "writing-final-sleeve-underlap-r5/native/model.psd",
+          "sha256": "a34823594d439a71c2a343208a9b564c917b0a8c6b5156fe03649d11d8da19ed"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/rig-overrides.json",
+          "sha256": "4007e24a51a4a7e302732c544f7678abe67f668d024741c1c7083cdeb9ca9fee"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/actual-current-decoder-evidence.json",
+          "sha256": "2920bec732ebae7c0d703990c888459bc8a15a6e06d266dfc95b296d22e88318"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/current-own-native-motion-source-plan.json",
+          "sha256": "02454de53c18a0445c348749c5d7bb7385e6a65648277aea9369f02ea7cb8e09"
+        },
+        "motionAuthorEvidence": {
+          "path": "writing-own-8motion-r1/writing/author-evidence.json",
+          "sha256": "9c220c9cfc32555e503ade1f5c12694f288eae79af124334716e072bb82a9ad0"
+        },
+        "candidateMotion": {
+          "path": "writing-final-sleeve-underlap-r5/motion-source-retargeted.json",
+          "sha256": "28f4c7885c1c5cca9b1f99799ee1e4085a49194c3a717716e9936881a2f76c6f"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "originalModelPsd": {
+          "path": "native-models/writing/model.psd",
+          "sha256": "519afd02534c75972d2dc5fd212f05bc9df7f3d6ebad9d3a277137dff28e03b2"
+        },
+        "originalRigOverrides": {
+          "path": "native-models/writing/rig-overrides.json",
+          "sha256": "fefdf26979e6943b872ec212f526621b3ca753704838b52bd08ee5d2f4dcfaaf"
+        },
+        "originalDecodedEvidence": {
+          "path": "writing-r2-real-native-decoder/decoded-model-evidence.json",
+          "sha256": "a1f2a082910c57db5f1475ab5192714e0e9fb3654b2f43886fdbd91b4e90bdc9"
+        },
+        "originalMotionPlan": {
+          "path": "poses/writing/plan/own-native-motion.json",
+          "sha256": "a413748d57ce2126eb91b7d439d9c35fcaf9f770545ac2096f569aca46b7d758"
+        },
+        "ownMotionRetargetEvidence": {
+          "path": "writing-final-sleeve-underlap-r5/own-motion-retarget-evidence.json",
+          "sha256": "5b10b003e5a5a123494f25e0f025275e131e1b6bfc12853640f7fb2215e218b4"
+        },
+        "sourceRepairEvidence": {
+          "path": "writing-final-sleeve-underlap-r5/source-repair-evidence.json",
+          "sha256": "c6674e65ca7a1be8dc799b1d67b397f309a5caae1c33eb8c022461fab75d7455"
+        },
+        "ownSourceRecord": {
+          "path": "writing-final-sleeve-underlap-r5/own-source-record.json",
+          "sha256": "390701701af23b07571e8d06dea3216414189aa8534423f166e9f3387f2a7293"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/own-mouth-contours-native1024.json",
+          "sha256": "ae07e2d3236e62959deca71822c8ec1dcd2ac602db7dd298f3b4869e27bd5f68"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "writing.psd",
+          "sha256": "a34823594d439a71c2a343208a9b564c917b0a8c6b5156fe03649d11d8da19ed"
+        },
+        "overrides": {
+          "path": "writing-overrides.json",
+          "sha256": "4007e24a51a4a7e302732c544f7678abe67f668d024741c1c7083cdeb9ca9fee"
+        },
+        "motion": {
+          "path": "writing-motion.json",
+          "sha256": "28f4c7885c1c5cca9b1f99799ee1e4085a49194c3a717716e9936881a2f76c6f"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalOwnArtMotionAcceptance": {
+        "path": "writing-main-native-pilot-acceptance-r1.json",
+        "sha256": "f782482160252f1dc8bc09b5ab2e74929fa44747a9e0dfccb26428bf077206ed"
+      },
+      "boundedOriginalSourceRepair": {
+        "path": "writing-final-sleeve-underlap-r5/own-source-record.json",
+        "sha256": "390701701af23b07571e8d06dea3216414189aa8534423f166e9f3387f2a7293"
+      },
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/writing/inputs/master.png",
+          "sha256": "af7fa9843c5bfbc055a122f8e837abbb9bf2b964156fc919938ce5f76716fedc"
+        },
+        "sourceGeneration": {
+          "path": "generation/writing-v1.png.provenance.json",
+          "sha256": "f1f953112291d8c5330088fcb04243722b812766f50594e1ea40bbfcbd35848a"
+        },
+        "nativeGeneration": {
+          "path": "poses/writing/native/generation.json",
+          "sha256": "a277ef974a19853cda74a8c25056dd918526c50e5f56c3024180769d55879fb1"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/writing/native/writing_layers.json",
+          "sha256": "4d08431dc9242b821357bb9d4d3cdf500ec2718d5f372433478a8c2da3cbc757"
+        },
+        "geometry": {
+          "path": "poses/writing/plan/geometry.json",
+          "sha256": "a737ef1e174fb3b5aa75c12f4791ff073a9e79c4572137b7e3db4d233d4ddbe7"
+        },
+        "modelPsd": {
+          "path": "writing-final-sleeve-underlap-r5/native/model.psd",
+          "sha256": "a34823594d439a71c2a343208a9b564c917b0a8c6b5156fe03649d11d8da19ed"
+        },
+        "rigOverrides": {
+          "path": "writing-final-sleeve-underlap-r5/native/rig-overrides.json",
+          "sha256": "bfe194deef80d87019e3685f43d3bb5764d77090114cca02fcab2081631dc439"
+        },
+        "decodedEvidence": {
+          "path": "writing-final-sleeve-underlap-r5/actual-native-decoder/decoded-model-evidence.json",
+          "sha256": "02bf5579c1f4f64c977f2e0618fcae987c2e5b1788b19023cc4a4367d0614759"
+        },
+        "motionPlan": {
+          "path": "writing-final-sleeve-underlap-r5/own-native-motion-current-source.json",
+          "sha256": "859c790381ba7a1aad5a13bcfab047ffdc02d5f701be438edd74f59682d04f02"
+        },
+        "motionAuthorEvidence": {
+          "path": "writing-own-8motion-r1/writing/author-evidence.json",
+          "sha256": "9c220c9cfc32555e503ade1f5c12694f288eae79af124334716e072bb82a9ad0"
+        },
+        "candidateMotion": {
+          "path": "writing-final-sleeve-underlap-r5/motion-source-retargeted.json",
+          "sha256": "28f4c7885c1c5cca9b1f99799ee1e4085a49194c3a717716e9936881a2f76c6f"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "originalModelPsd": {
+          "path": "native-models/writing/model.psd",
+          "sha256": "519afd02534c75972d2dc5fd212f05bc9df7f3d6ebad9d3a277137dff28e03b2"
+        },
+        "originalRigOverrides": {
+          "path": "native-models/writing/rig-overrides.json",
+          "sha256": "fefdf26979e6943b872ec212f526621b3ca753704838b52bd08ee5d2f4dcfaaf"
+        },
+        "originalDecodedEvidence": {
+          "path": "writing-r2-real-native-decoder/decoded-model-evidence.json",
+          "sha256": "a1f2a082910c57db5f1475ab5192714e0e9fb3654b2f43886fdbd91b4e90bdc9"
+        },
+        "originalMotionPlan": {
+          "path": "poses/writing/plan/own-native-motion.json",
+          "sha256": "a413748d57ce2126eb91b7d439d9c35fcaf9f770545ac2096f569aca46b7d758"
+        },
+        "ownMotionRetargetEvidence": {
+          "path": "writing-final-sleeve-underlap-r5/own-motion-retarget-evidence.json",
+          "sha256": "5b10b003e5a5a123494f25e0f025275e131e1b6bfc12853640f7fb2215e218b4"
+        },
+        "sourceRepairEvidence": {
+          "path": "writing-final-sleeve-underlap-r5/source-repair-evidence.json",
+          "sha256": "c6674e65ca7a1be8dc799b1d67b397f309a5caae1c33eb8c022461fab75d7455"
+        },
+        "ownSourceRecord": {
+          "path": "writing-final-sleeve-underlap-r5/own-source-record.json",
+          "sha256": "390701701af23b07571e8d06dea3216414189aa8534423f166e9f3387f2a7293"
+        }
+      },
+      "supersededBeforeMouthRegistration_currentMainSourceAcceptance": {
+        "path": "writing-main-original-sleeve-source-r5-native44-acceptance-r2.json",
+        "sha256": "0a3d38fb29fe0cd33ae30b68584e6853842d399d1c1996ed0e397b8006f0373d"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "writing",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/writing.psd",
+          "sha256": "a34823594d439a71c2a343208a9b564c917b0a8c6b5156fe03649d11d8da19ed"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/writing-motion.json",
+          "sha256": "28f4c7885c1c5cca9b1f99799ee1e4085a49194c3a717716e9936881a2f76c6f"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/writing-overrides.json",
+          "sha256": "bfe194deef80d87019e3685f43d3bb5764d77090114cca02fcab2081631dc439"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/rig-overrides.json",
+          "sha256": "4007e24a51a4a7e302732c544f7678abe67f668d024741c1c7083cdeb9ca9fee"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/own-mouth-contours-native1024.json",
+          "sha256": "ae07e2d3236e62959deca71822c8ec1dcd2ac602db7dd298f3b4869e27bd5f68"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/actual-original-decoder-evidence.json",
+          "sha256": "f32a02d811255529e994f5e7e83e106c7f8dd6db7c4d7711c4d8a7d8f09aa811"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/writing/actual-current-decoder-evidence.json",
+          "sha256": "2920bec732ebae7c0d703990c888459bc8a15a6e06d266dfc95b296d22e88318"
+        }
+      }
+    },
+    "failed": {
+      "sourceBindings": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/failed/inputs/master.png",
+          "sha256": "19a8daa268bee2d0678a4ae6f64263edf1d752c9de059d1e60f7dfd647a6306a"
+        },
+        "sourceGeneration": {
+          "path": "generation/failed-v1.png.provenance.json",
+          "sha256": "0f40e8620fed6bf1183e7776737b705f58216d3fa4438590359c5ed6debbdb98"
+        },
+        "nativeGeneration": {
+          "path": "poses/failed/native/generation.json",
+          "sha256": "4396f41ee305ca13958ef1e5c2991691c14e91617fc5a51a22343a7e38fc1c11"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/failed/native/failed_layers.json",
+          "sha256": "e6360b4762469ab660ee01eb9f8f006d04351da4af5625ca66b116efa33b80a5"
+        },
+        "geometry": {
+          "path": "poses/failed/plan/geometry.json",
+          "sha256": "c4ce6097d49a1b5c092ae38c32b3a60236f9e76a09b42f2943885148618fe24a"
+        },
+        "modelPsd": {
+          "path": "native-models/failed/model.psd",
+          "sha256": "619e1d8576c72cd09e10c265d885cac3d9753b28aa73bec7d20a70844f3ac0a8"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/rig-overrides.json",
+          "sha256": "e75c43a9d14f91f4f19249c8ce2b87f5b55785d4148aa82822d5c598bff699c0"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/actual-current-decoder-evidence.json",
+          "sha256": "c09692c5012fd7ca59411f822a575c56752aabb2d2d148c1318b86061d097c1a"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/current-own-native-motion-source-plan.json",
+          "sha256": "f4252825aaa8c6dd8df125cc971406a41be4e485f8dda4b2193f6bf4b43f9096"
+        },
+        "motionAuthorEvidence": {
+          "path": "failed-owned-motion-candidate-r2/failed/author-evidence.json",
+          "sha256": "b0f4bf5305f4cbcad6d11efa1ce21732d5a0f55f53ef59d6584ca80c1f4e4ec2"
+        },
+        "candidateMotion": {
+          "path": "failed-owned-motion-candidate-r2/failed/motion.json",
+          "sha256": "a23ae86ba9b1790d83d0bedbe9590880e1e68f8ab629bbed80b96b40a46b4425"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/failed/own-source-record.json",
+          "sha256": "1b42fd9949a1adf6c02e1f8a3f9c6d63fd8acdfdeca180140455c952ca56011b"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/own-mouth-contours-native1024.json",
+          "sha256": "57945e1e6a46cd5222e984de332565c6c4d4f34457cf0b6c14885fcff0a41e6b"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "failed.psd",
+          "sha256": "619e1d8576c72cd09e10c265d885cac3d9753b28aa73bec7d20a70844f3ac0a8"
+        },
+        "overrides": {
+          "path": "failed-overrides.json",
+          "sha256": "e75c43a9d14f91f4f19249c8ce2b87f5b55785d4148aa82822d5c598bff699c0"
+        },
+        "motion": {
+          "path": "failed-motion.json",
+          "sha256": "a23ae86ba9b1790d83d0bedbe9590880e1e68f8ab629bbed80b96b40a46b4425"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/failed/inputs/master.png",
+          "sha256": "19a8daa268bee2d0678a4ae6f64263edf1d752c9de059d1e60f7dfd647a6306a"
+        },
+        "sourceGeneration": {
+          "path": "generation/failed-v1.png.provenance.json",
+          "sha256": "0f40e8620fed6bf1183e7776737b705f58216d3fa4438590359c5ed6debbdb98"
+        },
+        "nativeGeneration": {
+          "path": "poses/failed/native/generation.json",
+          "sha256": "4396f41ee305ca13958ef1e5c2991691c14e91617fc5a51a22343a7e38fc1c11"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/failed/native/failed_layers.json",
+          "sha256": "e6360b4762469ab660ee01eb9f8f006d04351da4af5625ca66b116efa33b80a5"
+        },
+        "geometry": {
+          "path": "poses/failed/plan/geometry.json",
+          "sha256": "c4ce6097d49a1b5c092ae38c32b3a60236f9e76a09b42f2943885148618fe24a"
+        },
+        "modelPsd": {
+          "path": "native-models/failed/model.psd",
+          "sha256": "619e1d8576c72cd09e10c265d885cac3d9753b28aa73bec7d20a70844f3ac0a8"
+        },
+        "rigOverrides": {
+          "path": "native-models/failed/rig-overrides.json",
+          "sha256": "c47c7ceabe7a01c516546f34c6ad8cf0c1e7fdf828641ef58d3bba4e3ade79c1"
+        },
+        "decodedEvidence": {
+          "path": "failed-r2-real-decoder/decoded-model-evidence.json",
+          "sha256": "497754d15dd44ec29c988ef8eb7d82515f75119ed1b1a069efd300ad4e6f72d2"
+        },
+        "motionPlan": {
+          "path": "poses/failed/plan/own-native-motion.json",
+          "sha256": "f99ab9a951535a74a970c40736ea18d94bed65d627d0b05304f500ff7c3b074c"
+        },
+        "motionAuthorEvidence": {
+          "path": "failed-owned-motion-candidate-r2/failed/author-evidence.json",
+          "sha256": "b0f4bf5305f4cbcad6d11efa1ce21732d5a0f55f53ef59d6584ca80c1f4e4ec2"
+        },
+        "candidateMotion": {
+          "path": "failed-owned-motion-candidate-r2/failed/motion.json",
+          "sha256": "a23ae86ba9b1790d83d0bedbe9590880e1e68f8ab629bbed80b96b40a46b4425"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/failed/own-source-record.json",
+          "sha256": "1b42fd9949a1adf6c02e1f8a3f9c6d63fd8acdfdeca180140455c952ca56011b"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "failed-main-native-pose-acceptance-r2.json",
+        "sha256": "656b2d1a2e59f5de901ecac68443808e645feb249820cfb2296747b529e16e69"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "failed",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/failed.psd",
+          "sha256": "619e1d8576c72cd09e10c265d885cac3d9753b28aa73bec7d20a70844f3ac0a8"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/failed-motion.json",
+          "sha256": "a23ae86ba9b1790d83d0bedbe9590880e1e68f8ab629bbed80b96b40a46b4425"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/failed-overrides.json",
+          "sha256": "c47c7ceabe7a01c516546f34c6ad8cf0c1e7fdf828641ef58d3bba4e3ade79c1"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/rig-overrides.json",
+          "sha256": "e75c43a9d14f91f4f19249c8ce2b87f5b55785d4148aa82822d5c598bff699c0"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/own-mouth-contours-native1024.json",
+          "sha256": "57945e1e6a46cd5222e984de332565c6c4d4f34457cf0b6c14885fcff0a41e6b"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/actual-original-decoder-evidence.json",
+          "sha256": "a7db91dec3d793a0404a338edd82bec1e17de38dc7d61420a978e7e574d52974"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/failed/actual-current-decoder-evidence.json",
+          "sha256": "c09692c5012fd7ca59411f822a575c56752aabb2d2d148c1318b86061d097c1a"
+        }
+      }
+    },
+    "cancelled": {
+      "sourceBindings": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/cancelled/inputs/master.png",
+          "sha256": "69c37d52a8e263c0b469207e10a22192cf3d76286f8d08adb8d8ff542d3895cd"
+        },
+        "nativeGeneration": {
+          "path": "poses/cancelled/native/generation.json",
+          "sha256": "20d8aef475e5d89d28104df26bf957c29c640aa7425290f1a770f951f32ec901"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/cancelled/native/cancelled_layers.json",
+          "sha256": "4f541a4af8a51d123e73ed23d575969ccbd223698cb92d829cdb82bafdb1f601"
+        },
+        "geometry": {
+          "path": "poses/cancelled/plan/geometry.json",
+          "sha256": "931e0b0d1acd3c96ba9c0e992775781f271e1c39ee9eba632ad63de9887fb0b6"
+        },
+        "modelPsd": {
+          "path": "native-models/cancelled/model.psd",
+          "sha256": "5b786ddbf1431d7f4ecebcb78764f84ed8e4f33e2c3d68450803081526ae635d"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/rig-overrides.json",
+          "sha256": "0ad6908a02edd998d94251cfb2114314476c4671e1d929e1cb0196cbaf1c7907"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/actual-current-decoder-evidence.json",
+          "sha256": "f7bde15720d3608161397fd03fbf1c9a3b0929953d9ef7903358159e37a0b2b4"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/cancelled/own-source-record.json",
+          "sha256": "e3795d824e7815023dbe50650c8788fcef27b13dd2e562b9dea494f573b58fd0"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/current-own-native-motion-source-plan.json",
+          "sha256": "94d62020faa9c128e8e8fc91dcc6a038d137295eefb451099617daf14a71b355"
+        },
+        "motionAuthorEvidence": {
+          "path": "cancelled-own-motion-candidate-r1/cancelled/author-evidence.json",
+          "sha256": "678b3599056501cf45a14f054e4242e88475beb82a02bac1d3fa229f7606ed68"
+        },
+        "candidateMotion": {
+          "path": "cancelled-own-motion-candidate-r1/cancelled/motion.json",
+          "sha256": "309868389f5f92ad0bb174772782c59c8c0a8217e710c2c1f2d05828e60d080b"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/own-mouth-contours-native1024.json",
+          "sha256": "b9adca88d14e1399acfccf0fe93e56594f95b9398ac8b6f0c1af8d2cc4ff44db"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "cancelled.psd",
+          "sha256": "5b786ddbf1431d7f4ecebcb78764f84ed8e4f33e2c3d68450803081526ae635d"
+        },
+        "overrides": {
+          "path": "cancelled-overrides.json",
+          "sha256": "0ad6908a02edd998d94251cfb2114314476c4671e1d929e1cb0196cbaf1c7907"
+        },
+        "motion": {
+          "path": "cancelled-motion.json",
+          "sha256": "309868389f5f92ad0bb174772782c59c8c0a8217e710c2c1f2d05828e60d080b"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/cancelled/inputs/master.png",
+          "sha256": "69c37d52a8e263c0b469207e10a22192cf3d76286f8d08adb8d8ff542d3895cd"
+        },
+        "nativeGeneration": {
+          "path": "poses/cancelled/native/generation.json",
+          "sha256": "20d8aef475e5d89d28104df26bf957c29c640aa7425290f1a770f951f32ec901"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/cancelled/native/cancelled_layers.json",
+          "sha256": "4f541a4af8a51d123e73ed23d575969ccbd223698cb92d829cdb82bafdb1f601"
+        },
+        "geometry": {
+          "path": "poses/cancelled/plan/geometry.json",
+          "sha256": "931e0b0d1acd3c96ba9c0e992775781f271e1c39ee9eba632ad63de9887fb0b6"
+        },
+        "modelPsd": {
+          "path": "native-models/cancelled/model.psd",
+          "sha256": "5b786ddbf1431d7f4ecebcb78764f84ed8e4f33e2c3d68450803081526ae635d"
+        },
+        "rigOverrides": {
+          "path": "native-models/cancelled/rig-overrides.json",
+          "sha256": "748c63add2e830d9576b80377931e028f1918acb210ba7e1750d50170c1a044a"
+        },
+        "decodedEvidence": {
+          "path": "cancelled-own-real-decoder-r1/decoded-model-evidence.json",
+          "sha256": "c50b3d930778cb48e54da0fb108a74a9708f50253f99690ef795dd929580af4d"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/cancelled/own-source-record.json",
+          "sha256": "e3795d824e7815023dbe50650c8788fcef27b13dd2e562b9dea494f573b58fd0"
+        },
+        "motionPlan": {
+          "path": "poses/cancelled/plan/own-native-motion.json",
+          "sha256": "5db30feac4bf7dbaa9f0632f32d520a632546129074c623a981bdfaeb74448a8"
+        },
+        "motionAuthorEvidence": {
+          "path": "cancelled-own-motion-candidate-r1/cancelled/author-evidence.json",
+          "sha256": "678b3599056501cf45a14f054e4242e88475beb82a02bac1d3fa229f7606ed68"
+        },
+        "candidateMotion": {
+          "path": "cancelled-own-motion-candidate-r1/cancelled/motion.json",
+          "sha256": "309868389f5f92ad0bb174772782c59c8c0a8217e710c2c1f2d05828e60d080b"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "cancelled-main-current-runtime-private-evaluation-acceptance-r1.json",
+        "sha256": "a3def7622460331d8f69e2bb8b6431c56098a9a9c09c8e7ba801f4d8d80a3d7e"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "cancelled",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/cancelled.psd",
+          "sha256": "5b786ddbf1431d7f4ecebcb78764f84ed8e4f33e2c3d68450803081526ae635d"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/cancelled-motion.json",
+          "sha256": "309868389f5f92ad0bb174772782c59c8c0a8217e710c2c1f2d05828e60d080b"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/cancelled-overrides.json",
+          "sha256": "748c63add2e830d9576b80377931e028f1918acb210ba7e1750d50170c1a044a"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/rig-overrides.json",
+          "sha256": "0ad6908a02edd998d94251cfb2114314476c4671e1d929e1cb0196cbaf1c7907"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/own-mouth-contours-native1024.json",
+          "sha256": "b9adca88d14e1399acfccf0fe93e56594f95b9398ac8b6f0c1af8d2cc4ff44db"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/actual-original-decoder-evidence.json",
+          "sha256": "1c121f16c23ad161c9a3ce2fc1f8ef7b9cd628f6c8a78b989e023227d79c856f"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/cancelled/actual-current-decoder-evidence.json",
+          "sha256": "f7bde15720d3608161397fd03fbf1c9a3b0929953d9ef7903358159e37a0b2b4"
+        }
+      }
+    },
+    "disconnected": {
+      "sourceBindings": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/disconnected/inputs/master.png",
+          "sha256": "554414fe4161af0a0211bdd139626afe065680cda3b3030baa9ec44dd3969621"
+        },
+        "nativeGeneration": {
+          "path": "poses/disconnected/native/generation.json",
+          "sha256": "843f3be0e6fb31a6b4927b643ff724afd8c68a100fa9cbed403c2c7469258b54"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/disconnected/native/disconnected_layers.json",
+          "sha256": "c18c5aef4607fd8fdfa3d2c7c21c7171581a41f5736da91cd27b95c76c1eace4"
+        },
+        "geometry": {
+          "path": "poses/disconnected/plan/geometry.json",
+          "sha256": "3c35fae3e80702ed1496f08323ac651cb6c069651f747af59f967e48ed5e7fe1"
+        },
+        "modelPsd": {
+          "path": "native-models/disconnected/model.psd",
+          "sha256": "6bd90c4ea366d4b4915297dd9a59b4ff6c4a99dd93e859197e4c0a59c68b51c6"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/rig-overrides.json",
+          "sha256": "2ace515e4b482e68caccb0ac215b6575e0fc24d1fb2c629fcb85f4ffc6278838"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/actual-current-decoder-evidence.json",
+          "sha256": "984c8489c23f813b576dcd376429eacb975d95bf9be5fbabfd6b15c0179cdec4"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/disconnected/own-source-record.json",
+          "sha256": "85fc9458c223e3eb6fa7044e6d83d7f0aa87ea2df6024e4f5524ed9060777c51"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/current-own-native-motion-source-plan.json",
+          "sha256": "2c276783162cc6c3e9ca3488ed440d537fe49c553830d30a7ce44eca7e560ab5"
+        },
+        "motionAuthorEvidence": {
+          "path": "disconnected-owned-motion-candidate-r1/disconnected/author-evidence.json",
+          "sha256": "19538107a25879e0846e0dc60dab332c51df055ea73babd6699bb1bb659475a7"
+        },
+        "candidateMotion": {
+          "path": "disconnected-owned-motion-candidate-r1/disconnected/motion.json",
+          "sha256": "f7bca78ca3182dde58fa64b33bec9b81510b1f762d6fa417e22748aeaa21e740"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/own-mouth-contours-native1024.json",
+          "sha256": "aecd8d882151738004fff9aa635a3f3d54b9103169cc5b9673ef7ee150b16623"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "disconnected.psd",
+          "sha256": "6bd90c4ea366d4b4915297dd9a59b4ff6c4a99dd93e859197e4c0a59c68b51c6"
+        },
+        "overrides": {
+          "path": "disconnected-overrides.json",
+          "sha256": "2ace515e4b482e68caccb0ac215b6575e0fc24d1fb2c629fcb85f4ffc6278838"
+        },
+        "motion": {
+          "path": "disconnected-motion.json",
+          "sha256": "f7bca78ca3182dde58fa64b33bec9b81510b1f762d6fa417e22748aeaa21e740"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/disconnected/inputs/master.png",
+          "sha256": "554414fe4161af0a0211bdd139626afe065680cda3b3030baa9ec44dd3969621"
+        },
+        "nativeGeneration": {
+          "path": "poses/disconnected/native/generation.json",
+          "sha256": "843f3be0e6fb31a6b4927b643ff724afd8c68a100fa9cbed403c2c7469258b54"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/disconnected/native/disconnected_layers.json",
+          "sha256": "c18c5aef4607fd8fdfa3d2c7c21c7171581a41f5736da91cd27b95c76c1eace4"
+        },
+        "geometry": {
+          "path": "poses/disconnected/plan/geometry.json",
+          "sha256": "3c35fae3e80702ed1496f08323ac651cb6c069651f747af59f967e48ed5e7fe1"
+        },
+        "modelPsd": {
+          "path": "native-models/disconnected/model.psd",
+          "sha256": "6bd90c4ea366d4b4915297dd9a59b4ff6c4a99dd93e859197e4c0a59c68b51c6"
+        },
+        "rigOverrides": {
+          "path": "native-models/disconnected/rig-overrides.json",
+          "sha256": "cc6b89f02e82132f049258d512cfc638451806cb58876e6baabc4130db79770c"
+        },
+        "decodedEvidence": {
+          "path": "disconnected-owned-native-decoder-r1/decoded-model-evidence.json",
+          "sha256": "a88b070829abfe6319601dab42f4e3b539332d542bb390cfd5650c60afe3a50d"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/disconnected/own-source-record.json",
+          "sha256": "85fc9458c223e3eb6fa7044e6d83d7f0aa87ea2df6024e4f5524ed9060777c51"
+        },
+        "motionPlan": {
+          "path": "poses/disconnected/plan/own-native-motion.json",
+          "sha256": "3eab4018eae07ff43a50aa336ba1e14275857e0ed2114b450c3ac1e140360be8"
+        },
+        "motionAuthorEvidence": {
+          "path": "disconnected-owned-motion-candidate-r1/disconnected/author-evidence.json",
+          "sha256": "19538107a25879e0846e0dc60dab332c51df055ea73babd6699bb1bb659475a7"
+        },
+        "candidateMotion": {
+          "path": "disconnected-owned-motion-candidate-r1/disconnected/motion.json",
+          "sha256": "f7bca78ca3182dde58fa64b33bec9b81510b1f762d6fa417e22748aeaa21e740"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "disconnected-main-current-runtime-private-evaluation-acceptance-r1.json",
+        "sha256": "14b3a561480929387346516b19d94ccade3ee329d2c6fb2564db63a597de0a2f"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "disconnected",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/disconnected.psd",
+          "sha256": "6bd90c4ea366d4b4915297dd9a59b4ff6c4a99dd93e859197e4c0a59c68b51c6"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/disconnected-motion.json",
+          "sha256": "f7bca78ca3182dde58fa64b33bec9b81510b1f762d6fa417e22748aeaa21e740"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/disconnected-overrides.json",
+          "sha256": "cc6b89f02e82132f049258d512cfc638451806cb58876e6baabc4130db79770c"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/rig-overrides.json",
+          "sha256": "2ace515e4b482e68caccb0ac215b6575e0fc24d1fb2c629fcb85f4ffc6278838"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/own-mouth-contours-native1024.json",
+          "sha256": "aecd8d882151738004fff9aa635a3f3d54b9103169cc5b9673ef7ee150b16623"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/actual-original-decoder-evidence.json",
+          "sha256": "f9458e1c21700da6632ece2ce27cc661901d640e4ddce5d5967e395be7e524e5"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/disconnected/actual-current-decoder-evidence.json",
+          "sha256": "984c8489c23f813b576dcd376429eacb975d95bf9be5fbabfd6b15c0179cdec4"
+        }
+      }
+    },
+    "bored": {
+      "sourceBindings": {
+        "modelPsd": {
+          "path": "bored-owned-postexport-negative-matte-r2/bored/model.psd",
+          "sha256": "8424419e6c55e5d37778d41d93633362ef82a9bfc7969739a53c4549f370b2a4"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/rig-overrides.json",
+          "sha256": "55a221eefd3921e037f6d562fbcf3ea4a02f515151af816b6fe32402df4b7c1b"
+        },
+        "ownSourceRecord": {
+          "path": "bored-owned-postexport-negative-matte-r2/bored/own-source-record.json",
+          "sha256": "766338feadfbcf319d29c5ec1b82ee9b5d90751880d46e5ef4b42b57c8919d1d"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/actual-current-decoder-evidence.json",
+          "sha256": "29356e550bb13b0bbf6927e7e4053b2222c0f8f8e8baea1fa60fa38a0ea3348e"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/current-own-native-motion-source-plan.json",
+          "sha256": "5daf1f87eae5a9a6895d946da720bf70b1ea2150a7b19d28a9430700f60b3a29"
+        },
+        "motionAuthorEvidence": {
+          "path": "bored-owned-motion-candidate-r2-canonical/bored/author-evidence.json",
+          "sha256": "557a20572c74dde210b99c62d2cd62439947d7d553a9250d0f226b5b9934e978"
+        },
+        "candidateMotion": {
+          "path": "bored-owned-motion-candidate-r2-canonical/bored/motion.json",
+          "sha256": "33c6d76db77054c672e73bef9a19b5c5bde1e9e67e8f9f844d17b68b4ce5da6a"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/bored/inputs/master.png",
+          "sha256": "0242b53974966ea97088a9ee83b7dc51dae65c8c205cd0a0d9edbd82023ba56a"
+        },
+        "nativeGeneration": {
+          "path": "poses/bored/native/generation.json",
+          "sha256": "24459ac117aa69a9819d428d74952e06706652d3ad2af35c20f11a1756e9cfc3"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/bored/native/bored_layers.json",
+          "sha256": "6d702de51086c0d55863c58ca82980ba9502180463f1c71ed22c65797d698a11"
+        },
+        "geometry": {
+          "path": "poses/bored/plan/geometry.json",
+          "sha256": "fb354d6ddee5c5dc952330bc07b1bb605f9823d5ee7087c1a5346184d8b189a9"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/own-mouth-contours-native1024.json",
+          "sha256": "a2e006b1c0f968404e1d10dc48578293f293020bbdbe315a08bcd64d9d30e64f"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "bored.psd",
+          "sha256": "8424419e6c55e5d37778d41d93633362ef82a9bfc7969739a53c4549f370b2a4"
+        },
+        "overrides": {
+          "path": "bored-overrides.json",
+          "sha256": "55a221eefd3921e037f6d562fbcf3ea4a02f515151af816b6fe32402df4b7c1b"
+        },
+        "motion": {
+          "path": "bored-motion.json",
+          "sha256": "33c6d76db77054c672e73bef9a19b5c5bde1e9e67e8f9f844d17b68b4ce5da6a"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "modelPsd": {
+          "path": "bored-owned-postexport-negative-matte-r2/bored/model.psd",
+          "sha256": "8424419e6c55e5d37778d41d93633362ef82a9bfc7969739a53c4549f370b2a4"
+        },
+        "rigOverrides": {
+          "path": "bored-owned-postexport-negative-matte-r2/bored/rig-overrides.json",
+          "sha256": "ea7b988bddfc4de9f99aa2657621ddc4e11c09f52bcd7561a353326ab32d0fcd"
+        },
+        "ownSourceRecord": {
+          "path": "bored-owned-postexport-negative-matte-r2/bored/own-source-record.json",
+          "sha256": "766338feadfbcf319d29c5ec1b82ee9b5d90751880d46e5ef4b42b57c8919d1d"
+        },
+        "decodedEvidence": {
+          "path": "bored-owned-native-decoder-r2/decoded-model-evidence.json",
+          "sha256": "f950a21c4252cf77cd77a91fe1229940307f6624480f0c8bcb3a9dcd72893ca9"
+        },
+        "motionPlan": {
+          "path": "poses/bored/plan/own-native-motion.json",
+          "sha256": "3c341a2d5c0341584d6ac214ccd6063438b813e454c1af2c16677bc514837991"
+        },
+        "motionAuthorEvidence": {
+          "path": "bored-owned-motion-candidate-r2-canonical/bored/author-evidence.json",
+          "sha256": "557a20572c74dde210b99c62d2cd62439947d7d553a9250d0f226b5b9934e978"
+        },
+        "candidateMotion": {
+          "path": "bored-owned-motion-candidate-r2-canonical/bored/motion.json",
+          "sha256": "33c6d76db77054c672e73bef9a19b5c5bde1e9e67e8f9f844d17b68b4ce5da6a"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/bored/inputs/master.png",
+          "sha256": "0242b53974966ea97088a9ee83b7dc51dae65c8c205cd0a0d9edbd82023ba56a"
+        },
+        "nativeGeneration": {
+          "path": "poses/bored/native/generation.json",
+          "sha256": "24459ac117aa69a9819d428d74952e06706652d3ad2af35c20f11a1756e9cfc3"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/bored/native/bored_layers.json",
+          "sha256": "6d702de51086c0d55863c58ca82980ba9502180463f1c71ed22c65797d698a11"
+        },
+        "geometry": {
+          "path": "poses/bored/plan/geometry.json",
+          "sha256": "fb354d6ddee5c5dc952330bc07b1bb605f9823d5ee7087c1a5346184d8b189a9"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "bored-main-native-own-art-and-eight-motion-acceptance-r1.json",
+        "sha256": "9c68c19e5c168b516c2b1e29af201dac97784819aae0bfc12d4f3188bd55967a"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "bored",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/bored.psd",
+          "sha256": "8424419e6c55e5d37778d41d93633362ef82a9bfc7969739a53c4549f370b2a4"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/bored-motion.json",
+          "sha256": "33c6d76db77054c672e73bef9a19b5c5bde1e9e67e8f9f844d17b68b4ce5da6a"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/bored-overrides.json",
+          "sha256": "ea7b988bddfc4de9f99aa2657621ddc4e11c09f52bcd7561a353326ab32d0fcd"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/rig-overrides.json",
+          "sha256": "55a221eefd3921e037f6d562fbcf3ea4a02f515151af816b6fe32402df4b7c1b"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/own-mouth-contours-native1024.json",
+          "sha256": "a2e006b1c0f968404e1d10dc48578293f293020bbdbe315a08bcd64d9d30e64f"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/actual-original-decoder-evidence.json",
+          "sha256": "948fa45e8503828ced6f937159ea89b45bbe5b156218217ece2bd83162009020"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/bored/actual-current-decoder-evidence.json",
+          "sha256": "29356e550bb13b0bbf6927e7e4053b2222c0f8f8e8baea1fa60fa38a0ea3348e"
+        }
+      }
+    },
+    "happy": {
+      "sourceBindings": {
+        "modelPsd": {
+          "path": "happy-owned-final-rig-r1/candidate/model.psd",
+          "sha256": "5f6ddbdf009a793b50fbed68e4cdddd3673ee6d6d71da5e2e2a5d81ee6b92921"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/rig-overrides.json",
+          "sha256": "70d4f99abf9f1a8e5e525712963bbb50158990f2a2d7bc1f6cb7853838bcc41c"
+        },
+        "ownSourceRecord": {
+          "path": "happy-owned-final-rig-r1/candidate/own-source-record.json",
+          "sha256": "892b1a88aaa9f6a925016b2286524618a76db737da9b938c081c50a3b9ece9d2"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/actual-current-decoder-evidence.json",
+          "sha256": "e7d79603f065357c2d1ba3e6902dff37a94c144cdfda5bc4590762bd8809a1ff"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/current-own-native-motion-source-plan.json",
+          "sha256": "f94102b42fc6959a1632a86dc0c615dbd45afd8f23f60cc4075a676c55c18404"
+        },
+        "motionAuthorEvidence": {
+          "path": "happy-owned-final-rig-r1/motion-candidate/author-evidence.json",
+          "sha256": "ab208d77764acbc692b407908fcbd10de25a45167334a546445d1fddf25bfe96"
+        },
+        "candidateMotion": {
+          "path": "happy-owned-final-rig-r1/motion-candidate/motion.json",
+          "sha256": "6c2838c14a7811499ce216340e483b1dc2fd1c60287be4db1e9635835da083d4"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/happy/inputs/master.png",
+          "sha256": "344509435aa3575fe256160c212170d9042f9867442aecb9cdb4b4b911ab7642"
+        },
+        "nativeGeneration": {
+          "path": "poses/happy/native/generation.json",
+          "sha256": "1f558cb4910bc980449468065f33b32caa45b2500f91771b983c9f94a1ab7cfc"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/happy/native/happy_layers.json",
+          "sha256": "8010bdc982f8a2d55c971b4c8226bc1b6caa49e223042e6becea5c4ebae54aa6"
+        },
+        "geometry": {
+          "path": "poses/happy/plan/geometry.json",
+          "sha256": "df93213384622e5e0c6593c82ccf028872729dd81b954b79550373657611c508"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/own-mouth-contours-native1024.json",
+          "sha256": "186a2c4587407d93e78d3f39443cee258b4ef4e23107a208121f9fc4839cc27f"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "happy.psd",
+          "sha256": "5f6ddbdf009a793b50fbed68e4cdddd3673ee6d6d71da5e2e2a5d81ee6b92921"
+        },
+        "overrides": {
+          "path": "happy-overrides.json",
+          "sha256": "70d4f99abf9f1a8e5e525712963bbb50158990f2a2d7bc1f6cb7853838bcc41c"
+        },
+        "motion": {
+          "path": "happy-motion.json",
+          "sha256": "6c2838c14a7811499ce216340e483b1dc2fd1c60287be4db1e9635835da083d4"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "modelPsd": {
+          "path": "happy-owned-final-rig-r1/candidate/model.psd",
+          "sha256": "5f6ddbdf009a793b50fbed68e4cdddd3673ee6d6d71da5e2e2a5d81ee6b92921"
+        },
+        "rigOverrides": {
+          "path": "happy-owned-final-rig-r1/candidate/rig-overrides.json",
+          "sha256": "ac5ba90a1c450c2a12b3c33d38fb14178104405c2118fc619a566b3c11b22c1f"
+        },
+        "ownSourceRecord": {
+          "path": "happy-owned-final-rig-r1/candidate/own-source-record.json",
+          "sha256": "892b1a88aaa9f6a925016b2286524618a76db737da9b938c081c50a3b9ece9d2"
+        },
+        "decodedEvidence": {
+          "path": "happy-owned-final-rig-r1/postmatte/decoded-model-evidence.json",
+          "sha256": "0022752b55c40b51a2d3e4e8d1b96aa84f04ed0022425d60db4268dac83a6bf9"
+        },
+        "motionPlan": {
+          "path": "poses/happy/plan/own-native-motion.json",
+          "sha256": "17429b7dba4d1d916d55fcea03560d6be40cb752b0c82183a19362d2865adf80"
+        },
+        "motionAuthorEvidence": {
+          "path": "happy-owned-final-rig-r1/motion-candidate/author-evidence.json",
+          "sha256": "ab208d77764acbc692b407908fcbd10de25a45167334a546445d1fddf25bfe96"
+        },
+        "candidateMotion": {
+          "path": "happy-owned-final-rig-r1/motion-candidate/motion.json",
+          "sha256": "6c2838c14a7811499ce216340e483b1dc2fd1c60287be4db1e9635835da083d4"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/happy/inputs/master.png",
+          "sha256": "344509435aa3575fe256160c212170d9042f9867442aecb9cdb4b4b911ab7642"
+        },
+        "nativeGeneration": {
+          "path": "poses/happy/native/generation.json",
+          "sha256": "1f558cb4910bc980449468065f33b32caa45b2500f91771b983c9f94a1ab7cfc"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/happy/native/happy_layers.json",
+          "sha256": "8010bdc982f8a2d55c971b4c8226bc1b6caa49e223042e6becea5c4ebae54aa6"
+        },
+        "geometry": {
+          "path": "poses/happy/plan/geometry.json",
+          "sha256": "df93213384622e5e0c6593c82ccf028872729dd81b954b79550373657611c508"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "happy-main-native-own-art-and-eight-motion-acceptance-r1.json",
+        "sha256": "38fe1212a976a120283793ff2952d413570414eeeb8b381f75839664951b7a53"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "happy",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/happy.psd",
+          "sha256": "5f6ddbdf009a793b50fbed68e4cdddd3673ee6d6d71da5e2e2a5d81ee6b92921"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/happy-motion.json",
+          "sha256": "6c2838c14a7811499ce216340e483b1dc2fd1c60287be4db1e9635835da083d4"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/happy-overrides.json",
+          "sha256": "ac5ba90a1c450c2a12b3c33d38fb14178104405c2118fc619a566b3c11b22c1f"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/rig-overrides.json",
+          "sha256": "70d4f99abf9f1a8e5e525712963bbb50158990f2a2d7bc1f6cb7853838bcc41c"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/own-mouth-contours-native1024.json",
+          "sha256": "186a2c4587407d93e78d3f39443cee258b4ef4e23107a208121f9fc4839cc27f"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/actual-original-decoder-evidence.json",
+          "sha256": "965fb57890bded75246bce3f10adb93827eeca2d97141cfee6540806d73d6ff9"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/happy/actual-current-decoder-evidence.json",
+          "sha256": "e7d79603f065357c2d1ba3e6902dff37a94c144cdfda5bc4590762bd8809a1ff"
+        }
+      }
+    },
+    "head-tap": {
+      "sourceBindings": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/head-tap/inputs/master.png",
+          "sha256": "09bde3cb799125271ab9674281820ff4307538a38efa3df05ee437125116775c"
+        },
+        "sourceGeneration": {
+          "path": "generation/head-tap-v2.png.provenance.json",
+          "sha256": "b8fa291834cb7615d23ba76c128b31e0903afd2ffaaecf97193d92d1de5702c6"
+        },
+        "nativeGeneration": {
+          "path": "poses/head-tap/native/generation.json",
+          "sha256": "cf2ccc94596db0364efe40529523d144bd8a85ec1d34d656a0aff4434bc4f713"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/head-tap/native/head-tap_layers.json",
+          "sha256": "a12135c5ceb7ca0944d4393b20a02c235657482b9f538f85becc154de1b0c23a"
+        },
+        "geometry": {
+          "path": "poses/head-tap/plan/geometry.json",
+          "sha256": "e4de144d01c8a7f424116a80290c39f01200e60d41b117ba94d10e3a4f8eb437"
+        },
+        "modelPsd": {
+          "path": "native-models/head-tap/model.psd",
+          "sha256": "cca42a8c9e82d8d3a2f30f0d6b45013dfc8887a7679ec27e8bbb5212311d1a1c"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/rig-overrides.json",
+          "sha256": "a2491a114cc47342856044a72ba4f35f4e13f32402f8844883c6156711dc4472"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/actual-current-decoder-evidence.json",
+          "sha256": "254a7cdbf1d1b00178cb568633f2f563444329d9e8e15bb4f9113a370915890a"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/current-own-native-motion-source-plan.json",
+          "sha256": "4eae40e9d0e8f763de59681eeba774b67a525919df3ded4d4a981bf9d80444d0"
+        },
+        "motionAuthorEvidence": {
+          "path": "headtap-motion-candidate-current-r5/head-tap/author-evidence.json",
+          "sha256": "5e5f48b90a245ccc0bd30671282a6812b812ea3a0ce872b21ed725455c0c13b6"
+        },
+        "candidateMotion": {
+          "path": "headtap-r5-coupled-motion-current-source-r2/motion.json",
+          "sha256": "1fa6b6f45c42c389c2391e7ee8f230346d3b6740079cb3c69bf5aa2e863291c7"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/head-tap/own-source-record.json",
+          "sha256": "66424deade346cd02980d9fd3de20c4cd68b26422893a88102ebcb3fe09235db"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "motionCouplingEvidence": {
+          "path": "headtap-r5-coupled-motion-current-source-r2/own-attachment-evidence.json",
+          "sha256": "623bd0bb23bbdec7fe06489262afb31bad0b7dacc1d5f442d6f769430c12098b"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/own-mouth-contours-native1024.json",
+          "sha256": "e38040adf37d454534d653ed11870465a74dcf98b8b4d28c5d59a5b1d98919b6"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "head-tap.psd",
+          "sha256": "cca42a8c9e82d8d3a2f30f0d6b45013dfc8887a7679ec27e8bbb5212311d1a1c"
+        },
+        "overrides": {
+          "path": "head-tap-overrides.json",
+          "sha256": "a2491a114cc47342856044a72ba4f35f4e13f32402f8844883c6156711dc4472"
+        },
+        "motion": {
+          "path": "head-tap-motion.json",
+          "sha256": "1fa6b6f45c42c389c2391e7ee8f230346d3b6740079cb3c69bf5aa2e863291c7"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/head-tap/inputs/master.png",
+          "sha256": "09bde3cb799125271ab9674281820ff4307538a38efa3df05ee437125116775c"
+        },
+        "sourceGeneration": {
+          "path": "generation/head-tap-v2.png.provenance.json",
+          "sha256": "b8fa291834cb7615d23ba76c128b31e0903afd2ffaaecf97193d92d1de5702c6"
+        },
+        "nativeGeneration": {
+          "path": "poses/head-tap/native/generation.json",
+          "sha256": "cf2ccc94596db0364efe40529523d144bd8a85ec1d34d656a0aff4434bc4f713"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/head-tap/native/head-tap_layers.json",
+          "sha256": "a12135c5ceb7ca0944d4393b20a02c235657482b9f538f85becc154de1b0c23a"
+        },
+        "geometry": {
+          "path": "poses/head-tap/plan/geometry.json",
+          "sha256": "e4de144d01c8a7f424116a80290c39f01200e60d41b117ba94d10e3a4f8eb437"
+        },
+        "modelPsd": {
+          "path": "native-models/head-tap/model.psd",
+          "sha256": "cca42a8c9e82d8d3a2f30f0d6b45013dfc8887a7679ec27e8bbb5212311d1a1c"
+        },
+        "rigOverrides": {
+          "path": "native-models/head-tap/rig-overrides.json",
+          "sha256": "a11d6fce997a86de3e97b171f3bbe8aa0eef799cbe1419c62499b762260d93dd"
+        },
+        "decodedEvidence": {
+          "path": "headtap-r5-real-decoder-current-source-r1/decoded-model-evidence.json",
+          "sha256": "9a121a3d010eb7a3118a3737de035ff3254742e82515924544d4d3bba48c0816"
+        },
+        "motionPlan": {
+          "path": "poses/head-tap/plan/own-native-motion.json",
+          "sha256": "d8d12b430512596771298056facf3ce28c25f1a0d09bff324b331af166521b1b"
+        },
+        "motionAuthorEvidence": {
+          "path": "headtap-motion-candidate-current-r5/head-tap/author-evidence.json",
+          "sha256": "5e5f48b90a245ccc0bd30671282a6812b812ea3a0ce872b21ed725455c0c13b6"
+        },
+        "candidateMotion": {
+          "path": "headtap-r5-coupled-motion-current-source-r2/motion.json",
+          "sha256": "1fa6b6f45c42c389c2391e7ee8f230346d3b6740079cb3c69bf5aa2e863291c7"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/head-tap/own-source-record.json",
+          "sha256": "66424deade346cd02980d9fd3de20c4cd68b26422893a88102ebcb3fe09235db"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "motionCouplingEvidence": {
+          "path": "headtap-r5-coupled-motion-current-source-r2/own-attachment-evidence.json",
+          "sha256": "623bd0bb23bbdec7fe06489262afb31bad0b7dacc1d5f442d6f769430c12098b"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "headtap-main-native-pilot-acceptance-r5.json",
+        "sha256": "285a4f9c05276882585831528e55fda0b4e2dd2c7decfec8d41a4b69c1dc3eaa"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "head-tap",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/head-tap.psd",
+          "sha256": "cca42a8c9e82d8d3a2f30f0d6b45013dfc8887a7679ec27e8bbb5212311d1a1c"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/head-tap-motion.json",
+          "sha256": "1fa6b6f45c42c389c2391e7ee8f230346d3b6740079cb3c69bf5aa2e863291c7"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/head-tap-overrides.json",
+          "sha256": "a11d6fce997a86de3e97b171f3bbe8aa0eef799cbe1419c62499b762260d93dd"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/rig-overrides.json",
+          "sha256": "a2491a114cc47342856044a72ba4f35f4e13f32402f8844883c6156711dc4472"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/own-mouth-contours-native1024.json",
+          "sha256": "e38040adf37d454534d653ed11870465a74dcf98b8b4d28c5d59a5b1d98919b6"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/actual-original-decoder-evidence.json",
+          "sha256": "79f351ffc2aa0e8dd6a6ab716a16acd2a4f6d31acb57de531590abae21c9214d"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-tap/actual-current-decoder-evidence.json",
+          "sha256": "254a7cdbf1d1b00178cb568633f2f563444329d9e8e15bb4f9113a370915890a"
+        }
+      }
+    },
+    "torso-tap": {
+      "sourceBindings": {
+        "modelPsd": {
+          "path": "native-models/torso-tap/model.psd",
+          "sha256": "7f83b2b52862ab7f8a48e8ee6270c49d41300cb7265dbbd0f3ca6ad35505aee6"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/rig-overrides.json",
+          "sha256": "d49b8f97d33df6dc489ccf4eefa40cc89e4dbeb91ba0666827df474a3ff963ba"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/torso-tap/own-source-record.json",
+          "sha256": "e38565753f2d874b9a46f15c0225b7403d1c87b0b613a5dc13b8d123287de006"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/actual-current-decoder-evidence.json",
+          "sha256": "8e8405d1723c74f0c37d939fa7c3268584164473dcec54a7e36b7bbf09b422ab"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/current-own-native-motion-source-plan.json",
+          "sha256": "262698dc11c5da25036aa604658b9245e0b5ceeb2e962448a8f8b6f838aabeac"
+        },
+        "motionAuthorEvidence": {
+          "path": "torso-tap-owned-motion-candidate-r2/author-evidence.json",
+          "sha256": "739aac9b0790a3869cd11c9886c7935df91f697c5d05cf710b9c419201d353f3"
+        },
+        "candidateMotion": {
+          "path": "torso-tap-owned-motion-candidate-r2/motion.json",
+          "sha256": "8df39be0f7fb9d7016fdb3cde5ea25da90dc0e195435a0817164609834ef622e"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/torso-tap/inputs/master.png",
+          "sha256": "c8f8c2d0c0495bad935b4e9c63c2f24eefb13405c2b59c934e1df67c10214eae"
+        },
+        "nativeGeneration": {
+          "path": "poses/torso-tap/native/generation.json",
+          "sha256": "6da62e0165b007232ac45fc2c2a320c809d2e9dfac3796707b209dd73a3b0573"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/torso-tap/native/torso-tap_layers.json",
+          "sha256": "c973bbdeecb155173951d336587b119e852e3f5d9fbfa34009164045a0fc9abf"
+        },
+        "geometry": {
+          "path": "poses/torso-tap/plan/geometry.json",
+          "sha256": "4894a4de44813935e40d3701f198c0b2327bc9ef9c0dfa582647b13da5d98b3d"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/own-mouth-contours-native1024.json",
+          "sha256": "e51db0f5e430697dc3aec2b7210efd1c3198d5d90e4544c7366dedb8416642ea"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "torso-tap.psd",
+          "sha256": "7f83b2b52862ab7f8a48e8ee6270c49d41300cb7265dbbd0f3ca6ad35505aee6"
+        },
+        "overrides": {
+          "path": "torso-tap-overrides.json",
+          "sha256": "d49b8f97d33df6dc489ccf4eefa40cc89e4dbeb91ba0666827df474a3ff963ba"
+        },
+        "motion": {
+          "path": "torso-tap-motion.json",
+          "sha256": "8df39be0f7fb9d7016fdb3cde5ea25da90dc0e195435a0817164609834ef622e"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "modelPsd": {
+          "path": "native-models/torso-tap/model.psd",
+          "sha256": "7f83b2b52862ab7f8a48e8ee6270c49d41300cb7265dbbd0f3ca6ad35505aee6"
+        },
+        "rigOverrides": {
+          "path": "native-models/torso-tap/rig-overrides.json",
+          "sha256": "1a6606ff67d96e87cab75d350b02ae1ca39d04e66276bc62c6cc25bffddc5a0c"
+        },
+        "ownSourceRecord": {
+          "path": "native-models/torso-tap/own-source-record.json",
+          "sha256": "e38565753f2d874b9a46f15c0225b7403d1c87b0b613a5dc13b8d123287de006"
+        },
+        "decodedEvidence": {
+          "path": "torso-tap-owned-R2-real-decoder-r1/decoded-model-evidence.json",
+          "sha256": "bde497c1ea28519ea938c37a4231b7cac180abc11d16a1f05b5e40448a9e4436"
+        },
+        "motionPlan": {
+          "path": "poses/torso-tap/plan/own-native-motion.json",
+          "sha256": "119ef304cdcf79c8405239be3b66e9794ba15f275bad846e9139ed4434aafdb8"
+        },
+        "motionAuthorEvidence": {
+          "path": "torso-tap-owned-motion-candidate-r2/author-evidence.json",
+          "sha256": "739aac9b0790a3869cd11c9886c7935df91f697c5d05cf710b9c419201d353f3"
+        },
+        "candidateMotion": {
+          "path": "torso-tap-owned-motion-candidate-r2/motion.json",
+          "sha256": "8df39be0f7fb9d7016fdb3cde5ea25da90dc0e195435a0817164609834ef622e"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/torso-tap/inputs/master.png",
+          "sha256": "c8f8c2d0c0495bad935b4e9c63c2f24eefb13405c2b59c934e1df67c10214eae"
+        },
+        "nativeGeneration": {
+          "path": "poses/torso-tap/native/generation.json",
+          "sha256": "6da62e0165b007232ac45fc2c2a320c809d2e9dfac3796707b209dd73a3b0573"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/torso-tap/native/torso-tap_layers.json",
+          "sha256": "c973bbdeecb155173951d336587b119e852e3f5d9fbfa34009164045a0fc9abf"
+        },
+        "geometry": {
+          "path": "poses/torso-tap/plan/geometry.json",
+          "sha256": "4894a4de44813935e40d3701f198c0b2327bc9ef9c0dfa582647b13da5d98b3d"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "torso-tap-main-native-own-art-and-eight-motion-acceptance-r1.json",
+        "sha256": "d27e2bb1e9e16e13b717a49f7196bf07d4e6953025ebc455f9873ba2d0d474e7"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "torso-tap",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/torso-tap.psd",
+          "sha256": "7f83b2b52862ab7f8a48e8ee6270c49d41300cb7265dbbd0f3ca6ad35505aee6"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/torso-tap-motion.json",
+          "sha256": "8df39be0f7fb9d7016fdb3cde5ea25da90dc0e195435a0817164609834ef622e"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/torso-tap-overrides.json",
+          "sha256": "1a6606ff67d96e87cab75d350b02ae1ca39d04e66276bc62c6cc25bffddc5a0c"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/rig-overrides.json",
+          "sha256": "d49b8f97d33df6dc489ccf4eefa40cc89e4dbeb91ba0666827df474a3ff963ba"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/own-mouth-contours-native1024.json",
+          "sha256": "e51db0f5e430697dc3aec2b7210efd1c3198d5d90e4544c7366dedb8416642ea"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/actual-original-decoder-evidence.json",
+          "sha256": "eefc5ff8d65655eaad83e3bad74b4e44c092312931539e11828c00059d0fe3d5"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/torso-tap/actual-current-decoder-evidence.json",
+          "sha256": "8e8405d1723c74f0c37d939fa7c3268584164473dcec54a7e36b7bbf09b422ab"
+        }
+      }
+    },
+    "head-pet": {
+      "sourceBindings": {
+        "modelPsd": {
+          "path": "head-pet-owned-postexport-matte-r1/head-pet/model.psd",
+          "sha256": "5d3cad2ec28468d61f0143fb051653abddbea5ee891639389e45154f952c6648"
+        },
+        "rigOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/rig-overrides.json",
+          "sha256": "ed1d5ffff67a0fe5a7657dd3716b5bc538cd50be3249b6d818372db4bfd610f2"
+        },
+        "ownSourceRecord": {
+          "path": "head-pet-owned-postexport-matte-r1/head-pet/own-source-record.json",
+          "sha256": "a60f4b5a29a889f7fb1da7c9cd1f414b6e188923d601373d536cbbb67bc14d20"
+        },
+        "decodedEvidence": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/actual-current-decoder-evidence.json",
+          "sha256": "1efc6c60ccb81ae68a06008ef33f0da0c214772b5d9bff4f370c71a52f0700db"
+        },
+        "motionPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/current-own-native-motion-source-plan.json",
+          "sha256": "04ac72dd6f9f9cb8a4383fe398d9c659e1990b3f58899bf03a975e5bbeab317e"
+        },
+        "motionAuthorEvidence": {
+          "path": "head-pet-owned-motion-candidate-r2/head-pet/author-evidence.json",
+          "sha256": "9f29eed4bdc20e0cdce03feb518c53fa8faf6e5c29f0d1b2af091a851680b48f"
+        },
+        "candidateMotion": {
+          "path": "head-pet-owned-motion-candidate-r2/head-pet/motion.json",
+          "sha256": "1d5172e4cd86b57bd16bce5112eed7a905f61063c4c979f941ffa72f7c032304"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/head-pet/inputs/master.png",
+          "sha256": "57d22f73043d9fe3a1faab76eaf780b19453546884f5adba216bc5155c98cce8"
+        },
+        "nativeGeneration": {
+          "path": "poses/head-pet/native/generation.json",
+          "sha256": "06d80f3aa1ff860669e7b5e110fa07eb7da0767b41ecb1086de03607cb2eb55f"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/head-pet/native/head-pet_layers.json",
+          "sha256": "08ea437a279321a17461b6611b3982f523f60702c2997981f9dbd88dfc45d36d"
+        },
+        "geometry": {
+          "path": "poses/head-pet/plan/geometry.json",
+          "sha256": "cf862a969790bc18211d04523036603a7072ba66b11797e666c074f90633da50"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        },
+        "mouthContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/own-mouth-contours-native1024.json",
+          "sha256": "f8700581e26ef49431cb74da9d3c90dd6450f44c1cd58a8f8bc51ba8adbeb68e"
+        }
+      },
+      "packBindings": {
+        "model": {
+          "path": "head-pet.psd",
+          "sha256": "5d3cad2ec28468d61f0143fb051653abddbea5ee891639389e45154f952c6648"
+        },
+        "overrides": {
+          "path": "head-pet-overrides.json",
+          "sha256": "ed1d5ffff67a0fe5a7657dd3716b5bc538cd50be3249b6d818372db4bfd610f2"
+        },
+        "motion": {
+          "path": "head-pet-motion.json",
+          "sha256": "1d5172e4cd86b57bd16bce5112eed7a905f61063c4c979f941ffa72f7c032304"
+        }
+      },
+      "eightOwnSlots": [
+        "idle",
+        "waiting",
+        "running",
+        "unknown",
+        "head_tap",
+        "body_tap",
+        "pet",
+        "completion_observed"
+      ],
+      "originalSourceBindingsBeforeMouthRegistration": {
+        "modelPsd": {
+          "path": "head-pet-owned-postexport-matte-r1/head-pet/model.psd",
+          "sha256": "5d3cad2ec28468d61f0143fb051653abddbea5ee891639389e45154f952c6648"
+        },
+        "rigOverrides": {
+          "path": "head-pet-owned-postexport-matte-r1/head-pet/rig-overrides.json",
+          "sha256": "ad7b219f74cb237b113e5df16f32003a303f65e292af94a52c3fb62de1ae5587"
+        },
+        "ownSourceRecord": {
+          "path": "head-pet-owned-postexport-matte-r1/head-pet/own-source-record.json",
+          "sha256": "a60f4b5a29a889f7fb1da7c9cd1f414b6e188923d601373d536cbbb67bc14d20"
+        },
+        "decodedEvidence": {
+          "path": "head-pet-owned-native-decoder-r2/decoded-model-evidence.json",
+          "sha256": "32f8c477720d830820bc14160a866486ab3d55c6f08a6fc84fa31611a958a393"
+        },
+        "motionPlan": {
+          "path": "poses/head-pet/plan/own-native-motion.json",
+          "sha256": "30a3e0ff96fa0ba6a9064e760da077b2ac7ea31963269ac89d3fad64a583a0f0"
+        },
+        "motionAuthorEvidence": {
+          "path": "head-pet-owned-motion-candidate-r2/head-pet/author-evidence.json",
+          "sha256": "9f29eed4bdc20e0cdce03feb518c53fa8faf6e5c29f0d1b2af091a851680b48f"
+        },
+        "candidateMotion": {
+          "path": "head-pet-owned-motion-candidate-r2/head-pet/motion.json",
+          "sha256": "1d5172e4cd86b57bd16bce5112eed7a905f61063c4c979f941ffa72f7c032304"
+        },
+        "runConfig": {
+          "path": "run.json",
+          "sha256": "6729d3de521af594708bf7526c7f3082560ece2857b915e454891a0584f7e876"
+        },
+        "sourceMaster": {
+          "path": "poses/head-pet/inputs/master.png",
+          "sha256": "57d22f73043d9fe3a1faab76eaf780b19453546884f5adba216bc5155c98cce8"
+        },
+        "nativeGeneration": {
+          "path": "poses/head-pet/native/generation.json",
+          "sha256": "06d80f3aa1ff860669e7b5e110fa07eb7da0767b41ecb1086de03607cb2eb55f"
+        },
+        "nativeLayerManifest": {
+          "path": "poses/head-pet/native/head-pet_layers.json",
+          "sha256": "08ea437a279321a17461b6611b3982f523f60702c2997981f9dbd88dfc45d36d"
+        },
+        "geometry": {
+          "path": "poses/head-pet/plan/geometry.json",
+          "sha256": "cf862a969790bc18211d04523036603a7072ba66b11797e666c074f90633da50"
+        },
+        "nativeRendererLibrary": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Frameworks/libherdr_rig.dylib",
+          "sha256": "23f2603df005bb3d9980fcd3b38961e914a9fe318844839cd6947517fb7aecc4"
+        },
+        "nativeRigDecoderWorker": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/MacOS/rig-decode-worker",
+          "sha256": "c813af72f6ca20bc4cfea3a15aa8948be76cbe3722f6c5fb04e9191a85b79de3"
+        },
+        "nativeRigDecoderScript": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig/decoder.js",
+          "sha256": "01549b8e59d560e3764c1a189f0e33b391674f167eb1aaa4b9bb043b8031536f"
+        },
+        "nativeRuntimeDeployment": {
+          "path": "native-runtime-private-qa/HerdrDesktopPet.app/Contents/Resources/rig-native-original-deployment.json",
+          "sha256": "b4ccb27ee81fe63013320893e30665915df658680e546c28d28a88a584f46c31"
+        }
+      },
+      "supersededBeforeMouthRegistration_mainSourceAcceptance": {
+        "path": "head-pet-main-native-own-art-and-eight-motion-acceptance-r1.json",
+        "sha256": "ef7aa50c0272787dadb3e71c910b96e6d0c1d8885f9db9d84cdedb6d1fe1fd73"
+      },
+      "ownMouthContourRegistration": {
+        "pose": "head-pet",
+        "PSD": {
+          "path": "delivery/chaerin-research-v5-final/head-pet.psd",
+          "sha256": "5d3cad2ec28468d61f0143fb051653abddbea5ee891639389e45154f952c6648"
+        },
+        "motion": {
+          "path": "delivery/chaerin-research-v5-final/head-pet-motion.json",
+          "sha256": "1d5172e4cd86b57bd16bce5112eed7a905f61063c4c979f941ffa72f7c032304"
+        },
+        "previousOverrides": {
+          "path": "delivery/chaerin-research-v5-final/head-pet-overrides.json",
+          "sha256": "ad7b219f74cb237b113e5df16f32003a303f65e292af94a52c3fb62de1ae5587"
+        },
+        "currentOverrides": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/rig-overrides.json",
+          "sha256": "ed1d5ffff67a0fe5a7657dd3716b5bc538cd50be3249b6d818372db4bfd610f2"
+        },
+        "ownContourPlan": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/own-mouth-contours-native1024.json",
+          "sha256": "f8700581e26ef49431cb74da9d3c90dd6450f44c1cd58a8f8bc51ba8adbeb68e"
+        },
+        "actualOriginalDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/actual-original-decoder-evidence.json",
+          "sha256": "517ddfb0eab48e0894c3d8e1715a8a50771fee0f585938b08577a161fdfcb92d"
+        },
+        "actualCurrentDecode": {
+          "path": "mouth-source-repair-r1/all-ten-contours-r1/head-pet/actual-current-decoder-evidence.json",
+          "sha256": "1efc6c60ccb81ae68a06008ef33f0da0c214772b5d9bff4f370c71a52f0700db"
+        }
+      }
+    }
+  },
+  "limits": [
+    "Historical private noncommercial authoring/delivery scope was superseded only for public archive/PSD/gallery publication by the dated approval; original source registry remains commercial-blocked and Qwen model/output terms are not independently cleared.",
+    "Cancelled/disconnected historical isolated white-eye frames remain unexplained; the old frozen runtime QA did not establish a cause/fix or guarantee against recurrence. Native validation/review on app v0.3.4 remains required.",
+    "Historical relative artifact paths and checksums above refer to private, excluded production evidence, not files inside this pack. The old delivery verification applies to the original private manifest/runtime only; this public pack needs its own native validation and payload inventory."
+  ],
+  "mouthOverlapRejectedPriorArtifact": {
+    "path": "delivery/chaerin-private-v5-final.herdrchar",
+    "sha256": "c27d045b5a01314a1759f3dd5fcf144df02f9b37ac51265796e8b5a51536a712"
+  },
+  "mouthContourSourceDecoderProof": {
+    "path": "mouth-source-repair-r1/all-ten-contours-r1/current-source-decoder-proof.json",
+    "sha256": "119368cd570d9c47d8c77341eb0b96a49c19aa115afd06aa8e8a513fcacbfd68"
+  },
+  "mouthWritingPilotActualAcceptance": {
+    "path": "mouth-source-repair-r1/writing-pilot-main-native-acceptance-r1.json",
+    "sha256": "95221bfbb162dd38d3bd109078e9a28e918d039f376b9490d2bddc6bb8ff1541"
+  }
+}
