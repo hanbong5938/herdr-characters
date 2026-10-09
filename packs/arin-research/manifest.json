@@ -35,7 +35,7 @@
   },
   "source": {
     "method": "image-generated",
-    "description": "아린: identity-corrected run authority illustration as the waiting pose plus complete pose illustrations generated in this run from the authority and its head crop; per-pose matte, See-through decomposition, own expression sheet features, native rig and motion. source-record.json records the exact chain.",
+    "description": "아린: selected original portrait face identity; ten own-pose repaired face sources and new native facial layers with retained bodies and exact old eight-slot motion. Historical StageR3/91d756 are not current face identity authority; current derivation is in source-record.json.",
     "urls": [
       "source-record.json"
     ],
@@ -57,8 +57,8 @@
     },
     {
       "path": "NOTICE.txt",
-      "size": 3307,
-      "sha256": "8aeed7a6b4b3efd5135e1f54a97249ad362f754b1422ecfd49f4b170861594f5",
+      "size": 4781,
+      "sha256": "2b2bfcd12afe864a45bd1f35e387135f5f0b4bdae3b88b5009910dd3354b8f6a",
       "kind": "attribution"
     },
     {
@@ -75,14 +75,14 @@
     },
     {
       "path": "bored-overrides.json",
-      "size": 12316,
-      "sha256": "def720b4ba36071e0487e42d9f38a5e26019089e09148fbc428de401ccd6357b",
+      "size": 12277,
+      "sha256": "092b1454611f59ef76b13f8e96d6560f8fc6f181cadf86be2c8016e0c6248f1b",
       "kind": "overrides"
     },
     {
       "path": "bored.psd",
-      "size": 2531446,
-      "sha256": "e67f4d62a77d23b3613140d1b787a1acd50d5e1af6ccaf3c4381026d6d239f90",
+      "size": 3002250,
+      "sha256": "6341e073c5dabfde592824d4324354df7425eb5b09a4061e71b44ce5380893bb",
       "kind": "psd"
     },
     {
@@ -93,14 +93,14 @@
     },
     {
       "path": "cancelled-overrides.json",
-      "size": 12204,
-      "sha256": "92ea51cfa4f6c99f4383b9665a7d546dcb06f2c9e5548405d6a2abc2f1ccaf19",
+      "size": 12196,
+      "sha256": "101c93571b92f22c707372883ea2798f0c22c4822b390e48b557ac711b2fa04c",
       "kind": "overrides"
     },
     {
       "path": "cancelled.psd",
-      "size": 2677164,
-      "sha256": "98ab324f800d4e3401a064f88af25fa95f33a992c65eaa498f21c543858ae39e",
+      "size": 3160446,
+      "sha256": "7d6e8674ba628fe1685a553def7b51b71c0787c5dd4222d275c1dfa2ec4c827c",
       "kind": "psd"
     },
     {
@@ -111,14 +111,14 @@
     },
     {
       "path": "disconnected-overrides.json",
-      "size": 12240,
-      "sha256": "163b967bface68879ba1cf387c50b7d8ce444f4f7b3c84f2019729560daf619c",
+      "size": 12236,
+      "sha256": "5059749b0122901290d0d09991078ac11116610e4d3f707ac88b7a8c8d1fffa9",
       "kind": "overrides"
     },
     {
       "path": "disconnected.psd",
-      "size": 2488390,
-      "sha256": "a6dd5ee51ea52fd4183f2a45a40241d840a08f35f7c9280560956df686de0021",
+      "size": 2948887,
+      "sha256": "1f80e425fa489bed613d094ce203edcba928f44818e5299a20382006efea161f",
       "kind": "psd"
     },
     {
@@ -129,14 +129,14 @@
     },
     {
       "path": "failed-overrides.json",
-      "size": 12105,
-      "sha256": "caa5fc4f4bb62b74103e0041b1e14f8d2e07bc014fee093154bae0fcb87a1df6",
+      "size": 12107,
+      "sha256": "5e9843e8ac91c5f4ddf03e96bbd453770f3f66dd2f70735f4ba30078654cbd9e",
       "kind": "overrides"
     },
     {
       "path": "failed.psd",
-      "size": 2444578,
-      "sha256": "9b1eb8e4bcf7a8cfdfecd0970ad2ec77af819cbe98fd0abbe6928fda11f06679",
+      "size": 2916454,
+      "sha256": "9995195624be3fdd889079bc13c1188c92064f474b0c6b7590f1c4c5f3cbafb6",
       "kind": "psd"
     },
     {
@@ -147,14 +147,14 @@
     },
     {
       "path": "happy-overrides.json",
-      "size": 12235,
-      "sha256": "5050d045275296abc017140d87dba761d834f2c12093261a485a333c64881454",
+      "size": 12274,
+      "sha256": "b6855498bc166953e3c6a5e7816d68a03888c9b68c052704f60d6d4f9f92f38d",
       "kind": "overrides"
     },
     {
       "path": "happy.psd",
-      "size": 2890366,
-      "sha256": "ce12316792b595b4f3b7dbda132d2b3110c613dc71a6d662dcf4f1c4fa620a15",
+      "size": 3417089,
+      "sha256": "af3b01d71c41c7fa2b76ea7375c0c13e421e7e82c5b247384631f78e5092a6f8",
       "kind": "psd"
     },
     {
@@ -165,14 +165,14 @@
     },
     {
       "path": "head-pet-overrides.json",
-      "size": 12884,
-      "sha256": "418b0f1fbc544418c2fa5ece6c34904235e75675efda65411d905b6e3c1c935d",
+      "size": 12881,
+      "sha256": "1539e351ce6bab7d684d30b3705e04ec6ee8feb952742225cf9660430584cc90",
       "kind": "overrides"
     },
     {
       "path": "head-pet.psd",
-      "size": 3599407,
-      "sha256": "6618d03c32a6a4553b67e52f951a3c6052cd8e38c303b7da92c418e5f6438745",
+      "size": 3581991,
+      "sha256": "ebdf02866d6059242541422563fa995ce5e732a459a28f69455e40d65300ab64",
       "kind": "psd"
     },
     {
@@ -183,20 +183,20 @@
     },
     {
       "path": "head-tap-overrides.json",
-      "size": 12914,
-      "sha256": "524a9404eb11d9ed52c6593fd509024ca87ffbef367a9369df7f7929fbdf4cae",
+      "size": 12866,
+      "sha256": "e400bce664bea7ed76ce1ae80cf9120f10fe7f8e9537e1bc79fbaa91d55592bd",
       "kind": "overrides"
     },
     {
       "path": "head-tap.psd",
-      "size": 3766202,
-      "sha256": "d9262bb7f9efcc2bad26208f6adbd642d21df42252f9d3c7ce32887a0d430921",
+      "size": 3751198,
+      "sha256": "552ed6d33f340b38b64527a47d11cd0287e859ff4190def12770845b78f0e3e4",
       "kind": "psd"
     },
     {
       "path": "owner-approval.json",
-      "size": 5749,
-      "sha256": "032302f1b4e8bd9cabcb6e64603b30ad83a21d2ce10b852d13d6939132391c3e",
+      "size": 6436,
+      "sha256": "c685a08e3c62e1a48b4c22a7e9068ba87d2ea5e3389fb41a3f14d48127e5986b",
       "kind": "source"
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "source-record.json",
-      "size": 1218685,
-      "sha256": "5a5fab4440aa6d75e18f4d03bc223e89facaf75b119071cf6edcf51569bbcf62",
+      "size": 2647069,
+      "sha256": "3a9d139ee1530096b2c4dd27ccc1f7bebaf8c0bf2c38a8b580521b345760925d",
       "kind": "source"
     },
     {
@@ -219,14 +219,14 @@
     },
     {
       "path": "torso-tap-overrides.json",
-      "size": 12179,
-      "sha256": "62c7f03357b02cfc3b71745561f81eaa87d99d1eb9cbec118f5c1fba6734d158",
+      "size": 12227,
+      "sha256": "560068da99d144513f093a905aff228b0ccefebaec9049ef69d79e1179e78b79",
       "kind": "overrides"
     },
     {
       "path": "torso-tap.psd",
-      "size": 2930555,
-      "sha256": "fff5fed70eaaf5bd6d42e9fd3822c59d719deeda3450e87e8edc8d0902c3b549",
+      "size": 3419079,
+      "sha256": "49a1dd9fccc9b89ff8773aef1a668e910924c14a86a0c064a87f4323ef051d4a",
       "kind": "psd"
     },
     {
@@ -237,14 +237,14 @@
     },
     {
       "path": "waiting-overrides.json",
-      "size": 12273,
-      "sha256": "d34bb593ed8afc982f6eb3ff82de70d703b36c5b1ee061fb3bacbf14851432a5",
+      "size": 12235,
+      "sha256": "c10dcb89c6cdfdecde1879e6c9877e6f222e291a5f436cab7aaf3ab896e04d37",
       "kind": "overrides"
     },
     {
       "path": "waiting.psd",
-      "size": 3152517,
-      "sha256": "64928a7acd79702c978e2691940f43a9f1f31c95a6d6a397d4725089b17ab0a9",
+      "size": 3784714,
+      "sha256": "2e99fe1bcc8c3c84995658e08d57f10b04edb25cf91145420383feae155a34d1",
       "kind": "psd"
     },
     {
@@ -255,14 +255,14 @@
     },
     {
       "path": "writing-overrides.json",
-      "size": 12142,
-      "sha256": "d1e54d4e7623725d69a2690188ca51f324db4d0c814a5bf509e4701cb52490e0",
+      "size": 12111,
+      "sha256": "3012c0f24892da11339fe0058ad57259bf7327b76332ed9b5a67dca774ac3eeb",
       "kind": "overrides"
     },
     {
       "path": "writing.psd",
-      "size": 2909319,
-      "sha256": "141df7ca726ebfe3f3ef607bc93e075af4fb31d169d71949fdb7f002dbbcc853",
+      "size": 3490538,
+      "sha256": "ab801cbb2fd4f64f69d9125194555d3fcbd447bd22508ddc0a00c2cc4e825416",
       "kind": "psd"
     }
   ]

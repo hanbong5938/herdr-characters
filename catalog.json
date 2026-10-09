@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repositoryUrl": "https://github.com/hanbong5938/herdr-characters",
   "submissionUrl": "https://github.com/hanbong5938/herdr-characters/issues/new?template=character.yml",
-  "releaseTag": "packs-v0.0.3",
+  "releaseTag": "packs-v0.0.4",
   "characters": [
     {
       "id": "arin-research",
@@ -27,14 +27,14 @@
             "en": "Original",
             "ko": "오리지널"
           },
-          "version": "0.0.3",
+          "version": "0.0.4",
           "formatVersion": 5,
           "renderMode": "rig",
-          "publishedAt": "2026-10-08",
+          "publishedAt": "2026-10-09",
           "download": {
-            "path": "downloads/arin-research-v0.0.3.herdrchar",
-            "bytes": 31006330,
-            "sha256": "44aec8f3103a4cd16a071f25c874d01d4b55741ccea1d402262d691c8cb6cd85"
+            "path": "downloads/arin-research-v0.0.4.herdrchar",
+            "bytes": 36519467,
+            "sha256": "8d2b73a4f70ff759e6676d851a4820c59f90546481e49e7cc34fb50825133a4d"
           },
           "preview": {
             "idle": "previews/arin-research-idle.png",
